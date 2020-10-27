@@ -1,0 +1,56 @@
+---
+---
+
+/* Color Palette: https://colorhunt.co/palette/22272 */
+
+body {
+  background-color: #f9f7f7;
+  color: #112d4e;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+a:visited {
+  color: inherit;
+}
+
+/* Links to external profiles */
+.profiles {
+  text-align: center;
+  background-color: #112d4e;
+  color: #f9f7f7;
+}
+.profiles a {
+  display: inline-block;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  text-decoration: none;
+  width: 70px;
+  
+}
+.profiles a:hover {
+  background-color: #3f72af;
+}
+
+/* Header */
+.site-title {
+  background-color: #dbe2ef;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+
+/* Content */
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+.content a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.content a:hover {
+  color: #3f72af;
+}
+
+
