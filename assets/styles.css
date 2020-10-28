@@ -55,7 +55,6 @@ a:visited {
 }
 .content a {
   color: inherit;
-  /* text-decoration: inherit; */
 }
 .content a:hover {
   color: #3f72af;
