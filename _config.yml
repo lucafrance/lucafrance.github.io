@@ -1,1 +1,8 @@
 exclude: [/get_started.ps1]
+
+defaults: 
+  - scope:
+    path: ""
+    type: "posts"
+  values:
+    layout: "post"
