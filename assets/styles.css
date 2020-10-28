@@ -9,6 +9,10 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
+/* Default link behaviour */
+a {
+  text-decoration: none;
+}
 a:visited {
   color: inherit;
 }
@@ -25,7 +29,6 @@ a:visited {
   text-align: center;
   padding-top: 8px;
   padding-bottom: 12px;
-  text-decoration: none;
   width: 70px;
   
 }
@@ -41,6 +44,10 @@ a:visited {
   padding-bottom: 7px;
 }
 
+.site-title a:hover {
+  color: #3f72af;
+}
+
 /* Content */
 .content {
   max-width: 800px;
@@ -48,7 +55,7 @@ a:visited {
 }
 .content a {
   color: inherit;
-  text-decoration: inherit;
+  /* text-decoration: inherit; */
 }
 .content a:hover {
   color: #3f72af;
