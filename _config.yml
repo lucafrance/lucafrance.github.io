@@ -1,4 +1,4 @@
-exclude: [/get_started.ps1]
+exclude: [/*.ps1]
 
 defaults:
   scope:
