@@ -1,3 +1,8 @@
+---
+title: Should you learn VBA today?
+canonicalurl: https://medium.com/@lucafrance/should-you-learn-vba-today-1a775e1633f0
+---
+
 ### Should you learn VBA today?
 
 #### The definitive guide
