@@ -1,8 +1,13 @@
-exclude: [/*.ps1]
-
 defaults:
   scope:
     path: ""
     type: "posts"
   values:
     layout: "post"
+
+
+exclude: 
+  - /*.ps1
+  - Gemfile
+  - Gemfile.lock
+  - venv
