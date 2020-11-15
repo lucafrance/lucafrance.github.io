@@ -6,6 +6,11 @@
 
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="/assets/styles.css">
+    
+    {% if page.canonicalurl %}
+    <!-- http://microformats.org/wiki/rel-canonical -->
+    <link rel="canonical" href="{{ page.canonicalurl }}">
+    {% endif %}
 
   </head>
   
