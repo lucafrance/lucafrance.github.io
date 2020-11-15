@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
-<h2><a href="{{ page.source }}" target="_blank">{{ page.title }}</a></h2>
+<h2>{{ page.title }}</h2>
 <h5>{{ page.date | date_to_string }}</h5>
 
 {{ content }}
 
-<p> Full post at: <a href="{{ page.source }}" target="_blank"> {{ page.source }}</a></p>
+{% if page.source %}
+<p> See more at: <a href="{{ page.source }}" target="_blank"> {{ page.source }}</a></p>
+{% endif %}
