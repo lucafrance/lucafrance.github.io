@@ -9,3 +9,7 @@ layout: default
 {% if page.source %}
 <p> See more at: <a href="{{ page.source }}" target="_blank"> {{ page.source }}</a></p>
 {% endif %}
+
+{% if page.canonicalurl %}
+<p> This article was originally posted here: <a href="{{ page.canonicalurl }}" target="_blank"> {{ page.canonicalurl }}</a></p>
+{% endif %}
