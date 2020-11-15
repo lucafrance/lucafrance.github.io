@@ -3,8 +3,6 @@ title: Should you learn VBA today?
 canonicalurl: https://medium.com/@lucafrance/should-you-learn-vba-today-1a775e1633f0
 ---
 
-### Should you learn VBA today?
-
 #### The definitive guide
 
 Visual Basic for Applications (VBA) has been voted the most dreaded programming language in the [Stack Overflow Developer Survey in 2020](https://insights.stackoverflow.com/survey/2020#most-loved-dreaded-and-wanted). Four in five VBA developers are not interest in keep using it next year. While in my opinion VBA deserves to be despised, much of the dread is underserved. Its accessibility makes it easy to misuse it, causing frustration both in the developers and the final users.
