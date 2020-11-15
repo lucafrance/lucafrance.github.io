@@ -16,7 +16,7 @@ Tab for Cause is committed to give [at least 30% of their revenue to charity](ht
 
 In practice “at least 30%” meant 30,2% from January 2018 to March 2020 (the last data available as of writing in October 2020). The previous financial statements from 2011 to 2017 only include the amount given to charity without the gross revenue. The quote “*Historically we’ve given upwards of 90%.*” probably refers to an early stage of the project when the founders were working for free.
 
-
+<script src="https://gist.github.com/lucafrance/2a88f1e7a261292a8be63f8974ef1ca6.js">  </script>
 
 The rest of the revenue covers the costs to run the business. According to the financial statement for the first quarter of 2020, about half the revenue was spent on employment costs and salaries, 11.1% on marketing, and the rest on other expenses.
 
