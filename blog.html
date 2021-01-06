@@ -1,0 +1,11 @@
+---
+layout: default
+title: Luca Franceschini
+---
+
+{% for post in site.posts %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <h5> {{ post.date | date_to_string }} </h5>
+{{ post.excerpt }}
+<hr>
+{% endfor %}
