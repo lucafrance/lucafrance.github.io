@@ -10,4 +10,3 @@ exclude:
   - /*.ps1
   - Gemfile
   - Gemfile.lock
-  - venv
