@@ -13,7 +13,7 @@ I was curious to see in which measure this is actually possible and how differen
 Fashion-MNIST is meant as a drop-in replacement for MNIST and is based on clothing items pictures by the German online retailer [Zalando](https://www.zalando.com/).
 * Both datasets have the same size: 50 000 images in the training set and 10 000 in the validation set.
 * Both datasets have 10 classes: the ten digits 0 to 9 for MNIST, and ten kinds of  clothing items for Fashion-MNIST.
-* Both datasets are composed of 28 by 28 grayscale images. Each pixel is a number 0 from 255 representing the greyscale intensity. 
+* Both datasets are composed of 28 by 28 greyscale images. Each pixel is a number 0 from 255 representing the greyscale intensity. 
 
 > | MNIST | Fashion-MNIST |
 > | --- | --- |
@@ -61,7 +61,7 @@ We can see is the following:
 ### Conclusions
 The claim by Zalando Research that "most pairs of MNIST digits can be distinguished pretty well by just one pixel" while correct seems not to be informative, as this is the also the case with Fashion-MNIST. If anything, it is even "more correct" for Fashion-MNIST, as 0.9 accuracy can be achieved in more than twice as many pairs than MNIST.  
 
-Yet for practical purposes this finding doesn't matter: the point of Fashion-MNIST is to be used as replacement for a regression over all classes. As the [benchmarks by Zalando Research](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/) show, typical machine learning algorithms tend to perform worse as whished. This confirms that the dataset is indeed more complex and more difficult to predict. The interesting insight for me was to see how a property that intuitively should have not been shared by Fashion-MNIST actually ended up being even more pronounced when checked numerically.
+Yet for practical purposes this finding doesn't matter: the point of Fashion-MNIST is to be used as replacement for a regression over all classes. As the [benchmarks by Zalando Research](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/) show, typical machine learning algorithms tend to perform worse as wished. This confirms that the dataset is indeed more complex and more difficult to predict. The interesting insight for me was to see how a property that intuitively should have not been shared by Fashion-MNIST actually ended up being even more pronounced when checked numerically.
 
 ### References
 * [The Python code used for this article](https://github.com/lucafrance/mnist-pixel)
