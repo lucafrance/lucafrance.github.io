@@ -93,8 +93,7 @@ a:visited {
 .grid-container {
   display: grid;
   max-width: inherit;
-  grid-template-columns: 50% 50%;
-  grid-gap: 10px
+  grid-template-columns: fit-content(50%) fit-content(50%);
 }
 
 .grid-item {
