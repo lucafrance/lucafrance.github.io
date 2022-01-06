@@ -1,20 +1,18 @@
 ---
 ---
 
-/* Color Palette: https://colorhunt.co/palette/22272 
-f9f7f7
-dbe2ef
-3f72af
-112d4e
-*/
 
 body {
-  background-color: #f9f7f7;
-  color: #112d4e;
+  max-width: 800px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ffffff;
+  color: #111111;
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-/* Default link behaviour */
+/* Default settings */
 a {
   text-decoration: none;
 }
@@ -22,62 +20,9 @@ a:visited {
   color: inherit;
 }
 
-/* Links to external profiles */
-.profiles {
-  text-align: center;
-  background-color: #112d4e;
-  color: #f9f7f7;
-  padding-top: 8px;
-  padding-bottom: 12px;
-}
-.profiles a {
-  color: #f9f7f7;
-  display: inline-block;
-  text-align: center;
-  width: 70px;
-  
-}
-.profiles a:hover {
-  background-color: #3f72af;
-}
-
-/* Header */
-.site-title {
-  background-color: #dbe2ef;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 7px;
-}
-
-.site-title a:hover {
-  color: #3f72af;
-}
-
-.site-subtitle {
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 7px;
-}
-
-.site-subtitle a {
-  width: 400px;
-  text-align: center;
-  border: 1px solid black;
-  padding-top: 5px;
-  padding-bottom: 7px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-  
-/* Content */
-.content {
-  max-width: 800px;
-  margin: auto;
-}
-
 .content a {
   color: inherit;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .content a:hover {
   color: #3f72af;
@@ -88,18 +33,31 @@ a:visited {
   height: auto;
 }
 
-/* Python page */
-
-.grid-container {
-  display: grid;
-  max-width: inherit;
-  grid-template-columns: fit-content(50%) fit-content(50%);
+.title-name {
+  padding-top: 8px;
+  padding-bottom: 12px;
 }
 
-.grid-item {
-  text-align: center;
+.nav_links a {
+  padding-right: 40px;
 }
 
-.grid-item img {
-  width: 80%;
+
+/* About page */
+
+.about_section {
+  padding-top: 10px
+}
+
+
+/* Contatct Page */
+
+.contact_links a {
+  padding-right: 25px;
+  vertical-align: middle;  
+}
+
+.contact_links img {
+  height: 25px;
+  vertical-align: middle;
 }
