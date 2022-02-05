@@ -1,6 +1,7 @@
 ---
 title: How to cross-post your Medium stories to Jekyll with Python
 canonicalurl: https://medium.com/@lucafrance/how-to-cross-post-your-medium-stories-to-jekyll-with-python-47a5eda4e47a
+tags: Python 
 ---
 
 While Medium is a great blog hosting platform, I also like keeping copy of everything I do and was looking for a way to host my stories also on [my Jekyll website](https://lucafrance.github.io/). My requirements were:

@@ -11,10 +11,10 @@ I speak German, English, and Italian fluently and have experience in both local 
 See my CV in [English](/assets/2022/cv/cv_en_Luca_Franceschini.pdf) or [German](/assets/2022/cv/cv_de_Luca_Franceschini.pdf).
 
 ## Scripting
-I automate tasks so you don't have to perform them. The tools I use include VBA, Python, and Power Automate.
+I automate tasks so you don't have to perform them. The tools I use include [VBA](/tags#VBA), [Python](/tags#Python), and Power Automate.
 
 ## Data
-I extract meaning from data to enable you to make informed decisions. I have experience with business analysis, data mining, and machine learning.
+I extract meaning from data to enable you to make informed decisions. I have experience with business analysis, data mining, and [machine learning](/tags#Machine learning).
 The tools I use include Excel, Power Query, and several Python libraries (`pandas`, `NumPy`, `matplotlib`, `scikit-learn`).
 
 ## Excel Training
