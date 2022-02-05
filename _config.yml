@@ -5,6 +5,7 @@ plugins:
 exclude: 
   - /*.ps1
   - Gemfile
+  - Gemfile.lock
   
 title: Luca Franceschini
 show_downloads: false
