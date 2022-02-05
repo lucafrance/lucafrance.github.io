@@ -3,7 +3,7 @@ layout: default
 title: Luca Franceschini | Contact
 ---
 
-## Write me 
+## Get in touch
 [![](/assets/2022/contact_icons/email.png){: width="15" } Email](mailto:lucaf@lucaf.eu)
 
 [![](/assets/2022/contact_icons/linkedin.png){: width="15" } LinkedIn](https://www.linkedin.com/in/lucaf-munich)
