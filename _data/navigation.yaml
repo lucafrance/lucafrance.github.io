@@ -1,0 +1,8 @@
+docs_list_title: Navigation list
+docs:
+
+- title: Blog
+  url: /blog.html
+
+- title: Contact me
+  url: /contact.html

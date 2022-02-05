@@ -1,30 +1,40 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="/assets/styles.css">
-    
-    {% if page.canonicalurl %}
-    <!-- http://microformats.org/wiki/rel-canonical -->
-    <link rel="canonical" href="{{ page.canonicalurl }}">
-    {% endif %}
-
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
   </head>
-  
   <body>
-    <div class="title-name">
-      <h2><a href="/index.html">Luca Franceschini</a></h2>
-    </div>
-    
-    <!-- Content -->
-    <div class="content">
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">Luca Franceschini</a></h1>
+        
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+
+        {% for item in site.data.navigation.docs %}
+           <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+        {% endfor %}
+
+      </header>
+      <section>
+
       {{ content }}
+
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-    
-    <!-- TODO Footer including underline for each page included here, instead of copy/pasted on each page -->
-    
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
