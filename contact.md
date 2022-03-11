@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Luca Franceschini | Contact
+title: Contact
 ---
 
 ## Get in touch
