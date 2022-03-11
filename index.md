@@ -18,4 +18,6 @@ I extract meaning from data to enable you to make informed decisions. I have exp
 The tools I use include Excel, Power Query, and several Python libraries (`pandas`, `NumPy`, `matplotlib`, `scikit-learn`).
 
 ## Excel Training
-I can teach you Excel skills both at an introductory and at an advanced level. A focus on specific topics is available upon request.
+I can teach you Excel skills both at an introductory and at an advanced level. 
+A focus on specific topics is available upon request. 
+See an example of what I offer in [German](http://lucaf.eu/excel/de/) or [English](http://lucaf.eu/excel/en/).
