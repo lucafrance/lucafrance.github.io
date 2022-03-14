@@ -1,6 +1,6 @@
 ---
 title: The math behind the Wilcoxon signed-rank test explained well
-tags: [Statistics]
+tags: [Statistics, SciPy]
 ---
 The Wilcoxon signed-ranked test is useful when dealing with pairs of observations `(x`<sub>`1`</sub>`, y`<sub>`1`</sub>`), ..., (x`<sub>`N`</sub>`, y`<sub>`N`</sub>`)` from a pair of random variables `(X, Y)` which we want to prove not to be equal. These can be for example:
 * different procedures to measure the same phenomenon,
