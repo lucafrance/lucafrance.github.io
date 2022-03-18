@@ -231,7 +231,7 @@ with_heatsink_df.describe()
 
 The average temperature is indeed lower with the heat sink (59.7° C vs 60.1° C).
 As I have several thousands data points, I can check whether the difference is also statistically significant.
-A proper statistical test in this case is the [Wilcoxon rank-sum test](https://mathworld.wolfram.com/WilcoxonRankSumTest.html) (aka Mann–Whitney U test, not to be confused with the [Wilcoxon signed-rank test]({% post_url 2020-12-01-wilcoxon-explained-well %}). 
+A proper statistical test in this case is the [Wilcoxon rank-sum test](https://mathworld.wolfram.com/WilcoxonRankSumTest.html) (aka Mann–Whitney U test, not to be confused with the [Wilcoxon signed-rank test]({% post_url 2020-12-01-wilcoxon-explained-well %})). 
 
 The p-value turned out to be basically zero, so the null hypothesis is rejected and I feel confident that the difference is not by chance.
 
@@ -247,12 +247,12 @@ res.pvalue
 ## Conclusions
 
 The temperature difference is _statistically_ significant but _practically_ insignificant.
-For low loads as with the Pi-hole, the temperature stays around a reasonable 60° C. 
-Less than a Celsius degree difference is not worth the hassle of applying the heat sinks, but it might be for heavier loads. 
+For low loads as with the Pi-hole, the temperature stays around a reasonable 60° C.
+Less than a Celsius degree difference is not worth the hassle of applying the heat sinks, but it might be for heavier loads.
 
 ### Caveats
 
-While I am happy with the results, a more scientifically accurate experiment would use multiple machines running in similar conditions. 
+While I am happy with the results, a more scientifically accurate experiment would use multiple machines running in similar conditions.
 The weaknesses of my setup include:
 - As I started the experiment in the spring and finished in the summer, the temperature could have been affected by the weather and heating at my apartment.
 - The measurements with the heat sink were running afterwards and therefore with a more up-to-date and possibly more efficient software versions.
