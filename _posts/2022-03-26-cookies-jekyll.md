@@ -17,7 +17,7 @@ Most of them are free or include a freemium plan, which is adequate for a person
 - [CookieYes](https://www.cookieyes.com).
 
 I picked *Cookiebot*, because it showed up a lot on search engines and was easy enough to set up.
-Independently of your service of choice you should end up with a script to add to the `<head>` of your website.
+Independently of your service of choice, you should end up with a script to add to the `<head>` of your website.
 
 ## Configure Cookiebot
 
