@@ -22,7 +22,7 @@ The solution is to first execute the scripts and then scrape the result.
 First you will need to install a [WebDriver](https://developer.mozilla.org/en-US/docs/Web/WebDriver): basically an API to a Browser.
 Each major Browser has [its own WebDriver](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/#quick-reference), in this example I used [Firefox](https://xkcd.com/198/)'s one.
 You can install the WebDriver manually, but then additional configuration and manual updates are necessary.
-It is easier to use [Webdriver Manager](https://github.com/SergeyPirogov/webdriver_manager), which takes care of installing and keeping the webdriver up to date.
+It is easier to use [Webdriver Manager](https://github.com/SergeyPirogov/webdriver_manager), which takes care of installing and keeping the WebDriver up to date.
 
 You will need [Selenium](https://www.selenium.dev/) to talk to the WebDriver.
 Selenium has [its own Python wrapper](https://pypi.org/project/selenium/), which is used in this example.
