@@ -1,10 +1,13 @@
 ---
-title: Setting up your first bitcoin wallet from scratch
+title: The first steps of a bitcoin wallet
 tags: [decentralized finance]
 ---
 
-This guide is meant as an intellectual exercise.
-I am not following all necessary precautions for (il)legitimate uses for bitcoin.
+⚠️ Do additional research if you plan to store a significant amount of bitcoins in your wallet.
+In my examples I am ignoring several recommended precautions.
+
+⚠️ If you are interested in bitcoins as an investment, don't.
+The only judicious investment for small savers are [exchange traded funds (ETFs)](https://en.wikipedia.org/wiki/Exchange-traded_fund), research those instead.  
    
 
 A wallet is a tool that stores your cryptographic keys.
