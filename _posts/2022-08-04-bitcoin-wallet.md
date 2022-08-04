@@ -21,7 +21,24 @@ There is a peer-to-peer (P2P) network of computers (*nodes*) talking to each oth
 The nodes share the *blockchain*: a record of every transaction in bitcoin's history.
 New transactions are communicated over the P2P network and stored in new *blocks* of the blockchain.
 
-![](/assets/2022/bitcoin-wallet/de_centralized_finance.png)
+![](/assets/2022/bitcoin-wallet/de-centralized-finance.png)
+
+You can connect to the bitcoin network with [*bitcoin core*](https://bitcoincore.org/)[^1].
+Bitcoin Core connects to some nodes on the bitcoin P2P network.
+By running it, your machine also becomes one of the nodes.
+You can see the nodes you are connected to on the *node window*.
+
+⚠️ Connecting to the network exposes your IP address.
+If you care about anonymity, you should take additional precautions[^2].
+
+![](/assets/2022/bitcoin-wallet/node-window.png)
+
+The first time you open Bitcoin Core, it downloads a full copy of the blockchain.[^3]
+Once the download is complete, your copy of the blockchain is also shared.
+Your machines and the other nodes keep then each other's copy of the blockchain up to date.
+
+![](/assets/2022/bitcoin-wallet/download-blockchain.png)
+
 
 A wallet is a tool that stores your cryptographic keys.
 There are three of wallets:
@@ -32,29 +49,16 @@ There are three of wallets:
 There are also online services that let you create an account and store the credentials for you.
 Doing so is more convenient, but then you don't control your keys and need to trust the service.
 
-... use bitcoin core for wallet ... 
-
-Bitcoin Core is the descendant of the original bitcoin implementation implementation by Satoshi Nakamoto[^1]. 
-It works both as a software wallet, as well as a *node*.
-A *node* is a machine connected to the bitcoin network.
-
-Bitcoin core takes care of connecting to some of the nodes on the network to update the local copy of th e blockchain.
-Other nodes are just other people running bitcoin core or similar software on their machine.
-Other nodes can also connect to your machine and download a copy of the blockchain.
-Even if some of the nodes go down, the information is always available as every node has it.
-It works similarly to a peer-to-peer service.
-You can see too which nodes you are currently connected over *Window* > *Information* > *Peers*. 
-
-
-The first time you launch bitcoin core it downloads the whole blockchain of all transaction since bitcoin's inception in 2009.
-At the time of writing it is about 340 GB.
-Once the whole blockchain has been downloaded 
-
 
 
 ## Links
-[Bitcoin Core](https://bitcoincore.org/)
+- [Bitcoin Core](https://bitcoincore.org/)
 
 
 ## Footnotes
-[^1]: [About Bitcoin Core](https://bitcoincore.org/en/about/)
+
+[^1]: "[Bitcoin Core] is a direct descendant of the original Bitcoin software client released by Satoshi Nakamoto after he published the famous Bitcoin whitepaper." [About Bitcoin Core](https://bitcoincore.org/en/about/)
+
+[^2]: Bitcoin Core supports the [The Onion Router (Tor)](https://en.bitcoin.it/wiki/Tor). It can help protect your anonymity, but [is not 100% safe](https://www.youtube.com/watch?v=r1z5y8mMi6M).
+
+[^3]: At the time of writing the blockchain is about 400 GB big.
