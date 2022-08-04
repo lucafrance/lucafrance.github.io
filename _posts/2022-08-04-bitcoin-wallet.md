@@ -10,6 +10,19 @@ In my examples I am ignoring several recommended precautions.
 The only judicious investment for small savers are [exchange traded funds (ETFs)](https://en.wikipedia.org/wiki/Exchange-traded_fund), research those instead.  
    
 
+## Getting on the bitcoin network
+
+In traditional finance you have an account by a bank.
+You connect to the bank's server to see your balance.
+Transactions are ordered to the bank, which performs them on your behalf.
+
+Bitcoins don't rely on servers.
+There is a peer-to-peer (P2P) network of computers (*nodes*) talking to each other.
+The nodes share the *blockchain*: a record of every transaction in bitcoin's history.
+New transactions are communicated over the P2P network and stored in new *blocks* of the blockchain.
+
+![](/assets/2022/bitcoin-wallet/de_centralized_finance.png)
+
 A wallet is a tool that stores your cryptographic keys.
 There are three of wallets:
 1. **Software** A program that stores the credentials on your machine.
@@ -25,8 +38,6 @@ Bitcoin Core is the descendant of the original bitcoin implementation implementa
 It works both as a software wallet, as well as a *node*.
 A *node* is a machine connected to the bitcoin network.
 
-In traditional finance you connect to a central server, e.g. your bank to access your financial information and run transactions.
-With bitcoin there is no central server, there are several nodes with a full copy of the blockchain. 
 Bitcoin core takes care of connecting to some of the nodes on the network to update the local copy of th e blockchain.
 Other nodes are just other people running bitcoin core or similar software on their machine.
 Other nodes can also connect to your machine and download a copy of the blockchain.
