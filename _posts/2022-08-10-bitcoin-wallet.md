@@ -3,6 +3,10 @@ title: The first steps of a bitcoin wallet
 tags: [decentralized finance]
 ---
 
+I started studying decentralized finance for a potential project opportunity.
+As part of my research I created my first bitcoin wallet.
+Here is what I learnt and how it works.
+
 ⚠️ Do additional research if you plan to store a significant amount of bitcoins in your wallet.
 In my examples I am ignoring several recommended precautions.
 
@@ -68,9 +72,12 @@ Once there is at least one transaction to your wallet, it will be visible to the
 ## Getting the first bitcoins on the wallet
 
 You don't need to share your public key to receive bitcoins on your wallet.
-It is more common to provide an [address](https://en.bitcoin.it/wiki/Invoice_address), which is an alphanumeric identifier of your wallet based on the public key.
+It is more common to provide an [address](https://en.bitcoin.it/wiki/Invoice_address).
 There can be multiple addresses for the same wallet.
 It is recommended to create a separate address for every single transaction[^7].
+
+⚠️ You should backup your wallet after every address creation.
+Without the backup, you can lose incoming payments to the address.
 
 Bitcoin Core can create addresses for your wallet.
 You can copy the address directly or share it as an url or QR code for other applications.
@@ -80,7 +87,7 @@ You can copy the address directly or share it as an url or QR code for other app
 ![](/assets/2022/bitcoin-wallet/bitcoin-core-my-first-payment-address.png)
 
 One way to receive bitcoins is to give traditional currency to someone in exchange.
-There are several marketplaces to buy bitcoins, I used [MoonPay](https://www.moonpay.com), which is the one [linked](https://bitcoin.org/en/buy) on the main bitcoin website[^8].
+There are [several exchanges](https://bitcoin.org/en/exchanges) to buy bitcoins, I used [MoonPay](https://www.moonpay.com), which is the one [linked](https://bitcoin.org/en/buy) on the main bitcoin website[^8].
 At one step I must enter my address.
 
 ![](/assets/2022/bitcoin-wallet/moonpay-insert-address.png)
