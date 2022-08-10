@@ -79,7 +79,26 @@ You can copy the address directly or share it as an url or QR code for other app
 
 ![](/assets/2022/bitcoin-wallet/bitcoin-core-my-first-payment-address.png)
 
-... pay fiat money to get bitcoins...
+One way to receive bitcoins is to give traditional currency to someone in exchange.
+There are several marketplaces to buy bitcoins, I used [MoonPay](https://www.moonpay.com), which is the one [linked](https://bitcoin.org/en/buy) on the main bitcoin website[^8].
+At one step I must enter my address.
+
+![](/assets/2022/bitcoin-wallet/moonpay-insert-address.png)
+
+After entering the payment information, I need to wait for the transaction to be processed.
+MoonPay takes care of getting the bitcoins from a wallet and transferring them to my wallet.
+After MoonPay signs the transaction with its private key, the next steps take place in the bitcoin network.
+
+![](/assets/2022/bitcoin-wallet/moonpay-processing.png)
+
+The transaction is communicated to the nodes and the miners can see it.
+The miners will put the bitcoin in a block with other transactions and try adding it to the blockchain.
+The first miner able to validate the block will add it to the blockchain and receive a fee from my bitcoins as reward[^9].
+This is referred to as *bitcoin mining*.
+
+The new block of the blockchain is downloaded by Bitcoin Core, which recognizes the transaction and shows it in my wallet.
+
+![](/assets/2022/bitcoin-wallet/bitcoin-core-payment-received.png)
 
 
 ## Paying with bitcoins
@@ -106,3 +125,7 @@ You can copy the address directly or share it as an url or QR code for other app
 [^6]: There are services which save the keys on your behalf and provide a risk trade-off. You basically exchange the risk of you screwing up with the risk of the service provider screwing up.
 
 [^7]: There are [privacy and security reasons](https://en.bitcoin.it/wiki/Address_reuse) for which is preferable to do so.
+
+[^8]: There are usually additional fees on marketplaces in addition to the network fees in bitcoin.
+
+[^9]: There can be multiple miners adding a block at the same time or malicious agents trying to replace transactions at earlier stages. The bitcoin network is designed to be eventually consistent, as only the longest blockchain is considered.  
