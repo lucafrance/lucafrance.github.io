@@ -47,7 +47,7 @@ Your machine and the other nodes keep then each other's copy of the blockchain u
 
 Bitcoins are stored in *wallets*.
 Wallets consists of a *private key* and a *public key*.
-The *public key* identifies your wallet on the network and is necessary to receive funds[^4].
+The *public key* identifies your wallet on the network and is necessary to receive funds.
 The *private key* is necessary to *sign* transactions from your wallet to other wallets.
 Bitcoin Core can create wallets and store the keys on your machine[^5] [^6].
 The keys of the wallet are stored in a *wallet.dat* file, which can (and should) be backed up.
@@ -66,7 +66,15 @@ Once there is at least one transaction to your wallet, it will be visible to the
 
 
 ## Getting the first bitcoins on the wallet
-...
+
+You don't need to share your public key to receive bitcoins on your wallet.
+It is more common to provide an [address](https://en.bitcoin.it/wiki/Invoice_address), which is an identifier of your wallet based on the public key.
+There can be multiple addresses for the same wallet.
+It is recommended to create a separate address for every single transaction[^7].
+
+... Create address...
+
+... pay fiat money to get bitcoins...
 
 
 ## Paying with bitcoins
@@ -88,8 +96,8 @@ Once there is at least one transaction to your wallet, it will be visible to the
 
 [^3]: At the time of writing the blockchain is about 400 GB big.
 
-[^4]: It is also possible to receive funds through an [address](https://en.bitcoin.it/wiki/Invoice_address), which is based on the public key and provides additional security.
-
 [^5]: This is called a *software wallet*. You can use instead a *hardware wallet* or an *offline wallet*. Each kind of wallet is not perfect and has different pros and cons.
 
 [^6]: There are services which save the keys on your behalf and provide a risk trade-off. You basically exchange the risk of you screwing up with the risk of the service provider screwing up.
+
+[^7]: There are [privacy and security reasons](https://en.bitcoin.it/wiki/Address_reuse) for which is preferable to do so.
