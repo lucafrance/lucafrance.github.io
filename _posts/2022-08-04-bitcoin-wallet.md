@@ -68,11 +68,16 @@ Once there is at least one transaction to your wallet, it will be visible to the
 ## Getting the first bitcoins on the wallet
 
 You don't need to share your public key to receive bitcoins on your wallet.
-It is more common to provide an [address](https://en.bitcoin.it/wiki/Invoice_address), which is an identifier of your wallet based on the public key.
+It is more common to provide an [address](https://en.bitcoin.it/wiki/Invoice_address), which is an alphanumeric identifier of your wallet based on the public key.
 There can be multiple addresses for the same wallet.
 It is recommended to create a separate address for every single transaction[^7].
 
-... Create address...
+Bitcoin Core can create addresses for your wallet.
+You can copy the address directly or share it as an url or QR code for other applications.
+
+![](/assets/2022/bitcoin-wallet/bitcoin-core-create-address.png)
+
+![](/assets/2022/bitcoin-wallet/bitcoin-core-my-first-payment-address.png)
 
 ... pay fiat money to get bitcoins...
 
