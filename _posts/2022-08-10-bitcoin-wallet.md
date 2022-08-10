@@ -69,7 +69,7 @@ Once there is at least one transaction to your wallet, it will be visible to the
 ![](/assets/2022/bitcoin-wallet/empty-wallet.png)
 
 
-## Getting the first bitcoins on the wallet
+## Receiving the first bitcoins on the wallet
 
 You don't need to share your public key to receive bitcoins on your wallet.
 It is more common to provide an [address](https://en.bitcoin.it/wiki/Invoice_address).
@@ -104,12 +104,32 @@ The first miner able to validate the block will add it to the blockchain and rec
 This is referred to as *bitcoin mining*.
 
 The new block of the blockchain is downloaded by Bitcoin Core, which recognizes the transaction and shows it in my wallet.
+Now the wallet exists on the blockchain and no longer just as locally saved keys.
 
 ![](/assets/2022/bitcoin-wallet/bitcoin-core-payment-received.png)
 
 
-## Paying with bitcoins
-...
+## Sending bitcoins to another wallet
+
+Now that we have bitcoins, it is time to use them.
+As you can receive payments to an address, other recipients can provide an address to get bitcoins from you.
+E.g. there is an address to support the war effort in Ukraine.
+
+![](/assets/2022/bitcoin-wallet/ukraine-donate.png)
+
+Bitcoin Core also allows sending bitcoins from my wallet to another.
+I just need to copy over the address and select the amount.
+By selecting a longer confirmation time target, it is possible to pay a lower transaction fee.
+This fee is now paid just to the miners within the bitcoin network.
+
+![](/assets/2022/bitcoin-wallet/bitcoin-core-send-ukraine.png)
+
+After signing, Bitcoin Core shares the transactions to the network and waits for miners to add it to the blockchain.
+As long as the transaction is not in the blockchain, it is marked in red as unconfirmed.
+
+![](/assets/2022/bitcoin-wallet/bitcoin-core-unconfirmed-transaction.png)
+
+Once the transaction has been added to the blockchain, it is shown as successful.
 
 
 ## Links
