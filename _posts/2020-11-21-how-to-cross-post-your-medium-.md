@@ -58,7 +58,7 @@ I also added a link to the posts’ layout to make the reference visible on the 
 
 After releasing your changes ([in my case to GitHub](https://github.com/lucafrance/lucafrance.github.io)) your stories will be available both on medium and on your Jekyll website.
 
-![](/assets/medium_images/1-S4onWSOAcLmgpfgDxHdpg.png)
+![](/assets/2020/medium_images/1S4onWSOAcLmgpfgDxHdpg.png)
 
 Running the command again will update the Jekyll site with new and edited stories, but deleting a story on medium won’t remove it from Jekyll.
 

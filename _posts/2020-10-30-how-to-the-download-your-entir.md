@@ -38,7 +38,7 @@ Depending on your preferences, you might change or remove some of the options.
 
 The download might take several hours, as it can be hundreds of gigabytes in total.
 
-![](/assets/medium_images/1gZq_f-ckMgEArlg-iJo3rA.png)An example of the end result.
+![](/assets/2020/medium_images/1gZq_f-ckMgEArlg-iJo3rA.png)An example of the end result.
 
 #### Links
 

@@ -8,7 +8,7 @@ tags: [VBA]
 
 Visual Basic for Applications (VBA) has been voted the most dreaded programming language in the [Stack Overflow Developer Survey in 2020](https://insights.stackoverflow.com/survey/2020#most-loved-dreaded-and-wanted). Four in five VBA developers are not interest in keep using it next year. While in my opinion VBA deserves to be despised, much of the dread is underserved. Its accessibility makes it easy to misuse it, causing frustration both in the developers and the final users.
 
-![](/assets/medium_images/1rCKOe9qqSAWbQjIYXLxMjw.png)
+![](/assets/2020/medium_images/1rCKOe9qqSAWbQjIYXLxMjw.png)
 
 Any tool choice should depend on its purpose. If you have been considering learning VBA, here is a guide to help you choose based on your motivation.
 
