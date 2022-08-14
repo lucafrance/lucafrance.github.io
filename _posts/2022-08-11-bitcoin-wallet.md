@@ -79,7 +79,7 @@ It is recommended to create a separate address for every single transaction[^7].
 Without the backup, you may lose incoming payments to the address.
 
 Bitcoin Core can create addresses for your wallet.
-You can copy the address directly or share it as an url or QR code for other applications.
+You can copy the address directly or share it as an URI or QR code for other applications.
 
 ![](/assets/2022/bitcoin-wallet/bitcoin-core-create-address.png)
 
@@ -123,7 +123,7 @@ The fee is paid just to the miners within the bitcoin network.
 
 ![](/assets/2022/bitcoin-wallet/bitcoin-core-send-ukraine.png)
 
-After signing, Bitcoin Core shares the transactions to the network.
+After signing, Bitcoin Core shares the transaction to the network.
 Miners will include the transaction to a block and try adding it to the blockchain.
 As long as the transaction is not in the blockchain, it is marked as unconfirmed.
 
