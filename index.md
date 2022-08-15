@@ -9,7 +9,9 @@ title: About me
 I am an IT professional based in Munich. 
 The main value I can provide to you is a holistic understanding of the management, technical, and human side of your business.
 I speak German, English, and Italian fluently and have experience in both local and international settings.
-See my CV in [English](/assets/2022/cv/cv_en_Luca_Franceschini.pdf) or [German](/assets/2022/cv/cv_de_Luca_Franceschini.pdf).
+
+- CV in English: [pdf](/assets/2022/cv/cv_en_Luca_Franceschini.pdf), [docx](/assets/2022/cv/cv_en_Luca_Franceschini.docx) 
+- CV in German: [pdf](/assets/2022/cv/cv_de_Luca_Franceschini.pdf), [docx](/assets/2022/cv/cv_de_Luca_Franceschini.docx) 
 
 ## Scripting
 
