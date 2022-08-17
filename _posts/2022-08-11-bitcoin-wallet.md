@@ -1,6 +1,6 @@
 ---
 title: The first steps of a bitcoin wallet
-tags: [decentralized finance]
+tags: []
 ---
 
 I started studying decentralized finance for a potential project opportunity.

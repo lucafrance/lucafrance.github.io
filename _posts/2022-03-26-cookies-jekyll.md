@@ -1,6 +1,6 @@
 ---
 title: How to add a cookie consent banner to a Jekyll website
-tags: [Jekyll, GitHub Pages]
+tags: []
 ---
 
 This website is created with [Jekyll](https://jekyllrb.com/) and I recently [added Google Analytics](https://github.com/lucafrance/lucafrance.github.io/commit/86d1a3f8a4573febc7b2d6f29ddaf2c76230520d), which uses cookies which require the consent of the visitor in the European Union.

@@ -1,6 +1,6 @@
 ---
 title: How to scrape dynamic pages with Python and Selenium
-tags: [Python, Selenium, Scraping, Data]
+tags: [Python, Data]
 ---
 
 Getting the html source of a webpage is easy with Python.
