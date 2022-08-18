@@ -4,8 +4,8 @@ tags: [Python]
 ---
 
 I had a first world problem.
-When looking for projects, many recruiters ask for the CV in Word format.
-They ask it to import it in their system or adapt it to a standard template.
+While applying for projects, many recruiters ask for the CV in Word format.
+They want to import it in their system or adapt it to a standard template.
 But I don't have my CV in docx, because I wrote it in LaTeX with the [moderncv package](https://www.ctan.org/tex-archive/macros/latex/contrib/moderncv).
 
 ![](/assets/2022/cv-markdown/cv-tex-pdf.png)
@@ -26,8 +26,7 @@ The recruiters just need a convenient way to copy my information.
 It doesn't need to be pretty as long as it's consistent with my pdf CV.
 This would have been acceptable, but then I would need to keep the tex and docx CVs consistent manually. 
 
-I decided to go one step further.
-Write the CV in markdown and let a script generate the tex and docx files.
+I decided to go one step further: write the CV in markdown and let a script generate the rest.
 
 ![](/assets/2022/cv-markdown/final-approach.png)
 
@@ -38,7 +37,7 @@ It doesn't look as good as LaTeX's pdf, but is functional for a recruiter to cop
 ![](/assets/2022/cv-markdown/cv-pdf-docx.png)
 
 I wrote a Python script to convert the markdown CV to tex.
-The tex file was exactly as before[^1] and is then converted to pdf with pdflatex[^2].
+The tex file was like the original[^1] and is then converted to pdf with pdflatex[^2].
 I then wrapped up all the necessary commands in a PowerShell script.
 
  ```powershell
@@ -48,7 +47,7 @@ pdflatex cv_en_john_doe.tex
 ```
 
 Now I just need to keep my CV up to date in markdown and run one script to get the LaTeX pdf and the simpler docx.
-If think this can be useful to you, I created a [template to clone](https://github.com/lucafrance/luca-cv)[^3].
+If this can be useful to you, I created a [template to clone](https://github.com/lucafrance/luca-cv)[^3].
 
 ## Links
 - [moderncv on the Comprehensive TeX Archive Network (CTAN)](https://www.ctan.org/tex-archive/macros/latex/contrib/moderncv)
