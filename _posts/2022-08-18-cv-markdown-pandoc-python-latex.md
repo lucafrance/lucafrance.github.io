@@ -4,39 +4,41 @@ tags: [Python]
 ---
 
 I had a first world problem.
-I quit my job recently to become a freelancer and am looking for my first projects.
-Many recruiters ask for the CV in Word format to copy it in their system or prepare their CV according to their template.
-The thing is, I wrote my CV in LaTeX with the [moderncv package](https://www.ctan.org/tex-archive/macros/latex/contrib/moderncv).
+When looking for projects, many recruiters ask for the CV in Word format.
+They ask it to import it in their system or adapt it to a standard template.
+But I don't have my CV in docx, because I wrote it in LaTeX with the [moderncv package](https://www.ctan.org/tex-archive/macros/latex/contrib/moderncv).
 
 ![](/assets/2022/cv-markdown/cv-tex-pdf.png)
 
-The simplest  solution would have been to switch to a Word template.
-For me that's inconceivable on an intellectual level.
-LaTeX works just to elegantly to go back to Word like a peasant, I needed another solution.
+The simplest solution would have been to switch to a Word template.
+Having converted to the school of LaTeX, this was intellectually unfeasible.
+I needed another solution.
 
-First I tried converting the tex file to docx.
-The results were underwhelming.
-Either half the CV was missing or the formatting was all over the place.
-Converters don't really know how to interpret moderncv's format.
+First I tried converting the tex file to docx, the results were underwhelming.
+Either most of the CV was missing or the formatting was all over the place.
 I also tried converting the pdf to docx and got similar results.
+Converters don't really know how to interpret moderncv's format.
 
 ![](/assets/2022/cv-markdown/first-approach.png)
 
 Another option was having a separate docx CV with a simpler format.
-The recruiters just want a convenient way to copy the key information wherever they need to.
-The docx document doesn't need to look as good as the moderncv's pdf as long as the information is consistent.
-To avoid keeping the tex and docx consistently up to date manually, I decided to go one step further and write my CV in markdown.
+The recruiters just need a convenient way to copy my information.
+It doesn't need to be pretty as long as it's consistent with my pdf CV.
+This would have been acceptable, but then I would need to keep the tex and docx CVs consistent manually. 
+
+I decided to go one step further.
+Write the CV in markdown and let a script generate the tex and docx files.
 
 ![](/assets/2022/cv-markdown/final-approach.png)
 
-Since moderncv's template has a simple structure, I could write replicate it in Markdown (md).
-The markdown file can easily be converted to docx by Pandoc.
-It doesn't look as good as LaTeX's pdf, but is perfectly functional to copy over the necessary information.
+Since moderncv's template has a simple structure, I could replicate it easily.
+Pandoc converts markdown to docx perfectly.
+It doesn't look as good as LaTeX's pdf, but is functional for a recruiter to copy over the necessary information.
 
 ![](/assets/2022/cv-markdown/cv-pdf-docx.png)
 
 I wrote a Python script to convert the markdown CV to tex.
-I managed to get the exact same tex file as before[^1], which is then converted to pdf with pdflatex[^2].
+The tex file was exactly as before[^1] and is then converted to pdf with pdflatex[^2].
 I then wrapped up all the necessary commands in a PowerShell script.
 
  ```powershell
@@ -45,16 +47,16 @@ python md_to_tex.py cv_en_john_doe.md english
 pdflatex cv_en_john_doe.tex
 ```
 
-Now I just need to keep my CV up to date in markdown and just need to run one script to get LaTeX pdf and the simpler docx.
-If think this can be useful to you, I created a [template you can clone](https://github.com/lucafrance/luca-cv)[^3].
+Now I just need to keep my CV up to date in markdown and run one script to get the LaTeX pdf and the simpler docx.
+If think this can be useful to you, I created a [template to clone](https://github.com/lucafrance/luca-cv)[^3].
 
 ## Links
 - [moderncv on the Comprehensive TeX Archive Network (CTAN)](https://www.ctan.org/tex-archive/macros/latex/contrib/moderncv)
 - [Pandoc](https://pandoc.org/)
-- [My code on Github](https://github.com/lucafrance/luca-cv)
+- [Template on Github](https://github.com/lucafrance/luca-cv)
 
 ## Footnotes
 
-[^1]: I just cheated a little bit replacing LaTeX `itemize` lists with moderncv's `cvitem` and `\( \circ \) ` for the bullet point.
-[^2]: The Python script *md_to_tex.py* can take an optional argument of the language to use with [babel](https://www.ctan.org/pkg/babel).
-[^3]: The fact that writing my CV in LaTeX probably correlates with versioning it in git.
+[^1]: I actually cheated by replacing LaTeX's `itemize` lists with moderncv's `cvitem` and `\( \circ \) ` for the bullet point.
+[^2]: The Python script *md_to_tex.py* can take an optional argument for the language to use with [babel](https://www.ctan.org/pkg/babel).
+[^3]: Writing a CV in LaTeX correlates with versioning it in git.
