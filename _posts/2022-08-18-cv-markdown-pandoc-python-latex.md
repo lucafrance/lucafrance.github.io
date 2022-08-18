@@ -8,7 +8,7 @@ I quit my job recently to become a freelancer and am looking for my first projec
 Many recruiters ask for the CV in Word format to copy it in their system or prepare their CV according to their template.
 The thing is, I wrote my CV in LaTeX with the [moderncv package](https://www.ctan.org/tex-archive/macros/latex/contrib/moderncv).
 
-TODO screenshot del mio CV qui
+![](/assets/2022/cv-markdown/cv-tex-pdf.png)
 
 The simplest  solution would have been to switch to a Word template.
 For me that's inconceivable on an intellectual level.
@@ -20,20 +20,20 @@ Either half the CV was missing or the formatting was all over the place.
 Converters don't really know how to interpret moderncv's format.
 I also tried converting the pdf to docx and got similar results.
 
-TODO screenshot/disegnino della conversione da tex a docx
+![](/assets/2022/cv-markdown/first-approach.png)
 
 Another option was having a separate docx CV with a simpler format.
 The recruiters just want a convenient way to copy the key information wherever they need to.
 The docx document doesn't need to look as good as the moderncv's pdf as long as the information is consistent.
 To avoid keeping the tex and docx consistently up to date manually, I decided to go one step further and write my CV in markdown.
 
-TODO desigino di cosa viene convertito come dove
+![](/assets/2022/cv-markdown/final-approach.png)
 
 Since moderncv's template has a simple structure, I could write replicate it in Markdown (md).
 The markdown file can easily be converted to docx by Pandoc.
 It doesn't look as good as LaTeX's pdf, but is perfectly functional to copy over the necessary information.
 
-TODO screenshot markdown e word da pandoc
+![](/assets/2022/cv-markdown/cv-pdf-docx.png)
 
 I wrote a Python script to convert the markdown CV to tex.
 I managed to get the exact same tex file as before[^1], which is then converted to pdf with pdflatex[^2].
