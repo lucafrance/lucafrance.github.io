@@ -1,13 +1,15 @@
 ---
-title: <i>The obstacle is the way</i> by Ryan holiday is pretentious and shallow
+title: <i>The obstacle is the way</i> by Ryan Holiday is shallow and uninspiring
 tags: []
 ---
 
 TL, DR: 🤨😠📕🗑️
 
-I recently got *The obstacle is the way* by Ryan Holiday as a present, and it was awful.
+I recently got *The obstacle is the way* by Ryan Holiday, and it was awful.
 The book is about how to overcome difficulties by embracing them.
-While the ideas are good, the narrative on how to act on them is flawed.
+While some ideas are good, the narrative on how to act on them is flawed.
+
+![](/assets/2022/obstacle-is-the-way/cover.jpg)
 
 The book is divided in three parts, which can be summarized as:
 1. **Perception**
@@ -16,8 +18,7 @@ Alter your perception to stay in control of your emotions.
 Focus on what you can do.
 (61 pages)
 2. **Action**
-Embrace failure.
-See it as a part of the process.
+Act, have discipline, be persistent.
 (62 pages)
 3. **Will**
 Develop will power.
@@ -25,10 +26,8 @@ It must be built up over time to be available when needed.
 (57 pages)
 
 The main ideas are easy to phrase and difficult to practice.
-How to act on the ideas is the difficult part, which Holiday fails to present. 
-The book is filled with cherry-picked twisted stories (mostly about white men) which might seem inspiring, but are not actionable.
-Most of the examples are unrelatable, you are not a US president, nor a Fortune 500 CEO, nor a World War 2 general.
-What they supposedly did in certain situations decades or centuries ago is irrelevant for your choices.
+How to act on the ideas would be the interesting part, which Holiday fails to present. 
+The book is filled with cherry-picked twisted stories (mostly about white men) which might seem inspiring, but are unrelatable.
 
 
 ## Survivorship bias everywhere
@@ -44,7 +43,7 @@ If you don't succeed at what you want, it's because you don't have the right min
 There is no room for a growth mindset, either you have the guts or you don't.
 
 The truth is that sometimes you can do everything right and still fail.
-While Holiday dedicates some sections about recognizing failure as an acceptable outcome, most of the examples are phrased as the great white man leading with the right choice at the right time unlike everyone else.
+While Holiday dedicates some sections about recognizing failure as an acceptable outcome, most examples are phrased as the great white man leading with the right choice at the right time.
 
 **George Clooney**
 The world of acting is brutal: there are many more aspiring actors than available acting careers.
@@ -55,7 +54,7 @@ After he embraced the "new perspective", everything started working magically.
 
 This is a simplistic view with a circular logic.
 Failing auditions is because the perspective is wrong, succeeding auditions is because the perspective is right.
-Whatever the perspective at the time of a successful audition is the right one, all the other times is wrong.  
+The perspective at the time of a successful audition is the right one, all the other times is wrong.  
 
 No matter which perspective was actually used by Clooney, that could have never been enough.
 He still needed to stick to the auditions when not considered.
@@ -63,7 +62,7 @@ He still needed to act good.
 But apparently, actors who don't make it just miss the right "perspective".
 
 **Business founded during financial downturns**
-Holiday lists a bunch of businesses founded during financial downturns, like Microsoft (recession in 1973--1975) and LinedIn (2002, post dot come bubble).
+Holiday lists a bunch of businesses founded during financial downturns, like Microsoft (recession in 1973--1975) and LinkedIn (2002, post dot come bubble).
 According to him[^busyfounders]:
 > [...] these businesses had little awareness they were in some historically significant depression.
 > Why? Because the founders were too busy existing in the present -- actually dealing with the situation at hand. [...]".
@@ -74,6 +73,8 @@ Here is the circular logic again:
 
 By definition a financial downturn affects the entire economy.
 Businesses must carry some entrepreneurial risk and some of them will go bankrupt no matter what.
+
+![](/assets/2022/obstacle-is-the-way/american-union-bank.jpg)
 
 Are all bankruptcies now because of founders not "busy existing in the present"?
 Apparently the [New Deal](https://www.britannica.com/event/New-Deal) was unnecessary.
@@ -89,12 +90,14 @@ Every other Allied force was just standing there without contributing to the dis
 > [...] Eisenhower was able to see the tactical solution that had been in front of them the entire time: [...] the Nazi strategy carried its own destruction within itself.
 > Only then were the Allies able to see the opportunity *inside* the obstacle rather than simply the obstacle that threatened them.
 
-Forget that the Germans were losing the war since the [battle of Stalingrad](https://www.britannica.com/event/Battle-of-Stalingrad).
+Forget that the Germans were losing since the [battle of Stalingrad](https://www.britannica.com/event/Battle-of-Stalingrad).
 Eisenhower's perspective won the war.
 
 Where was the "opportunity *inside* the obstacle" at the [battle of Monte Cassino](https://www.britannica.com/topic/Battle-of-Monte-Cassino), when the Allies faced many more causalities than the Nazis?
 Was Eisenhower at the bathroom when the Monte Cassino monastery was flattened by U.S. bombers?
-Maybe that time just the Germans saw the "opportunity *inside* the obstacle" by defending among the ruins.
+Maybe that time just the Germans saw the "opportunity *inside* the obstacle".
+
+![](/assets/2022/obstacle-is-the-way/monte-cassino.jpg)
 
 Even by taking this narrative at face value, how is it supposed to be useful?
 If it were that easy to see the "opportunity *inside* the obstacle", this and several other books wouldn't exist in the first place.
@@ -118,14 +121,14 @@ The designer must have had his reasons to claim the commercial unfeasibility of 
 Steve Jobs could have improved his *perspective* by talking to the designer.
 He could have tried to understand his reasons, allow him to challenge his assumptions and grow.
 Instead he just replaced him with a yes man.
-If an employee is supposed to have the right *perspective*, why does the same not apply to who's in charge?
+If an employee is supposed to have the right *perspective*, why does not the same apply to who's in charge?
 
 This is a double standard: the complaining employee is wrong, the complaining boss is right.
 A toxic work culture does not mean the boss is a visionary.
 
 **Erwin Rommel**
 The worst part of the book is the [Rommel myth](https://encyclopedia.ushmm.org/content/en/article/erwin-rommel) shown as a positive example.
-Holiday's narrative could come directly from Nazi propaganda[^rommel1]:
+Holiday's narrative looks like Nazi propaganda[^rommel1]:
 > [German Fiel Marshal General Erwin Rommel] saw war as a game. A dangerous, reckless, untidy, fast-paced game. And, most important, he took to this game with incredible energy and was perennially pushing his troops forward.
 >
 > The German troops has a saying about him: Where Rommel is, there is the front.
@@ -138,7 +141,10 @@ And worse[^rommel2]:
 And again, in another chapter[^rommel3]:
 > Rommel, for instance, was renowned for his *Frontierfahrung*, his sixth sense for the decisive point in battle. He had an acute ability to feel--even in the heat of the moment--the precise instance when going on the offensive would be the most effective. It's what allowed him to, repeatedly and often unbelievably, snatch victory from the jaws of defeat.
 
-There is a part where Holiday tries to recontextualizes the myth, by claiming that Rommel's successes were actually part of the Allied strategy from the beginning[^rommel4]:
+![](/assets/2022/obstacle-is-the-way/rommel-hitler.jpg)
+*Bundesarchiv, Bild 146-1977-119-08 / CC-BY-SA 3.0*
+
+There is a part where Holiday recontextualizes the myth, by claiming that Rommel's victories were actually part of the Allied strategy[^rommel4]:
 > Remember Erwin Rommel and the quick work he made of the British and American forces in North Africa? There is another part to that story. The Allied forces actually choose that disadvantageous battlefield on purpose. Churchill knew that they would have to take their first stand against the German somewhere, but to do that *and* lose in Europe would be disastrous for morale.
 >
 > In North Africa, the British learned how to fight the Germans--and early on they learned mostly by failure. But that was acceptable, because they'd anticipated a learning curve and planned for it. [...]
@@ -159,7 +165,9 @@ Not even skimming through can be useful, the few valuable ideas are too simple a
 On a related topic I can instead recommend [*Atomic Habits*](https://jamesclear.com/atomic-habits), by James Clear.
 Unlike *The obstacle is the way*, *Atomic Habits* provides a useful framework on how to build up over time the kind of grit that allows you to overcome obstacles.
 
-From Ryan Holiday I recommend [*Conspiracy*](https://www.penguinrandomhouse.com/books/555492/conspiracy-by-ryan-holiday/), which I enjoyed.
+![](/assets/2022/obstacle-is-the-way/atomic-habits.jpg)
+
+I can also recommend another book by Ryan Holiday: [*Conspiracy*](https://www.penguinrandomhouse.com/books/555492/conspiracy-by-ryan-holiday/).
 Instead of dozens of useless examples, it is one good real story of Peter Thiel's plot to take down Gawker.
 
 
