@@ -84,7 +84,7 @@ Franklin Delano Roosevelt could have saved a bunch of taxpayers' money by inspir
 Apparently the right perception also allows you to win battles[^eisenhower].
 > In the weeks and months after the successful invasion of Normandy by Allied forces, they faced [the blitzkrieg] again: a set of massive German counteroffensives. How could they stop it?
 
-According to Holiday, only the American general General Dwight D. Eisenhower "answered that question".
+According to Holiday, only the American General Dwight D. Eisenhower "answered that question".
 Every other Allied force was just standing there without contributing to the discussion.
 
 > [...] Eisenhower was able to see the tactical solution that had been in front of them the entire time: [...] the Nazi strategy carried its own destruction within itself.
@@ -129,7 +129,7 @@ A toxic work culture does not mean the boss is a visionary.
 **Erwin Rommel**
 The worst part of the book is the [Rommel myth](https://encyclopedia.ushmm.org/content/en/article/erwin-rommel) shown as a positive example.
 Holiday's narrative looks like Nazi propaganda[^rommel1]:
-> [German Fiel Marshal General Erwin Rommel] saw war as a game. A dangerous, reckless, untidy, fast-paced game. And, most important, he took to this game with incredible energy and was perennially pushing his troops forward.
+> [German Field Marshal General Erwin Rommel] saw war as a game. A dangerous, reckless, untidy, fast-paced game. And, most important, he took to this game with incredible energy and was perennially pushing his troops forward.
 >
 > The German troops has a saying about him: Where Rommel is, there is the front.
 >
