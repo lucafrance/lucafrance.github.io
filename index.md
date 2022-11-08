@@ -14,15 +14,16 @@ I speak German, English, and Italian fluently and have experience in both local 
 **CV** English ([pdf](/assets/2022/cv/cv_en_Luca_Franceschini.pdf), [docx](/assets/2022/cv/cv_en_Luca_Franceschini.docx)), 
 German ([pdf](/assets/2022/cv/cv_de_Luca_Franceschini.pdf), [docx](/assets/2022/cv/cv_de_Luca_Franceschini.docx))
 
-## Agile Project Management
+## Scrum Product Owner
 
-I am familiar with Agile project management.
-My experience includes the transformation from waterfall to Agile frameworks.
-I can use Agile tools like Azure Devops, Jira, and Confluence.
+I am a qualified product owner for your Agile project.
+- Multiple project experiences with Agile software development. 
+- [Certified](https://www.credly.com/badges/3137ece2-15b9-4f41-ab8f-4bf1030f8eed) Professional Scrum Product Owner I by Scrum.org.
+- Familiarity with several tools, including Azure DevOps, Confluence, Jira.
 
-## Data
+## Data Analyst
 
-I understand and can support various steps of the data value chain:
+I support various steps of the data value chain:
 - Collecting data, e.g. with [web scraping](https://github.com/lucafrance/cia-factbook-scraper) or [over APIs](https://github.com/lucafrance/bike-traffic-munich).
 - Writing SQL queries and stored procedures.
 - Defining KPIs and automating project reports.
