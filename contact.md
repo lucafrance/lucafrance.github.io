@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Contact
+layout: page
+title: ✉️ Contact
 ---
 
 ## Get in touch
