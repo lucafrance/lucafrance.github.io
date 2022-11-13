@@ -1,9 +1,6 @@
 ---
-layout: default
-title: About me
+layout: home
 ---
-
-# About me
 
 <img src="/assets/2022/cv/cv_pic_luca_franceschini.jpg" style="float:right;padding-left:10px" width="180">
 
