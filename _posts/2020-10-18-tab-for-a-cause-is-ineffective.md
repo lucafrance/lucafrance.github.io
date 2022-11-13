@@ -16,7 +16,18 @@ Tab for Cause is committed to give [at least 30% of their revenue to charity](ht
 
 In practice “at least 30%” meant 30,2% from January 2018 to March 2020 (the last data available as of writing in October 2020). The previous financial statements from 2011 to 2017 only include the amount given to charity without the gross revenue. The quote “*Historically we’ve given upwards of 90%.*” probably refers to an early stage of the project when the founders were working for free.
 
-<script src="https://gist.github.com/lucafrance/2a88f1e7a261292a8be63f8974ef1ca6.js">  </script>
+| Year | Quarter | Revenue       | Charity % | Charity Value |
+|------|---------|---------------|-----------|---------------|
+| 2018 | 1       | $139,460.00   | 30.0%     |  $41,838.00   |
+| 2018 | 2       | $114,519.70   | 30.0%     |  $34,355.91   |
+| 2018 | 3       | $123,098.00   | 30.0%     |  $36,929.40   |
+| 2018 | 4       | $184,647.90   | 30.0%     |  $55,394.37   |
+| 2019 | 1       | $139,395.93   | 30.0%     |  $41,818.78   |
+| 2019 | 2       | $153,435.84   | 30.0%     |  $46,030.75   |
+| 2019 | 3       | $149,438.00   | 30.0%     |  $44,831.40   |
+| 2019 | 4       | $173,035.00   | 31.0%     |  $53,640.85   |
+| 2020 | 1       | $116,657.00   | 30.2%     |  $35,239.80   |
+| Sum  |         | $1,293,687.37 | 30.2%     |  $390,079.26  |
 
 The rest of the revenue covers the costs to run the business. According to the financial statement for the first quarter of 2020, about half the revenue was spent on employment costs and salaries, 11.1% on marketing, and the rest on other expenses.
 
