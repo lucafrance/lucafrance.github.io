@@ -44,7 +44,16 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
 
- exclude:
+exclude:
   - /*.ps1
   - Gemfile
   - Gemfile.lock
+
+# Use the "post" layout for all posts without having to specify it every time
+defaults:
+  - 
+    scope:
+      path: "" 
+      type: "posts"
+    values:
+      layout: "post"
