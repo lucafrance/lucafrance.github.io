@@ -26,7 +26,7 @@ I support various steps of the data value chain:
 - Defining KPIs and automating project reports.
 - Understanding and applying complex quantitative methods.
 
-I am a curios constant self learner for several topics, including [machine learning]({% post_url 2021-04-05-mnist-pairwise-one-pixel %}). 
+I am a curious constant self learner for several topics, including [machine learning]({% post_url 2021-04-05-mnist-pairwise-one-pixel %}). 
 
 ## Excel Training
 
