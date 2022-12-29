@@ -1,12 +1,7 @@
 ---
-title: How to use Obsidian with git and GitHub
+title: How to version your Obsidian with git and GitHub
 tags: []
 ---
-
-- configura il plugin
-  - disable notifications
-  - update intervall
-  - push on backup per 
 
 Fork this [template repository in GitHub](https://github.com/lucafrance/obsidian-vault-template), which includes a ready to use `.gitignore` file.
 The `.gitignore` is set up to ignore by default the whole `.obsidian`folder and only include explicitly mentioned configuration files.
@@ -46,3 +41,15 @@ Then install and the enable the [*Obsidian Git*](https://github.com/denolehov/ob
 ![](/assets/2022/obsidian-git/obsidian-options-community-browse.png)
 
 ![](/assets/2022/obsidian-git/plugin-obsidian-git.png)
+
+Enter a backup interval in the obsidian vault.
+The plugin will then regularly commit the changes and push to GitHub.
+I recommend also disabling the notifications.
+
+![](/assets/2022/obsidian-git/backup-interval.png)
+
+![](/assets/2022/obsidian-git/disable-notifications.png)
+
+Done! Your obsidian vault is now backup up to GitHub at regular intervals.
+
+![](/assets/2022/obsidian-git/github-my-vault.png)
