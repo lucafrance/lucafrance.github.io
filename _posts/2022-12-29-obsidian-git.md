@@ -3,7 +3,6 @@ title: How to use Obsidian with git and GitHub
 tags: []
 ---
 
-- installa il plugin
 - configura il plugin
   - disable notifications
   - update intervall
@@ -32,15 +31,18 @@ The easiest way is to copy the command from GitHub.
 
 ![](/assets/2022/obsidian-git/clone-repository.png)
 
-If you have an existing vault, copy all files to the cloned repository, including the `.obsidian` directory.
-Then open the vault in the new folder with obsidian.
-If not, start a new folder in the repository.
+If you want to use an existing vault, move all files to the cloned repository (including the `.obsidian` directory), then open the vault in the new folder with Obsidian.
+If not, start a new vault in the the folder of the repository.
 
 ![](/assets/2022/obsidian-git/obsidian-open-create-vault.png)
 
-Go to *Options* > *Community plugins* > *Browse*.
-Then install the plugin [*Obsidian Git*](https://github.com/denolehov/obsidian-git) by Denis Olehov. 
+Go to *Options* > *Community plugins*.
+If necessary, turn on the community plugins.
 
-![](/assets/2022/obsidian-git/obsdian-options-community-browse.png)
+![](/assets/2022/obsidian-git/turn-on-community-plugins.png)
+
+Then install and the enable the [*Obsidian Git*](https://github.com/denolehov/obsidian-git) plugin by Denis Olehov. 
+
+![](/assets/2022/obsidian-git/obsidian-options-community-browse.png)
 
 ![](/assets/2022/obsidian-git/plugin-obsidian-git.png)
