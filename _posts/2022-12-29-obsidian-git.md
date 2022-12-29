@@ -3,8 +3,6 @@ title: How to use Obsidian with git and GitHub
 tags: []
 ---
 
-- copia i file della tua obsidian library, assicuarti di copiare anche .obsidian
-- apri la vault
 - installa il plugin
 - configura il plugin
   - disable notifications
@@ -39,3 +37,10 @@ Then open the vault in the new folder with obsidian.
 If not, start a new folder in the repository.
 
 ![](/assets/2022/obsidian-git/obsidian-open-create-vault.png)
+
+Go to *Options* > *Community plugins* > *Browse*.
+Then install the plugin [*Obsidian Git*](https://github.com/denolehov/obsidian-git) by Denis Olehov. 
+
+![](/assets/2022/obsidian-git/obsdian-options-community-browse.png)
+
+![](/assets/2022/obsidian-git/plugin-obsidian-git.png)
