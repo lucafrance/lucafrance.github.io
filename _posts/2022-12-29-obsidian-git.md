@@ -43,14 +43,14 @@ If necessary, turn on the community plugins.
 
 ![](/assets/2022/obsidian-git/turn-on-community-plugins.png)
 
-Install and the enable the [*Obsidian Git*](https://github.com/denolehov/obsidian-git) plugin by Denis Olehov. 
+Click *Browse*, then install and enable the [*Obsidian Git*](https://github.com/denolehov/obsidian-git) plugin by Denis Olehov.
 
 ![](/assets/2022/obsidian-git/obsidian-options-community-browse.png)
 
 ![](/assets/2022/obsidian-git/plugin-obsidian-git.png)
 
 Enter a backup interval in the obsidian vault.
-The plugin will then regularly commit the changes and push to GitHub.
+The plugin will then regularly commit your changes and push them to GitHub.
 I also recommend disabling the notifications.
 
 ![](/assets/2022/obsidian-git/backup-interval.png)
@@ -59,6 +59,6 @@ I also recommend disabling the notifications.
 
 ## Conclusion
 
-Done! Your obsidian vault is now backup up to GitHub at regular intervals.
+Done! Your obsidian vault is now backed up to GitHub at regular intervals.
 
 ![](/assets/2022/obsidian-git/github-my-vault.png)
