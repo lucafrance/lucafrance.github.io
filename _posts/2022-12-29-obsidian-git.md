@@ -26,4 +26,6 @@ Fork this [template repository in GitHub](https://github.com/lucafrance/obsidian
 !.obsidian/hotkeys.json
 ```
 
-Set the repository visibility to private, unless you are ok with the whole internet seeing your obsidian vault.
+Set the repository visibility to private, unless you plan sharing your obsidian vault with the internet.
+
+![](/assets/2022/obsidian-git/visibility-setting.jpg)
