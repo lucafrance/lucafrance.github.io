@@ -88,6 +88,7 @@ To hide the numbers I just applied a number format with a single white space.
 ![](/assets/2023/rplace-excel/number-format.png)
 
 There were 16 colours available, each code corresponding to a hex triplet.
+For each colour I defined a separate conditional format.
 
 | index	color | code |
 | --- | --- |
@@ -108,13 +109,14 @@ There were 16 colours available, each code corresponding to a hex triplet.
 | 14 | #E04AFF |
 | 15 | #820080 |
 
-For each colour I defined a separate conditional format.
-
-SCREENSHOT
-
-I then applied a number format to not show the numbers.
+![](/assets/2023/rplace-excel/conditional-formatting.png)
 
 ## Results
+
+That's it, r/place shown in Excel in all its glory.
+
+![](/assets/2023/rplace-excel/rplace-excel.png)
+
 
 ## Links
 
