@@ -13,39 +13,60 @@ On April's fools 2017 [Reddit released r/place](https://www.reddit.com/r/announc
 > 
 > Together you can create something more.
 
-TODO immagine qui
-
 The [full dataset](https://www.reddit.com/r/redditdata/comments/6640ru/place_datasets_april_fools_2017/) was released as CSV afterwards with information about every single edit, *all* 16 567 567 of them.
 (Un?)surprisingly, it is possible to visualize the final result in Excel. 
 
-## Transformation in Power Query
+```
+ts,user,x_coordinate,y_coordinate,color
+1490991480000,+++/DjiwyzTQzfai1RGavwwdeF0=,4,33,13
+1491081894000,+++/DjiwyzTQzfai1RGavwwdeF0=,600,812,13
+1491080275000,+++/DjiwyzTQzfai1RGavwwdeF0=,667,794,13
+1491057011000,+++/DjiwyzTQzfai1RGavwwdeF0=,818,874,13
+1491142068000,+++/DjiwyzTQzfai1RGavwwdeF0=,819,728,13
+1490993278000,+++/DjiwyzTQzfai1RGavwwdeF0=,852,849,13
+1490991788000,+++/DjiwyzTQzfai1RGavwwdeF0=,883,876,13
+1491224392000,+++/DjiwyzTQzfai1RGavwwdeF0=,927,999,13
+1491230148000,+++/DjiwyzTQzfai1RGavwwdeF0=,930,993,13
+1491224085000,+++/DjiwyzTQzfai1RGavwwdeF0=,932,998,13
+1491237044000,+++/DjiwyzTQzfai1RGavwwdeF0=,941,994,13
+...
+```
 
-Excel supports up to 1 048 576 rows and 16 384 columns.
-This is not enough to show the full history, but plenty to show the final image of 1000 by 1000 pixels.
-First I imported the CSV in Power Query, there are five columns:
-- `ts` a timestamp,
-- `user_hash` a hash of the username (to anonymize it),
-- `x_coordinate`,
-- `y_coordinate`,
-- `color` a code for the 16 colours available.
+## Preliminary processing
 
-I used *Group by* to add a column `last_change_in_pixel` with the most recent timestamp for each pixel.
+The first step was to get a table just of the final color of the canvas.
+I tried and failed to do everything in PowerQuery.
+Either it would process data for hours before showing an error, or it would just collapse.
 
-SCREENSHOT
+I wrote a small script in Python to filter the most recent changes and pivot the columns horizontally.
+This step also reduced the csv file size from about 857 MB to less than 3 MB.
 
-I added another column to check for each row whether it corresponds to the most recent change for that pixel,
-which allowed me to keep exactly 1 million rows for corresponding to the 1000 x 1000 pixels of the final image.
+```python
+import pandas as pd
 
-SCREENSHOT
+raw_df = pd.read_csv("tile_placements_sorted.csv")
 
-Shis would a "small" enough dataset for Excel to handle within one sheet.
-I kept just the coordinates and colour column and pivoted it in a 1000 by 1000 table.
+# Calculate the most recent timestamp for each pair of coordinates
+last_changes = raw_df.pivot_table(index=["x_coordinate", "y_coordinate"], values="ts", aggfunc=max)
 
-SCREENSHOT
+# Use consistent indexes to allow joining
+raw_df.set_index(["ts", "x_coordinate", "y_coordinate"], inplace=True)
+last_changes.set_index("ts", append=True, inplace=True)
 
-## Square columns and rows
+# Join the color for the most recent change
+last_changes = last_changes.join(raw_df, on=["ts", "x_coordinate", "y_coordinate"], how="left")
 
-A simple VBA script made every cell and row of the sheet a perfect square, each one representing a pixel.
+# Export to csv
+last_changes.reset_index(inplace=True)
+last_changes.sort_values(["x_coordinate", "y_coordinate", "color"], inplace=True)
+last_changes.drop_duplicates(inplace=True)
+last_changes = last_changes.pivot_table(index="y_coordinate", columns="x_coordinate", values="color", aggfunc=min, fill_value=0)
+last_changes.to_csv("tile_placements_last.csv", index=True)
+```
+
+## Importing the data in Excel
+
+
 
 ## Colours with conditional formatting
 
