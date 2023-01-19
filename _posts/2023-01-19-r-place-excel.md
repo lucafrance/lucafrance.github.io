@@ -38,7 +38,7 @@ The first step was to get a table just of the final color of the canvas.
 I tried and failed to do everything in PowerQuery.
 Either it would process data for hours before showing an error, or it would just collapse.
 
-I wrote a small script in Python to filter the most recent changes and pivot the columns horizontally.
+I wrote a small Python script to filter the most recent changes and pivot the columns horizontally.
 This step also reduced the csv file size from about 857 MB to less than 3 MB.
 
 ```python
@@ -66,13 +66,21 @@ last_changes.to_csv("tile_placements_last.csv", index=True)
 
 ## Importing the data in Excel
 
-I can blame Excel for being unable to process hundreds of megabytes of csv.
+I don't blame Excel for being unable to process hundreds of megabytes of csv.
 It would habe been a clear example of [using the wrong tool for the purpose]({% post_url 2020-10-23-should-you-learn-vba-today-1a7 %}).
-What Excel is (strugglingly) able to do is opening the 1000 by 1000 csv.
+What Excel is (strugglingly) able to do is to import the 1000 by 1000 csv with PowerQuery.
 Now it was time to show the colours.
- 
-SCREENSHOT power query
 
+```
+5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, ...
+0,15,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3, ...
+0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3, ...
+0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3, ...
+0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3, ...
+0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3, ...
+...   ...   ...   ...   ...   ...
+```
+ 
 ## Colours with conditional formatting
 
 To hide the numbers I just applied a number format with a single white space.
