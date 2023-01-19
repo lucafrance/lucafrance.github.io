@@ -1,9 +1,11 @@
 ---
-title: Visualizing r/place in Excel with Power Query
+title: Visualizing r/place in Excel
 tags: [Excel, Power Query, VBA]
 ---
 
-On April's fools 2017 [Reddit released r/place](https://www.reddit.com/r/announcements/comments/62mesr/place/), a social experiment with simple rules:
+TL, DR: Download the spreadsheet from [here](https://github.com/lucafrance/rplace-excel/raw/main/rplace.xlsb). 🧮 
+
+On April's fools 2017 [Reddit launched r/place](https://www.reddit.com/r/announcements/comments/62mesr/place/), a social experiment with simple rules:
 
 > There is an empty canvas.
 > 
@@ -13,8 +15,8 @@ On April's fools 2017 [Reddit released r/place](https://www.reddit.com/r/announc
 > 
 > Together you can create something more.
 
-The [full dataset](https://www.reddit.com/r/redditdata/comments/6640ru/place_datasets_april_fools_2017/) was released as CSV afterwards with information about every single edit, *all* 16 567 567 of them.
-(Un?)surprisingly, it is possible to visualize the final result in Excel. 
+The full dataset [was released afterwards](https://www.reddit.com/r/redditdata/comments/6640ru/place_datasets_april_fools_2017/) with information about every single edit, *all* 16 567 567 of them.
+(Un?)surprisingly, it is possible to visualize the result in Excel. 
 
 ```
 ts,user,x_coordinate,y_coordinate,color
@@ -34,8 +36,8 @@ ts,user,x_coordinate,y_coordinate,color
 
 ## Preliminary processing
 
-The first step was to get a table just of the final color of the canvas.
-I tried and failed to do everything in PowerQuery.
+The first step was to get the final canvas from the history.
+I initially tried (and failed) to do everything in PowerQuery.
 Either it would process data for hours before showing an error, or it would just collapse.
 
 I wrote a small Python script to filter the most recent changes and pivot the columns horizontally.
@@ -69,7 +71,7 @@ last_changes.to_csv("tile_placements_last.csv", index=True)
 I don't blame Excel for being unable to process hundreds of megabytes of csv.
 It would habe been a clear example of [using the wrong tool for the purpose]({% post_url 2020-10-23-should-you-learn-vba-today-1a7 %}).
 What Excel is (strugglingly) able to do is to import the 1000 by 1000 csv with PowerQuery.
-Now it was time to show the colours.
+Now it was time to show some colours.
 
 ```
 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, ...
@@ -90,7 +92,7 @@ To hide the numbers I just applied a number format with a single white space.
 There were 16 colours available, each code corresponding to a hex triplet.
 For each colour I defined a separate conditional format.
 
-| index	color | code |
+| index | code |
 | --- | --- |
 | 0	| #FFFFFF |
 | 1	| #E4E4E4 |
@@ -113,12 +115,14 @@ For each colour I defined a separate conditional format.
 
 ## Results
 
-That's it, r/place shown in Excel in all its glory.
+That's it, r/place in Excel in all its glory.
+If you want to play with it, you can download it from [here](https://github.com/lucafrance/rplace-excel/raw/main/rplace.xlsb).
 
-![](/assets/2023/rplace-excel/rplace-excel.png)
+![](/assets/2023/rplace-excel/excel.png)
 
 
 ## Links
 
 - [Reddit - Place announcement](https://www.reddit.com/r/announcements/comments/62mesr/place/)
 - [Reddit - Place Datasets (April Fools 2017)](https://www.reddit.com/r/redditdata/comments/6640ru/place_datasets_april_fools_2017/)
+- [Git repository of the Python script](https://github.com/lucafrance/rplace-excel)
