@@ -1,12 +1,16 @@
 ---
-layout: default
-title: Contact
+layout: page
+title: ✉️ Contact
 ---
 
 ## Get in touch
 [![](/assets/2022/contact_icons/email.png){: width="15" } Email](mailto:lucaf@lucaf.eu)
 
-[![](/assets/2022/contact_icons/freelancermap.png){: width="15" } freelancermap](https://www.freelancermap.de/freelancer-verzeichnis/profile/entwicklung/401764-profil-luca-franceschini-mathematiker-entwickler-data-analyst-trainer-aus-muenchen.html)
+[![](/assets/2022/contact_icons/credly.png){: width="15" } Credly](https://www.credly.com/users/luca-franceschini)
+
+[![](/assets/2022/contact_icons/freelancermap.png){: width="15" } freelancermap](https://www.freelancermap.de/freelancer-verzeichnis/profile/entwicklung/401764-profil-luca-franceschini-it-consultant-aus-muenchen.html)
+
+[![](/assets/2022/contact_icons/gulp.png){: width="15" } GULP](https://www.gulp.de/gulp2/g/spezialisten/profil/lucaf)
 
 [![](/assets/2022/contact_icons/linkedin.png){: width="15" } LinkedIn](https://www.linkedin.com/in/lucaf-munich)
 

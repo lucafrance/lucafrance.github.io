@@ -1,7 +1,7 @@
 ---
 title: How to cross-post your Medium stories to Jekyll with Python
 canonicalurl: https://medium.com/@lucafrance/how-to-cross-post-your-medium-stories-to-jekyll-with-python-47a5eda4e47a
-tags: Python 
+tags: [Python]
 ---
 
 While Medium is a great blog hosting platform, I also like keeping copy of everything I do and was looking for a way to host my stories also on [my Jekyll website](https://lucafrance.github.io/). My requirements were:
@@ -58,7 +58,7 @@ I also added a link to the posts’ layout to make the reference visible on the 
 
 After releasing your changes ([in my case to GitHub](https://github.com/lucafrance/lucafrance.github.io)) your stories will be available both on medium and on your Jekyll website.
 
-![](/assets/medium_images/1-S4onWSOAcLmgpfgDxHdpg.png)
+![](/assets/2020/medium_images/1S4onWSOAcLmgpfgDxHdpg.png)
 
 Running the command again will update the Jekyll site with new and edited stories, but deleting a story on medium won’t remove it from Jekyll.
 

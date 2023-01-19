@@ -5,7 +5,7 @@ canonicalurl: https://medium.com/@lucafrance/tab-for-a-cause-is-ineffective-and-
 
 Tab for a cause is a browser extension to collect money for charity through ads. The principle is easy: every time you open a tab some ads are shown to you. The more ads you see, the more currency you generate, which is then given to charity. Sounds good, too bad it’s flawed. If you have been using it, here are some arguments to uninstall it.
 
-![](/assets/medium_images/0wBoRMb-s1z1LhDJA)Photo by [Richy Great](https://unsplash.com/@richygreat?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
+![](/assets/2020/medium_images/0wBoRMb-s1z1LhDJA.png)Photo by [Richy Great](https://unsplash.com/@richygreat?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
 ### Less then a third of the revenue actually goes to charity
 
@@ -16,17 +16,28 @@ Tab for Cause is committed to give [at least 30% of their revenue to charity](ht
 
 In practice “at least 30%” meant 30,2% from January 2018 to March 2020 (the last data available as of writing in October 2020). The previous financial statements from 2011 to 2017 only include the amount given to charity without the gross revenue. The quote “*Historically we’ve given upwards of 90%.*” probably refers to an early stage of the project when the founders were working for free.
 
-<script src="https://gist.github.com/lucafrance/2a88f1e7a261292a8be63f8974ef1ca6.js">  </script>
+| Year | Quarter | Revenue       | Charity % | Charity Value |
+|------|---------|---------------|-----------|---------------|
+| 2018 | 1       | $139,460.00   | 30.0%     |  $41,838.00   |
+| 2018 | 2       | $114,519.70   | 30.0%     |  $34,355.91   |
+| 2018 | 3       | $123,098.00   | 30.0%     |  $36,929.40   |
+| 2018 | 4       | $184,647.90   | 30.0%     |  $55,394.37   |
+| 2019 | 1       | $139,395.93   | 30.0%     |  $41,818.78   |
+| 2019 | 2       | $153,435.84   | 30.0%     |  $46,030.75   |
+| 2019 | 3       | $149,438.00   | 30.0%     |  $44,831.40   |
+| 2019 | 4       | $173,035.00   | 31.0%     |  $53,640.85   |
+| 2020 | 1       | $116,657.00   | 30.2%     |  $35,239.80   |
+| Sum  |         | $1,293,687.37 | 30.2%     |  $390,079.26  |
 
 The rest of the revenue covers the costs to run the business. According to the financial statement for the first quarter of 2020, about half the revenue was spent on employment costs and salaries, 11.1% on marketing, and the rest on other expenses.
 
-![](/assets/medium_images/1XWxXLWTHLmi4umt-9uxpVQ.png)Source: [Q1 2020 Financial statement](https://tab.gladly.io/financials/2020-Q1.pdf)
+![](/assets/2020/medium_images/1XWxXLWTHLmi4umt-9uxpVQ.png)Source: [Q1 2020 Financial statement](https://tab.gladly.io/financials/2020-Q1.pdf)
 
 ### The revenue per user is too low to justify Tab for a Cause
 
 I couldn’t find any official figures on the current user base size: not on the [website](https://tab.gladly.io/), nor [on the articles here on Medium,](https://medium.com/for-a-cause) nor anywhere else. I assumed 200,000 users, a conservative estimate which only includes [Google Chrome’s users](https://chrome.google.com/webstore/detail/tab-for-a-cause/gibkoahgjfhphbmeiphbcnhehbfdlcgo) and ignores all other browsers.
 
-![](/assets/medium_images/1k1AmSKoNM_oo34ijxr0iKA.png)As of October 2020, Tab for a Cause’s extension for Google Chrome has at least 200,000 users.
+![](/assets/2020/medium_images/1k1AmSKoNM_oo34ijxr0iKA.png)As of October 2020, Tab for a Cause’s extension for Google Chrome has at least 200,000 users.
 
 In 2019 Tab for a Cause raised $ 615.304,77 of revenue, $ 186.321,78 of which went to charity. That is $3.08 of revenue and $ 0.93 to charity per user per year. Even if Tab for a Cause managed to run for free, you could outperform the average yearly contribution with the spare change in your pocket.
 

@@ -1,7 +1,7 @@
 ---
 title: Come aggiungere i caratteri mancanti dalla tastiera italiana su Windows 10 (~\`È)
 canonicalurl: https://medium.com/@lucafrance/come-aggiungere-i-caratteri-mancanti-alla-tastiera-italiana-su-windows-10-%C3%A8-con-microsoft-d9af37bfe4df
-tags: [Windows]
+tags: []
 ---
 
 Ci sono caratteri che non è possibile creare con la tastiera italiana su Windows 10 a meno di combinazioni ridicole di *alt* e numeri. Ero stufo di copiaincollare i caratteri o dover configurare il correttore automatico per ogni singolo programma (per esempio da “E’” a “È”), questa è la soluzione che ho trovato.
@@ -10,119 +10,119 @@ Scarica e installa *Microsoft Keyboard Layout Creator 1.4* dal sito di Microsoft
 
 Apri il programma.
 
-![](/assets/medium_images/1wmwgHv0Q7_Du_0arr4znmQ.png)
+![](/assets/2020/medium_images/1wmwgHv0Q7_Du_0arr4znmQ.png)
 
 Clicca su *File* > *Load Existing Keyboard*.
 
-![](/assets/medium_images/1bCroG14mQdVzwMLvRHr2TQ.png)
+![](/assets/2020/medium_images/1bCroG14mQdVzwMLvRHr2TQ.png)
 
 Seleziona *Italiano* e clicca OK.
 
-![](/assets/medium_images/17A7O_vbj8yTqpsTSFlp3Aw.png)
+![](/assets/2020/medium_images/17A7O_vbj8yTqpsTSFlp3Aw.png)
 
 Selziona *Alt + Ctrl (AlrGr).*
 
-![](/assets/medium_images/1wOEnLZU2q-KjsKVm-Kn8gQ.png)
+![](/assets/2020/medium_images/1wOEnLZU2q-KjsKVm-Kn8gQ.png)
 
 Clicca il tasto corrispondente alla *ì*.
 
-![](/assets/medium_images/1cfmO4JE5QFOnl9trE61G7w.png)
+![](/assets/2020/medium_images/1cfmO4JE5QFOnl9trE61G7w.png)
 
 Copia e incolla questa tilde: ~, poi clicca OK.
 
-![](/assets/medium_images/1YcFcrE_wcPHPv_J7v7eF7Q.png)
+![](/assets/2020/medium_images/1YcFcrE_wcPHPv_J7v7eF7Q.png)
 
 Clicca il tasto corrispondente all’apostrofo.
 
-![](/assets/medium_images/1EKJQuo0SF6xLDyiIHlUCoA.png)
+![](/assets/2020/medium_images/1EKJQuo0SF6xLDyiIHlUCoA.png)
 
 Copia e incolla questo accento grave: \`, poi clicca OK.
 
-![](/assets/medium_images/1FT7KHEsPsq0caeoF8uSn1g.png)
+![](/assets/2020/medium_images/1FT7KHEsPsq0caeoF8uSn1g.png)
 
 Deseleziona *Alt + Ctrl (AlrGr)*, poi seleziona *Ctrl* e *Shift*.
 
-![](/assets/medium_images/1nlxO8SZlSgQqMFaUYZsn0g.png)
+![](/assets/2020/medium_images/1nlxO8SZlSgQqMFaUYZsn0g.png)
 
 Clicca il tasto corrispondente alla E accentatata.
 
-![](/assets/medium_images/1RKgpEIAJ-WTnz9bln2woYg.png)
+![](/assets/2020/medium_images/1RKgpEIAJ-WTnz9bln2woYg.png)
 
 Copia e incolla questa E accentata maiuscola: È, poi clicca OK.
 
-![](/assets/medium_images/1tE-WHDBt9neTY-r_X8SU7Q.png)
+![](/assets/2020/medium_images/1tE-WHDBt9neTY-r_X8SU7Q.png)
 
 Clicca su *Project* >*Properties*.
 
-![](/assets/medium_images/183-H9iYVVkLbpZAMyxRVcQ.png)
+![](/assets/2020/medium_images/183-H9iYVVkLbpZAMyxRVcQ.png)
 
 Inserisci un nome di massimo 8 caratteri nel campo *Name*. Il campo *Description* sarà il nome vissualizzato nel menu del metodo di input (non rilevante se usi solo la tastiera italiana e non in altre lingue). Puoi aggiungere informazioni per la tua azienda e il diritto d’autore (*Company* e *Copyright*) oppure lasciare il testo predefinito. Quando hai finito clicca OK.
 
-![](/assets/medium_images/14LANyWjUXai5_qoXFCPPZQ.png)
+![](/assets/2020/medium_images/14LANyWjUXai5_qoXFCPPZQ.png)
 
 Clicca su *File* > *Save Source File*.
 
-![](/assets/medium_images/1oa4GsCweU19KvFSZHS3aDQ.png)
+![](/assets/2020/medium_images/1oa4GsCweU19KvFSZHS3aDQ.png)
 
 Salva la tua configurazione, questo ti permetterà di modificarla in futuro.
 
-![](/assets/medium_images/1k3EyhrHZgZvDCPB7oDOx2g.png)
+![](/assets/2020/medium_images/1k3EyhrHZgZvDCPB7oDOx2g.png)
 
 Clicca qui.
 
-![](/assets/medium_images/1f3FQuOyc-RFs-vZKi8Lsog.png)
+![](/assets/2020/medium_images/1f3FQuOyc-RFs-vZKi8Lsog.png)
 
 Seleziona il Desktop, poi clicca OK.
 
-![](/assets/medium_images/1j3I5Whjddm87nKohS2EjQQ.png)
+![](/assets/2020/medium_images/1j3I5Whjddm87nKohS2EjQQ.png)
 
 Clicca *Project* > *Build DLL and Setup Package*.
 
-![](/assets/medium_images/1WjPcGyj9i-5qy8lgnuEQiA.png)
+![](/assets/2020/medium_images/1WjPcGyj9i-5qy8lgnuEQiA.png)
 
 Clicca *Sì*.
 
-![](/assets/medium_images/1uOJzZUTpqTag469HMtPg6Q.png)
+![](/assets/2020/medium_images/1uOJzZUTpqTag469HMtPg6Q.png)
 
 Potrebbero esserci dei *WARNING*, e sono normali. Se non ci sono *ERROR*, il comando è stato eseguito correttamente. Puoi chiudere il blocco note.
 
-![](/assets/medium_images/1iGlVhBhZ-CsAjwDrY4b0Uw.png)
+![](/assets/2020/medium_images/1iGlVhBhZ-CsAjwDrY4b0Uw.png)
 
 Clicca *Sì*.
 
-![](/assets/medium_images/19N5evITJNzUSqZPv5WhLiw.png)
+![](/assets/2020/medium_images/19N5evITJNzUSqZPv5WhLiw.png)
 
 Apri *setup.exe*. Conferma l’esecuzione quando richiesto.
 
-![](/assets/medium_images/1pS-qJB3qZgQoL_euCdyY9Q.png)
+![](/assets/2020/medium_images/1pS-qJB3qZgQoL_euCdyY9Q.png)
 
 Se l’installazione ha funzionato correttamente, viene visualizzata questa finestra. Clicca *Close*.
 
-![](/assets/medium_images/15HM6x6_2jk5veXB-YFNElg.png)
+![](/assets/2020/medium_images/15HM6x6_2jk5veXB-YFNElg.png)
 
 Apri le impostazioni di Windows e clicca *Data/Ora e lingua*.
 
-![](/assets/medium_images/1pF8IhY7380mY4tmsx5sY5A.png)
+![](/assets/2020/medium_images/1pF8IhY7380mY4tmsx5sY5A.png)
 
 Clicca su *Lingua*
 
-![](/assets/medium_images/1z7uqo2bFUX358QhfCfhWRg.png)
+![](/assets/2020/medium_images/1z7uqo2bFUX358QhfCfhWRg.png)
 
 Sotto *Lingue preferite*, clicca *Italiano (Italia)*.
 
-![](/assets/medium_images/1VSnbKx0PWj_m-LCDHQc-rg.png)
+![](/assets/2020/medium_images/1VSnbKx0PWj_m-LCDHQc-rg.png)
 
 Clicca *Opzioni*.
 
-![](/assets/medium_images/1lRetGKF4WyvKi0_wUcXX0w.png)
+![](/assets/2020/medium_images/1lRetGKF4WyvKi0_wUcXX0w.png)
 
 Clicca *Italiano QWERTY*.
 
-![](/assets/medium_images/1M7a55nDzTBnuiZk2gGjXuw.png)
+![](/assets/2020/medium_images/1M7a55nDzTBnuiZk2gGjXuw.png)
 
 Clicca *Rimuovi*. Non temere, se necessario questa azione è reversibile.
 
-![](/assets/medium_images/1Ckb_Xz5OdzDmEAItcaeipw.png)
+![](/assets/2020/medium_images/1Ckb_Xz5OdzDmEAItcaeipw.png)
 
 Finito, ora puoi scrivere:
 
@@ -133,5 +133,5 @@ Finito, ora puoi scrivere:
 
 Goditi la tua nuova produttività e condividine la gioia coi tuoi amici:
 
-![](/assets/medium_images/1_JNbU9rAFkx9zMO9C4bhSg.png)
+![](/assets/2020/medium_images/1_JNbU9rAFkx9zMO9C4bhSg.png)
 
