@@ -15,7 +15,7 @@ On April's fools 2017 [Reddit launched r/place](https://www.reddit.com/r/announc
 > 
 > Together you can create something more.
 
-The full dataset [was released afterwards](https://www.reddit.com/r/redditdata/comments/6640ru/place_datasets_april_fools_2017/) with information about every single edit, *all* 16 567 567 of them.
+A dataset [was released afterwards](https://www.reddit.com/r/redditdata/comments/6640ru/place_datasets_april_fools_2017/) with information about every single edit, *all* 16 567 567 of them.
 (Un?)surprisingly, it is possible to visualize the result in Excel. 
 
 ```
@@ -70,7 +70,7 @@ last_changes.to_csv("tile_placements_last.csv", index=True)
 
 I don't blame Excel for being unable to process hundreds of megabytes of csv.
 It would habe been a clear example of [using the wrong tool for the purpose]({% post_url 2020-10-23-should-you-learn-vba-today-1a7 %}).
-What Excel is (strugglingly) able to do is to import the 1000 by 1000 csv with PowerQuery.
+What Excel is (strugglingly) able to do is importing the 1000 by 1000 csv with PowerQuery.
 Now it was time to show some colours.
 
 ```
