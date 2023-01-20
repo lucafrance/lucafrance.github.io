@@ -1,6 +1,6 @@
 ---
 title: Visualizing r/place in Excel
-tags: [Excel, Power Query, VBA]
+tags: [Python, Excel]
 ---
 
 TL, DR: Download the spreadsheet from [here](https://github.com/lucafrance/rplace-excel/raw/main/rplace.xlsb). 🧮 
