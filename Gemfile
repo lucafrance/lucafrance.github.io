@@ -6,3 +6,5 @@ gem "kramdown-parser-gfm"
 gem "minima"
 
 gem "webrick"
+
+gem "kramdown"
