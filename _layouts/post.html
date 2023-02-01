@@ -28,6 +28,17 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
+
+    <!-- Tags list -->
+    {% if page.tags[0] %}
+    {% assign sorted_tags = page.tags | sort %}
+      <small>
+        tags:
+        {% for tag in sorted_tags %}
+          <em><a id="{{ tag }}" href="/tags#{{ tag }}">{{ tag }}</a></em> &nbsp
+        {% endfor %}
+      </small>
+    {% endif %}
   </div>
 
   {%- if site.disqus.shortname -%}
