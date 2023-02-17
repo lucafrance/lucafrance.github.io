@@ -44,7 +44,19 @@ In Johnny decimal I like most the decision to use at most two levels of subfolde
 
 Such restriction prevents rabbit holes of folders difficult to navigate.
 The 10 > 10 > 100 structure is flexible, while forcing to think about the organization and matching it.
+
+I like that the numbering of the folders gives an indication of the position within the general structure: `xy` is the first level, `xy.ab` is the second level.
+
 I didn't try Johnny Decimal in teams yet, but I believe it is great for teams working on processes that change little over time.
+What Johnny Decimal didn't fit any more is for an individual like me that enjoys embracing anarchy once in a while.
+The Johnny Decimal structure I defined improved my previous anarchic system, but started struggling soon for three reasons.
+
+1. I regularly start new projects, which might often be experiments going nowhere but I want to do them anyway.
+Having to fit these projects in a structure which didn't conceive their existence was adding uneusful mental burden
+
+1. completed stuff stays on the way
+
+1. i realized afterwards that some stuff in the structure got more prominence than it deserves, or vice versa.
 
 
 
