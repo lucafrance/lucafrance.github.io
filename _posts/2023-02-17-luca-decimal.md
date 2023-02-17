@@ -120,9 +120,70 @@ Also, the archive folder would become unnecessarily cumbersome to manage, having
     - ...
 ```
 
+What worked for me was starting from PARA as default framework, and merging just the valuable thing for me from Johnny Decimal.
+I followed [Forte's suggestion](https://fortelabs.com/blog/para-setup-guide/) of throwing everything in an *Archive YYYY-MM-DD* to retrieve from only when needed.
+
+What I took from Johnny Decimal is defining indexes just for a few folders which I want to "pin" to the the top.
+The Indexes are up to 100 instead of 10.
+I will probably never need that many, but knowing that I could removes the mental burden of artificial boundaries.
+If necessary, the additional indexing `xyz.ab`can be used, but only when it makes sense.
+
+```
+- 1 Projects
+    - 101 Project A
+    - 102 Project B
+    - 103 Project C 
+    - ...
+- 2 Areas
+    - 200 Health
+        - ...
+    - 201 Finances
+        - 201.01 Bank account
+        - 201.02 Savings account
+        - 201.03 Credit cards
+        - 201.04 Receipts
+    - 202 Work
+        - ...
+    - 203 Family pictures
+        - 2022
+        - 2023
+        - ...
+    - ID documents
+        - ...
+    - Travel card
+        - ...
+    - Utilities bills
+        - ...
+    - ...
+- 3 Resources
+    - 300 Books
+        - H.G. Wells
+        - Umberto Eco
+        - ...
+    - 301 Comics
+        - ...
+    - 302 Software
+        - 302.01 Operating systems
+        - 302.02 Drivers
+        - 302.03 Applications
+    - History documentaries
+        - ...
+    - Instruction manuals
+        - ...
+    - Mathematics
+        - ...
+    - ...
+- 4 Archive
+    - Lorem Ipsum
+        - ...
+    - ...
+```
+
 ## Conclusion
 
-I wrote a spec, it's on GitHub (link).
+If you read this far, you might be interested in a [full specification I wrote](link to spec) while defining the system.
+I call it *Luca Decimal* to recognize Johnny Decimal's influence and appease my ego.
+It is probably going to keep evolving over time and probably won't fit your workflow, but it might be a good starting point.
 
 ## Link
 - spec on GitHub
