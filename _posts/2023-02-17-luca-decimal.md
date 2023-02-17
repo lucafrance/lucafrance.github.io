@@ -63,7 +63,7 @@ I realized afterwards that some of the choices didn't necessarily match how I wa
 There is the possibility of re-defining the indexes, but this is a complex process for how Johnny Decimal is defined.
 It is kinda like the difference of re-indexing a database with a data structure which costs *O(n)*, while I want one that costs *O(1)*.
 
-## Merging PARA with Johnny Decimal
+## The different philosophy of PARA
 
 I was able to identify my concerns after reading [*Building a Second Brain*](https://www.buildingasecondbrain.com/book) by Tiago Forte.
 Forte describes a system designed for not-taking, but it can also be used for organizing files.
@@ -91,7 +91,34 @@ If anything is necessary in the future, it can be easily found with the built-in
 
 Johnny decimal starts with a different design decision of providing a stable structure for a group of people, which doesn't fit my workflow as good as PARA.
 
+## Merging PARA with Johnny Decimal
 
+Theoretically You could fit PARA within Johnny Decimal, but it would be very restrictive.
+Four categories can become quickly become tight, if everything mus be fitted in the just maximal four categories.
+Also, the archive folder would become unnecessarily cumbersome to manage, having to rethink the numbering every time something is archived.
+
+```
+- 10-19 Projects
+    - 10 Lorem ipsum
+        - 10.01 Dolor sit amet
+        - 10.02 Consectetaur adipisicing
+    - 11 Sed do eiusmod tempor
+    - 12 Incididunt ut labore et dolor
+    - 13 E magna aliqua
+    - ...
+- 20-29 Areas
+    - 21 Ut enim ad minim veniam
+    - 22 Quis nostrud exercitation
+    - ...
+- 30-39 Resources
+    - 31 Ullamco laboris nisi ut aliquip
+    - 32 Ex ea commodo consequat
+    - ...
+- 40-49 Archive 
+    - 41 Duis aute irure dolor
+    - 42 In reprehenderit in voluptate
+    - ...
+```
 
 ## Conclusion
 
