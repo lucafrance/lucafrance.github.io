@@ -52,9 +52,11 @@ What Johnny Decimal didn't fit any more is for an individual like me that enjoys
 The Johnny Decimal structure I defined improved my previous anarchic system, but started struggling soon for three reasons.
 
 1. I regularly start new projects, which might often be experiments going nowhere but I want to do them anyway.
-Having to fit these projects in a structure which didn't conceive their existence was adding uneusful mental burden
+Having to fit these projects in a structure which didn't conceive their existence was adding unnecessary mental burden.
 
-1. completed stuff stays on the way
+1. There is not an obvious way to archive older files.
+If I have a project in `10.01 Project A`, then it will stay there on top of my list even when the project is over.
+There are workarounds, but they involve braking up the decimal structure, which must be kept consistent manually among all apps.
 
 1. i realized afterwards that some stuff in the structure got more prominence than it deserves, or vice versa.
 
