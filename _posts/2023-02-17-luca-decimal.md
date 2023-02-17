@@ -5,6 +5,8 @@ tags: []
 
 TL, DR: If Johnny Decimal didn't work for you, try [my approach](link to spec on GitHub).
 
+*Note: this is not an introduction to Johnny Decimal or PARA, it is a personal experience on how i applied the systems.*
+
 I struggled for a long time with a structure of my digital files.
 I regularly moved stuff around and was never able to keep it consistent.
 I while back I discovered [Johnny Decimal](https://johnnydecimal.com/) by Johnny Noble.
@@ -33,7 +35,22 @@ It is inspired from the [Dewey decimal classification](https://www.britannica.co
 ```
 *Example from [johnnydecimal.com](https://johnnydecimal.com/)*
 
+## What i like and don't like about Johnny Decimal
+
+In Johnny decimal I like most the decision to use at most two levels of subfolders:
+- 10 *areas*,
+- 10 *categories* per *area*,
+- up to 100 *unique things* per *category*.
+
+Such restriction prevents rabbit holes of folders difficult to navigate.
+The 10 > 10 > 100 structure is flexible, while forcing to think about the organization and matching it.
+I didn't try Johnny Decimal in teams yet, but I believe it is great for teams working on processes that change little over time.
+
+
+
 didn't like that stuff that is completed stays in the way 
+
+didn't like that it is difficult to enter new stuff
 
 useful for groups for shared structure, not my thing
 
@@ -50,7 +67,7 @@ Johnny includes the reccomendation of reproducing structure for each project, bu
 
 10 folders limiting
 
-
+## Merging PARA with Johnny Decimal
 
 I learned about PARA
 
@@ -61,4 +78,12 @@ like focus on action
 
 Combined best of both for me
 
+## Conclusion
 
+I wrote a spec, it's on GitHub (link).
+
+## Link
+- spec on GitHub
+- Johnny Decimal website
+- Second Brain website
+- PARA series blog
