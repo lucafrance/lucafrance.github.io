@@ -58,28 +58,10 @@ Having to fit these projects in a structure which didn't conceive their existenc
 If I have a project in `10.01 Project A`, then it will stay there on top of my list even when the project is over.
 There are workarounds, but they involve braking up the decimal structure, which must be kept consistent manually among all apps.
 
-1. i realized afterwards that some stuff in the structure got more prominence than it deserves, or vice versa.
-
-
-
-didn't like that stuff that is completed stays in the way 
-
-didn't like that it is difficult to enter new stuff
-
-useful for groups for shared structure, not my thing
-
-many different things in my head/life, not single project
-
-want possibility to add stuff without thinking
-
-Johnny decimal assumes that you can identify a stable structure.
-This is not my case, I regularly finish and start working on new stuff.
-Johnny Decimal was starting to stand in the way of my mind.
-For me it was more important to be able to get stuff in and out the system easily, which is difficult if I try to fit it in a previous structure of my mind, which was different and had different priorities.
-
-Johnny includes the reccomendation of reproducing structure for each project, but that kinda defeats purpose
-
-10 folders limiting
+1. In defining a Johnny Decimal structure there is an implicit choice about how prominent each thing should be.
+I realized afterwards that some of the choices didn't necessarily match how I wanted to use the folders in practice.
+There is the possibility of re-defining the indexes, but this is a complex process for how Johnny Decimal is defined.
+It is kinda like the difference of re-indexing a database with a data structure which costs *O(n)*, while I want one that costs *O(1)*.
 
 ## Merging PARA with Johnny Decimal
 
