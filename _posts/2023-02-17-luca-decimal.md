@@ -33,6 +33,7 @@ It is inspired from the [Dewey decimal classification](https://www.britannica.co
     - 41 Sales figures
     - 42 Proposal
 ```
+
 *Example from [johnnydecimal.com](https://johnnydecimal.com/)*
 
 ## What i like and don't like about Johnny Decimal
@@ -48,7 +49,6 @@ The 10 > 10 > 100 structure is flexible, while forcing to think about the organi
 I like that the numbering of the folders gives an indication of the position within the general structure: `xy` is the first level, `xy.ab` is the second level.
 
 I didn't try Johnny Decimal in teams yet, but I believe it is great for teams working on processes that change little over time.
-What Johnny Decimal didn't fit any more is for an individual like me that enjoys embracing anarchy once in a while.
 The Johnny Decimal structure I defined improved my previous anarchic system, but started struggling soon for three reasons.
 
 1. I regularly start new projects, which might often be experiments going nowhere but I want to do them anyway.
@@ -65,14 +65,33 @@ It is kinda like the difference of re-indexing a database with a data structure 
 
 ## Merging PARA with Johnny Decimal
 
-I learned about PARA
+I was able to identify my concerns after reading [*Building a Second Brain*](https://www.buildingasecondbrain.com/book) by Tiago Forte.
+Forte describes a system designed for not-taking, but it can also be used for organizing files.
+The system is called PARA and a quote from the book clearly summarizes its design difference from Jonny Decimal:
 
-like focus on action
+> PARA isn’t a filing system; it’s a production system .
 
-> PARA isn’t a filing system ; it’s a production system .
+PARA stands for Projects, Areas, Resources, Archive.
+I like PARA because of its focus on distributing items based on their associated actions.
+
+> - Projects : Short - term efforts in your work or life that you’re working on now . 
+> - Areas : Long - term responsibilities you want to manage over time . 
+> - Resources : Topics or interests that may be useful in the future . 
+> - Archives : Inactive items from the other three categories .
+
+Source: *[Forte Labs blog](https://fortelabs.com/blog/p-a-r-a-ii-operations-manual/)*
 
 
-Combined best of both for me
+1. It reduced the mental burden for adding anything new.
+I just need to determine if a new thing belongs to *projects*, *areas*, or *resources*, add a folder, and get started.
+If necessary, it can always be tidied up later.
+
+1. Any completed activity can be thrown in *Archive* without bothering about it.
+If anything is necessary in the future, it can be easily found with the built-in search.
+
+Johnny decimal starts with a different design decision of providing a stable structure for a group of people, which doesn't fit my workflow as good as PARA.
+
+
 
 ## Conclusion
 
@@ -81,5 +100,5 @@ I wrote a spec, it's on GitHub (link).
 ## Link
 - spec on GitHub
 - Johnny Decimal website
-- Second Brain website
-- PARA series blog
+- [The P.A.R.A. Method blog serie](https://fortelabs.com/blog/series/para)
+- [Building a Second Brain book](https://www.buildingasecondbrain.com/book)
