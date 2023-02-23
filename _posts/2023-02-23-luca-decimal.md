@@ -15,7 +15,7 @@ TODO immagine di libri su uno scaffale
 
 ## What I like and don't like about Johnny Decimal
 
-Johnny Decimal , created Johnny Noble, is inspired by the [Dewey decimal classification](https://www.britannica.com/science/Dewey-Decimal-Classification) for libraries and applies a similar logic to folder structure.
+Johnny Decimal, by Johnny Noble, is inspired by the [Dewey decimal classification](https://www.britannica.com/science/Dewey-Decimal-Classification) for libraries and applies a similar logic to folder structure.
 
 ```
 - 10-10 Finance
@@ -40,17 +40,14 @@ Johnny Decimal , created Johnny Noble, is inspired by the [Dewey decimal classif
 ```
 *Example from [johnnydecimal.com](https://johnnydecimal.com/)*
 
-In Johnny decimal I like most the decision to use at most two levels of subfolders:
+The best decision in Johnny Decimal is to use at most two levels of subfolders:
 - 10 *areas*,
 - 10 *categories* per *area*,
 - up to 100 *unique things* per *category*.
 
-Such restriction prevents rabbit holes of folders difficult to navigate.
-The 10 > 10 > 100 structure is flexible, while forcing to think about the organization and matching it.
+The 10 > 10 > 100 structure is flexible, while restrictive enough to prevent rabbit holders of folders too difficult to navigate.
+The numbering immediately indicates the position within the general structure: `xy` is the first level, `xy.ab` is the second level.
 
-I like that the numbering of the folders gives an indication of the position within the general structure: `xy` is the first level, `xy.ab` is the second level.
-
-I didn't try Johnny Decimal in teams yet, but I believe it is great for teams working on processes that change little over time.
 The Johnny Decimal structure I defined improved my previous anarchic system, but started struggling soon for three reasons.
 
 1. I regularly start new projects, which might often be experiments going nowhere but I want to do them anyway.
@@ -58,12 +55,14 @@ Having to fit these projects in a structure which didn't conceive their existenc
 
 1. There is not an obvious way to archive older files.
 If I have a project in `10.01 Project A`, then it will stay there on top of my list even when the project is over.
-There are workarounds, but they involve braking up the decimal structure, which must be kept consistent manually among all apps.
+There are workarounds, but they involve breaking up the decimal structure and too much manual work.
 
 1. In defining a Johnny Decimal structure there is an implicit choice about how prominent each thing should be.
 I realized afterwards that some of the choices didn't necessarily match how I wanted to use the folders in practice.
 There is the possibility of re-defining the indexes, but this is a complex process for how Johnny Decimal is defined.
-It is kinda like the difference of re-indexing a database with a data structure which costs *O(n)*, while I want one that costs *O(1)*.
+
+I believe Johnny decimal shines most with teams working on processes with stable structures.
+For individuals probably other solutions are better most of the time.
 
 ## The different philosophy of PARA
 
