@@ -54,7 +54,7 @@ Johnny Decimal improved my previous anarchic system, but struggled soon for thre
 Having to fit these projects in a structure which didn't conceive their existence was adding unnecessary mental burden.
 
 1. There is not an obvious way to archive older files.
-If I have a project in `10.01 Project A`, then it will stay there on top of my list when the project is done.
+If I have a project in `10.01 Project A`, then it will stay there on top of my list once done.
 There are [workarounds](https://johnnydecimal.com/concepts/exceptions-to-the-rules/), but they involve too much manual reorganization.
 
 1. In defining a Johnny Decimal structure there is an implicit choice about how prominent each thing should be.
@@ -69,7 +69,7 @@ For individuals probably other solutions are better most of the time.
 ## The different philosophy of PARA
 
 I was able to identify my concerns after reading [*Building a Second Brain*](https://www.buildingasecondbrain.com/book) by Tiago Forte.
-Forte describes PARA (Projects, Areas, Resources, Archive), a system designed for not-taking, but which can also be used for organizing files.
+Forte describes PARA (Projects, Areas, Resources, Archive), a system designed for note-taking, but which can also be used for organizing files.
 I like PARA because of its focus on distributing items based on their associated actions.
 
 > - Projects : Short - term efforts in your work or life that you’re working on now . 
@@ -124,8 +124,8 @@ What worked for me was restarting with PARA as the default framework, and mergin
 I followed [Forte's suggestion](https://fortelabs.com/blog/para-setup-guide/) of throwing everything in an *Archive YYYY-MM-DD*  folder to retrieve from only when needed.
 
 What I took from Johnny Decimal is defining indexes just for a few folders which I want to "pin" to the the top.
-The Indexes are up to 100 instead of 10.
-I will probably never need that many, but knowing that I could removes the mental burden of artificial boundaries.
+The indexes are up to 100 instead of 10.
+I will probably never use that many, but knowing that I could removes the mental burden of artificial boundaries.
 If necessary, the additional indexing `xyz.ab` can be used, but only when it makes sense.
 
 ```
