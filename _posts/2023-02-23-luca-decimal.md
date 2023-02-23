@@ -1,18 +1,18 @@
 ---
-title: How I mixed *Johnny Decimal* and *Second Brain* to organize my documents 
+title: How I mixed <i>Johnny Decimal</i> and <i>Second Brain</i> to organize my documents 
 tags: []
 ---
 
 TL, DR: If Johnny Decimal didn't work for you, try [my approach](https://github.com/lucafrance/luca-decimal).
 
-I struggled for a long time with the disorganization in my documents.
+I struggled for a long time with the disorganization of my documents.
 Finding and moving around files was interrupting my workflow too often.
-After discovering [Johnny Decimal](https://johnnydecimal.com/) there were some improvements, while still falling in several of the same patterns.
-After reading [Second Brain](https://www.buildingasecondbrain.com/) by Tiango Forte something clicked in my (first) brain and I was finally able to find a system that works for me.
+After discovering [Johnny Decimal](https://johnnydecimal.com/) there were some improvements, but I wasn't satisfied yet.
+After reading [Second Brain](https://www.buildingasecondbrain.com/) by Tiago Forte something clicked in my (first) brain and I was finally able to design a system that works for me.
 Here is my thought process. 
 
 ![](/assets/2023/luca-decimal/library.jpg)
-*Picture by[Gabriel Sollmann](https://unsplash.com/@ccgabon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/it/foto/Y7d265_7i08?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+*Picture by [Gabriel Sollmann](https://unsplash.com/@ccgabon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/it/foto/Y7d265_7i08?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
 
 ## What I like and don't like about Johnny Decimal
 
