@@ -65,12 +65,7 @@ For individuals probably other solutions are better most of the time.
 ## The different philosophy of PARA
 
 I was able to identify my concerns after reading [*Building a Second Brain*](https://www.buildingasecondbrain.com/book) by Tiago Forte.
-Forte describes a system designed for not-taking, but it can also be used for organizing files.
-The system is called PARA and a quote from the book clearly summarizes its design difference from Jonny Decimal:
-
-> PARA isn’t a filing system; it’s a production system .
-
-PARA stands for Projects, Areas, Resources, Archive.
+Forte describes PARA (Projects, Areas, Resources, Archive), a system designed for not-taking, but can also be used for organizing files.
 I like PARA because of its focus on distributing items based on their associated actions.
 
 > - Projects : Short - term efforts in your work or life that you’re working on now . 
@@ -80,15 +75,17 @@ I like PARA because of its focus on distributing items based on their associated
 
 Source: *[Forte Labs blog](https://fortelabs.com/blog/p-a-r-a-ii-operations-manual/)*
 
+A quote from the book clearly summarizes PARA's design difference from Jonny Decimal:
+> PARA isn’t a filing system; it’s a production system .
+
+PARA immediately fixed my issues with Johnny Decimal.
 
 1. It reduced the mental burden for adding anything new.
 I just need to determine if a new thing belongs to *projects*, *areas*, or *resources*, add a folder, and get started.
-If necessary, it can always be tidied up later.
+Only when necessary, it can be tidied up later.
 
 1. Any completed activity can be thrown in *Archive* without bothering about it.
-If anything is necessary in the future, it can be easily found with the built-in search.
-
-Johnny decimal starts with a different design decision of providing a stable structure for a group of people, which doesn't fit my workflow as good as PARA.
+If anything is necessary in the future, it can be easily with an automatic search.
 
 ## Merging PARA with Johnny Decimal
 
@@ -119,7 +116,7 @@ Also, the archive folder would become unnecessarily cumbersome to manage, having
     - ...
 ```
 
-What worked for me was starting from PARA as default framework, and merging just the valuable thing for me from Johnny Decimal.
+What worked for me was restarting with PARA as the default framework, and merging just the valuable aspects for me from Johnny Decimal.
 I followed [Forte's suggestion](https://fortelabs.com/blog/para-setup-guide/) of throwing everything in an *Archive YYYY-MM-DD* to retrieve from only when needed.
 
 What I took from Johnny Decimal is defining indexes just for a few folders which I want to "pin" to the the top.
@@ -180,12 +177,11 @@ If necessary, the additional indexing `xyz.ab`can be used, but only when it make
 
 ## Conclusion
 
-If you read this far, you might be interested in a [full specification I wrote](link to spec) while defining the system.
-I call it *Luca Decimal* to recognize Johnny Decimal's influence and appease my ego.
-It is probably going to keep evolving over time and probably won't fit your workflow, but it might be a good starting point.
+If you read this far, you might be interested in a [full specification I wrote](https://github.com/lucafrance/luca-decimal) while thinking about the system.
+It is probably going to keep evolving over time and might not fit your workflow, but it might be a good starting point.
 
 ## Link
-- spec on GitHub
-- Johnny Decimal website
+- [Luca DEcimal Specification on GitHub](https://github.com/lucafrance/luca-decimal)
+- [Johnny Decimal](https://johnnydecimal.com/)
 - [The P.A.R.A. Method blog serie](https://fortelabs.com/blog/series/para)
-- [Building a Second Brain book](https://www.buildingasecondbrain.com/book)
+- [*Building a Second Brain* book](https://www.buildingasecondbrain.com/book)
