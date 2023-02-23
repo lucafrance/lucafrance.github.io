@@ -1,16 +1,21 @@
 ---
-title: Luca-Decimal (DRAFT)
+title: How I mixed *Johnny Decimal* and *Second Brain* to organize my documents 
 tags: []
 ---
 
-TL, DR: If Johnny Decimal didn't work for you, try [my approach](link to spec on GitHub).
+TL, DR: If Johnny Decimal didn't work for you, try [my approach](https://github.com/lucafrance/luca-decimal).
 
-*Note: this is not an introduction to Johnny Decimal or PARA, it is a personal experience on how i applied the systems.*
+I struggled for a long time with the disorganization in my documents.
+Finding and moving around files was interrupting my workflow too often.
+After discovering [Johnny Decimal](https://johnnydecimal.com/) there were some improvements, while still falling in several of the same patterns.
+After reading [Second Brain](https://www.buildingasecondbrain.com/) by Tiango Forte something clicked in my (first) brain and I was finally able to find a system that works for me.
+Here is my thought process. 
 
-I struggled for a long time with a structure of my digital files.
-I regularly moved stuff around and was never able to keep it consistent.
-I while back I discovered [Johnny Decimal](https://johnnydecimal.com/) by Johnny Noble.
-It is inspired from the [Dewey decimal classification](https://www.britannica.com/science/Dewey-Decimal-Classification) for libraries and applies a similar logic to folder structure.
+TODO immagine di libri su uno scaffale
+
+## What I like and don't like about Johnny Decimal
+
+Johnny Decimal , created Johnny Noble, is inspired by the [Dewey decimal classification](https://www.britannica.com/science/Dewey-Decimal-Classification) for libraries and applies a similar logic to folder structure.
 
 ```
 - 10-10 Finance
@@ -33,10 +38,7 @@ It is inspired from the [Dewey decimal classification](https://www.britannica.co
     - 41 Sales figures
     - 42 Proposal
 ```
-
 *Example from [johnnydecimal.com](https://johnnydecimal.com/)*
-
-## What i like and don't like about Johnny Decimal
 
 In Johnny decimal I like most the decision to use at most two levels of subfolders:
 - 10 *areas*,
