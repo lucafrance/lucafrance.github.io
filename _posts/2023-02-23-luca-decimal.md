@@ -8,7 +8,7 @@ TL, DR: If Johnny Decimal didn't work for you, try [my approach](https://github.
 I struggled for a long time with the disorganization of my documents.
 Finding and moving around files was interrupting my workflow too often.
 After discovering [Johnny Decimal](https://johnnydecimal.com/) there were some improvements, but I wasn't satisfied yet.
-After reading [Second Brain](https://www.buildingasecondbrain.com/) by Tiago Forte something clicked in my (first) brain and I was finally able to design a system that works for me.
+While reading [Second Brain](https://www.buildingasecondbrain.com/) by Tiago Forte something clicked in my (first) brain and I was finally able to design a system that works for me.
 Here is my thought process. 
 
 ![](/assets/2023/luca-decimal/library.jpg)
@@ -48,9 +48,9 @@ The best decision in Johnny Decimal is to use at most two levels of subfolders:
 
 The 10 > 10 > 100 structure is flexible, while restrictive enough to prevent rabbit holders of folders too difficult to navigate.
 
-The Johnny Decimal structure I defined improved my previous anarchic system, but started struggling soon for three reasons.
+Johnny Decimal improved my previous anarchic system, but struggled soon for three reasons:
 
-1. I regularly start new projects, which might often be experiments going nowhere but I want to do them anyway.
+1. I regularly start new projects, which are often experiments going nowhere.
 Having to fit these projects in a structure which didn't conceive their existence was adding unnecessary mental burden.
 
 1. There is not an obvious way to archive older files.
@@ -58,15 +58,18 @@ If I have a project in `10.01 Project A`, then it will stay there on top of my l
 There are [workarounds](https://johnnydecimal.com/concepts/exceptions-to-the-rules/), but they involve too much manual reorganization.
 
 1. In defining a Johnny Decimal structure there is an implicit choice about how prominent each thing should be.
-I realized afterwards that some of the choices didn't necessarily match how I wanted to use the folders in practice.
+As my priorities change, the structure no longer fits and must be almost completely rethought.
 
 I believe Johnny decimal shines most with teams working on processes with stable structures.
 For individuals probably other solutions are better most of the time.
 
+![](/assets/2023/luca-decimal/team.jpg)
+*Picture by [Marvin Meyer](https://unsplash.com/@marvelous?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/it/foto/SYTO3xs06fU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+
 ## The different philosophy of PARA
 
 I was able to identify my concerns after reading [*Building a Second Brain*](https://www.buildingasecondbrain.com/book) by Tiago Forte.
-Forte describes PARA (Projects, Areas, Resources, Archive), a system designed for not-taking, but can also be used for organizing files.
+Forte describes PARA (Projects, Areas, Resources, Archive), a system designed for not-taking, but which can also be used for organizing files.
 I like PARA because of its focus on distributing items based on their associated actions.
 
 > - Projects : Short - term efforts in your work or life that you’re working on now . 
@@ -81,17 +84,14 @@ A quote from the book clearly summarizes PARA's design difference from Jonny Dec
 
 PARA immediately fixed my issues with Johnny Decimal.
 
-1. It reduced the mental burden for adding anything new.
-I just need to determine if a new thing belongs to *projects*, *areas*, or *resources*, add a folder, and get started.
-Only when necessary, it can be tidied up later.
+1. The mental burden for adding anything new is mostly gone.
+I just need to determine if the new thing belongs to *projects*, *areas*, or *resources*, add a folder, and get started.
 
 1. Any completed activity can be thrown in *Archive* without bothering about it.
-If anything is necessary in the future, it can be easily with an automatic search.
 
 ## Merging PARA with Johnny Decimal
 
-Theoretically You could fit PARA within Johnny Decimal, but it would be very restrictive.
-Four categories can become quickly become tight, if everything mus be fitted in the just maximal four categories.
+PARA could be fitted within Johnny Decimal, but it would be very restrictive.
 Also, the archive folder would become unnecessarily cumbersome to manage, having to rethink the numbering every time something is archived.
 
 ```
@@ -118,12 +118,12 @@ Also, the archive folder would become unnecessarily cumbersome to manage, having
 ```
 
 What worked for me was restarting with PARA as the default framework, and merging just the valuable aspects for me from Johnny Decimal.
-I followed [Forte's suggestion](https://fortelabs.com/blog/para-setup-guide/) of throwing everything in an *Archive YYYY-MM-DD* to retrieve from only when needed.
+I followed [Forte's suggestion](https://fortelabs.com/blog/para-setup-guide/) of throwing everything in an *Archive YYYY-MM-DD*  folder to retrieve from only when needed.
 
 What I took from Johnny Decimal is defining indexes just for a few folders which I want to "pin" to the the top.
 The Indexes are up to 100 instead of 10.
 I will probably never need that many, but knowing that I could removes the mental burden of artificial boundaries.
-If necessary, the additional indexing `xyz.ab`can be used, but only when it makes sense.
+If necessary, the additional indexing `xyz.ab` can be used, but only when it makes sense.
 
 ```
 - 1 Projects
@@ -179,10 +179,10 @@ If necessary, the additional indexing `xyz.ab`can be used, but only when it make
 ## Conclusion
 
 If you read this far, you might be interested in a [full specification I wrote](https://github.com/lucafrance/luca-decimal) while thinking about the system.
-It is probably going to keep evolving over time and might not fit your workflow, but it might be a good starting point.
+It is probably going to keep evolving over time and might not fit your workflow, but still be a good starting point.
 
 ## Link
-- [Luca DEcimal Specification on GitHub](https://github.com/lucafrance/luca-decimal)
+- [Luca Decimal Specification on GitHub](https://github.com/lucafrance/luca-decimal)
 - [Johnny Decimal](https://johnnydecimal.com/)
-- [The P.A.R.A. Method blog serie](https://fortelabs.com/blog/series/para)
 - [*Building a Second Brain* book](https://www.buildingasecondbrain.com/book)
+- [The P.A.R.A. Method blog serie](https://fortelabs.com/blog/series/para)
