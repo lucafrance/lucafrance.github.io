@@ -11,7 +11,8 @@ After discovering [Johnny Decimal](https://johnnydecimal.com/) there were some i
 After reading [Second Brain](https://www.buildingasecondbrain.com/) by Tiango Forte something clicked in my (first) brain and I was finally able to find a system that works for me.
 Here is my thought process. 
 
-TODO immagine di libri su uno scaffale
+![](/assets/2023/luca-decimal/library.jpg)
+*Picture by[Gabriel Sollmann](https://unsplash.com/@ccgabon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/it/foto/Y7d265_7i08?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
 
 ## What I like and don't like about Johnny Decimal
 
