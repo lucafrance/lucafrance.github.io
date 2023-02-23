@@ -89,6 +89,9 @@ I just need to determine if the new thing belongs to *projects*, *areas*, or *re
 
 1. Any completed activity can be thrown in *Archive* without bothering about it.
 
+![](/assets/2023/luca-decimal/folders.jpg)
+*Picture by [Wesley Tingey](https://unsplash.com/@wesleyphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/it/foto/snNHKZ-mGfE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+
 ## Merging PARA with Johnny Decimal
 
 PARA could be fitted within Johnny Decimal, but it would be very restrictive.
