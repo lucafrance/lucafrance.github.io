@@ -7,3 +7,9 @@ layout: home
 I am an IT consultant based in Munich with experience in management and technical roles.
 The main value I can provide is a holistic understanding of the management, technical, and human side of your business.
 I speak German, English, and Italian fluently and have experience in both local and international settings.
+
+<!-- Credly Excel 2019 Expert -->
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d645a896-d129-4150-86b3-10bef7d4143c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<!-- Credly PSPO I -->
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3137ece2-15b9-4f41-ab8f-4bf1030f8eed" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
