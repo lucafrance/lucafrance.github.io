@@ -46,7 +46,7 @@ The best decision in Johnny Decimal is to use at most two levels of subfolders:
 - 10 *categories* per *area*,
 - up to 100 *unique things* per *category*.
 
-The 10 > 10 > 100 structure is flexible, while restrictive enough to prevent rabbit holders of folders too difficult to navigate.
+The 10 > 10 > 100 structure is flexible, while restrictive enough to prevent rabbit holes of folders too difficult to navigate.
 
 Johnny Decimal improved my previous anarchic system, but struggled soon for three reasons:
 
