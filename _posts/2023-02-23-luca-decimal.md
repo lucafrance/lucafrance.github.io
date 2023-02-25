@@ -184,7 +184,7 @@ If necessary, the additional indexing `xyz.ab` can be used, but only when it mak
 If you read this far, you might be interested in a [full specification I wrote](https://github.com/lucafrance/luca-decimal) while thinking about the system.
 It is probably going to keep evolving over time and might not fit your workflow, but still be a good starting point.
 
-## Link
+## Links
 - [Luca Decimal Specification on GitHub](https://github.com/lucafrance/luca-decimal)
 - [Johnny Decimal](https://johnnydecimal.com/)
 - [*Building a Second Brain* book](https://www.buildingasecondbrain.com/book)
