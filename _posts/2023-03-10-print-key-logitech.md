@@ -1,16 +1,16 @@
 ---
-title: How to enable the `Print Screen` key on a Logitech keyboard
+title: How to enable the <code>Print Screen</code> key on a Logitech keyboard
 tags: []
 ---
 
-My keyboard model is the [K650](https://support.logi.com/hc/en-us/articles/5124495316631-Getting-Started-SIGNATURE-K650).
-The *print* key does `Ctrt + P` instead of [`print screen`](https://en.wikipedia.org/wiki/Print_Screen).
+I recently got a [Logitech K650 keyboard](https://support.logi.com/hc/en-us/articles/5124495316631-Getting-Started-SIGNATURE-K650) which I mostly enjoy, except for the [`print screen`](https://en.wikipedia.org/wiki/Print_Screen) key being replaced by `Ctrt + P`.
+While this non-standard choice might make sense for most people, for me meant not being able to [take screenshots](https://getgreenshot.org/) any more.
+Here is how I avoided changing the shortcuts I have been using for years.
 
 Download [Logi Options+](https://support.logi.com/hc/it/articles/4418699283607) from the Logitech website.
-![](/assets/2023/print-logitech/01-click-on-keyboard.png)
 
-You can skip the tutorial.
-![](/assets/2023/print-logitech/02-skip-tutorial.png)
+Your keyboard should be shown automatically, click on it.
+![](/assets/2023/print-logitech/01-click-on-keyboard.png)
 
 Click on the `print` key.
 ![](/assets/2023/print-logitech/03-click-print-key.png)
