@@ -9,8 +9,12 @@ Here is how to do it with GitHub.
 
 ## Set up the GitHub repository
 
-Fork this [template repository in GitHub](https://github.com/lucafrance/obsidian-vault-template), which includes a ready to use `.gitignore` file.
-The `.gitignore` is set up to ignore the whole `.obsidian` folder and only include explicitly mentioned configuration files.
+Create a new repository and set the visibility to private, unless you plan on sharing your obsidian vault with the internet.
+
+![](/assets/2023/obsidian-git/new-repo-private.png)
+
+Commit a `.gitignore` file with the following lines.
+The `.gitignore` is set up to ignore the whole `.obsidian` folder by default and only include explicitly mentioned configuration files.
 
 ```
 .obsidian/*
@@ -23,11 +27,11 @@ The `.gitignore` is set up to ignore the whole `.obsidian` folder and only inclu
 !.obsidian/hotkeys.json
 ```
 
-Set the repository visibility to private, unless you plan on sharing your obsidian vault with the internet.
-You can also rename the repository before cloning it.
+![](/assets/2023/obsidian-git/add-gitignore.png)
 
 ## Set up the Obsidian vault 
 
+Clone the repository you just created.
 If you want to use an existing vault, move all files to the cloned repository (including the `.obsidian` directory), then open the vault in the new folder with Obsidian[^copygit].
 If not, start a new vault in the folder of the repository.
 
@@ -59,5 +63,9 @@ I also recommend disabling the notifications.
 Done! Your obsidian vault is now backed up to GitHub at regular intervals.
 
 ![](/assets/2023/obsidian-git/github-my-vault.png)
+
+
+*This article has been updated since the first publication.*
+*Thank you [BrandonTheTinkerer](https://medium.com/@brandonthetinkerer) for [the suggestion](https://medium.com/p/d739a6944583).*
 
 [^copygit]: You can copy the `.git` folder to the vault instead of the other way around.
