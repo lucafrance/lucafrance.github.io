@@ -14,5 +14,8 @@ I speak German, English, and Italian fluently and have experience in both local 
 <!-- Credly Azure Fundamentals Expert -->
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b2e7fca0-aeb9-4521-b8e8-4a74d05fe252" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
+<!-- Credly AWS Certified Cloud Practitioner -->
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8bb5949f-1493-4e62-9e2f-44a0a9bc4338" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
 <!-- Credly PSPO I -->
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3137ece2-15b9-4f41-ab8f-4bf1030f8eed" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
