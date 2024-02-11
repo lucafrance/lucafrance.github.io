@@ -19,3 +19,6 @@ I speak German, English, and Italian fluently and have experience in both local 
 
 <!-- Credly PSPO I -->
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3137ece2-15b9-4f41-ab8f-4bf1030f8eed" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<!-- Credly PSPO II-->
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0c643fef-cc27-4091-8b50-11e63629e1df" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
