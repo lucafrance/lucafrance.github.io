@@ -4,8 +4,7 @@ tags: [Jekyll]
 ---
 
 This website is created with [Jekyll](https://jekyllrb.com/) and I recently [added Google Analytics](https://github.com/lucafrance/lucafrance.github.io/commit/86d1a3f8a4573febc7b2d6f29ddaf2c76230520d), which uses cookies which require the consent of the visitor in the European Union.
-I added a consent banner only afterwards, so I might have broken the law for a couple of weeks.
-While I wait for the *[Bundesnachrichtendienst](https://www.bnd.bund.de/EN)* to get me, here is a guide on how to add a cookie banner to your website.
+Here is a guide on how to add a cookie banner to your website.
 
 ## Pick a service
 
