@@ -8,8 +8,6 @@ title: ✉️ Contact
 
 [![](/assets/2022/contact_icons/freelancermap.png){: width="15" } freelancermap](https://www.freelancermap.de/freelancer-verzeichnis/profile/entwicklung/401764-profil-luca-franceschini-it-consultant-aus-muenchen.html)
 
-[![](/assets/2022/contact_icons/gulp.png){: width="15" } GULP](https://www.gulp.de/gulp2/g/spezialisten/profil/lucaf)
-
 [![](/assets/2022/contact_icons/linkedin.png){: width="15" } LinkedIn](https://www.linkedin.com/in/lucaf-munich)
 
 ## Portfolio 
