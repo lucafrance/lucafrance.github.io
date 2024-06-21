@@ -7,7 +7,7 @@ I recently got a [Logitech K650 keyboard](https://support.logi.com/hc/en-us/arti
 While this non-standard choice might make sense for most people, for me meant not being able to [take screenshots](https://getgreenshot.org/) any more.
 Here is how I avoided changing the shortcuts I have been using for years.
 
-Download and install [Logi Options+](https://support.logi.com/hc/it/articles/4418699283607).
+Download and install [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html). 
 Your keyboard should be shown automatically, click on it.
 ![](/assets/2023/print-logitech/01-click-on-keyboard.png)
 
