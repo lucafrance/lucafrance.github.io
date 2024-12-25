@@ -12,6 +12,7 @@ Additionally, I possess advanced technical skills in developing complex solution
 [![Professional Scrum Product Owner I (PSPO II)](assets/2024/logos-certs/professional-scrum-product-owner-i-pspo-i.png){: width="80"}](https://www.credly.com/badges/3137ece2-15b9-4f41-ab8f-4bf1030f8eed/public_url)
 [![Professional Scrum Product Owner II (PSPO II)](assets/2024/logos-certs/professional-scrum-product-owner-ii-pspo-ii.png){: width="80"}](https://www.credly.com/badges/0c643fef-cc27-4091-8b50-11e63629e1df/public_url)
 [![Scaled Professional Scrum (SPS)](assets/2024/logos-certs/scaled-professional-scrum-sps.png){: width="80"}](https://www.credly.com/badges/0236fce4-c6c0-4518-aba4-ace0f3721ea6/public_url)
+[![Professional Scrum with Kanban](assets/2024/logos-certs/professional-scrum-with-kanban-i-psk-i.png){: width="80"}](https://www.credly.com/badges/f34e69fd-2714-40e1-8611-5ccdfd869a79/public_url)
 
 <!-- Cloud certifications -->
 [![Microsoft Certified: Azure Fundamentals](assets/2024/logos-certs/microsoft-certified-azure-fundamentals.png){: width="80"}](https://www.credly.com/badges/b2e7fca0-aeb9-4521-b8e8-4a74d05fe252/public_url)
