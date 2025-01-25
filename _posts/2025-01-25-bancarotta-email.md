@@ -1,12 +1,13 @@
 ---
 title:  Come liberarsi delle email senza dichiarare la bancarotta 📧📉
 tags: []
+excerpt: "Avere troppe email non è un problema nuovo. Già nel 2002 c'era chi fantasticava di annunciare semplicemente la bancarotta, ovvero mandare la stessa risposta automatica a migliaia di email."
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EHGhj7VUbJY?si=w6eNu0UVi0R7PYlf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Avere troppe email non è un problema nuovo. 
 Già nel 2002 c'era chi fantasticava di annunciare semplicemente la bancarotta[^wired-dead-email], ovvero mandare la stessa risposta automatica a migliaia di email.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EHGhj7VUbJY?si=w6eNu0UVi0R7PYlf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 > Grazie del messaggio.
 > Purtroppo le mie email non lette sono diventate troppe da processare e molte di loro ormai saranno obsolete.
@@ -39,3 +40,5 @@ Se e quando ti sentirai pronta di processare la zona, potrai farlo con calma e s
 Dubito che tale giorno arriverà, ma solo tu puoi decidere quale è il processo giusto per te.
 Non ti giudicherò qualsiasi soluzione tu decida di usare.
 Solo tu puoi decidere come essere libera dalle email, e sarò felice per te qualunque sia la tua soluzione.
+
+## Note
