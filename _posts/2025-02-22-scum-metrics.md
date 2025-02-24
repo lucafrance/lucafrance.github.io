@@ -12,7 +12,7 @@ In reality Scrum doesn't mandate any specific metric; the Scrum Team is free to 
 [^metric-conversion]: I also often see implicit conversions, like *1 person day = 1 story point*, which defeats the purpose of the metric.
 
 ![](/assets/2025/scrum-metrics/intro-picture.jpg)
-*[TEKA0142732 - Swedish National Museum of Science and Technology](https://digitaltmuseum.se/021016318721/skioptikonbild-fran-institutionen-for-fotografi-vid-kungliga-tekniska-hogskolan)*
+*[TEKA0142851 - Swedish National Museum of Science and Technology](https://www.europeana.eu/en/item/916118/S_TEK_photo_TEKA0142851)*
 
 ## Empiricism
 Scrum is founded on empiricism, which "asserts that knowledge comes from experience and making decisions based on what is observed"[^scrum-guide].
@@ -39,7 +39,7 @@ Other measures can be traditional ones, like person days, or Agile ones, like st
 
 
 | **Burn-down Chart** Amount of work remaining in the backlog over time[^burn-down-chart-definition]. | ![](/assets/2025/scrum-metrics/burn-down-chart.jpg) |
-| **Burn-up Chart** Amount of Work which has been completed over time[^burn-up-chart-definition].     | ![](/assets/2025/scrum-metrics/burn-up-chart.jpg)   |
+| **Burn-up Chart** Amount of work which has been completed over time[^burn-up-chart-definition].     | ![](/assets/2025/scrum-metrics/burn-up-chart.jpg)   |
 | **Cumulative Flow Diagram** Number of features in different states over time[^cfd-definition].      | ![](/assets/2025/scrum-metrics/cfd-diagram.jpg)     |
 
 [^burn-down-chart-definition]: "**Burn-down Chart:** a chart which shows the amount of work which is thought to remain in a backlog. Time is shown on the horizontal axis and work remaining on the vertical axis. As time progresses and items are drawn from the backlog and completed, a plot line showing work remaining may be expected to fall. The amount of work may be assessed in any of several ways such as user story points or task hours. Work remaining in Sprint Backlogs and Product Backlogs may be communicated by means of a burn-down chart. See also: Burnup Chart"[^scrum-glossary]
