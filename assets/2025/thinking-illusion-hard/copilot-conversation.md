@@ -1,5 +1,3 @@
-## Prompt 🧑
-
 Write a python script to generate a solution for a given number of n disks for this puzzle.
 There are three pegs and n disks of different sizes stacked on the first peg. The disks are numbered from *1* (smallest) to *n* (largest). Disk moves in this puzzle should follow:
 1. Only one disk can be moved at a time.
