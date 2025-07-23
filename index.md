@@ -22,6 +22,4 @@ I am also the creator of [scrum.wiki](https://scrum.wiki), a comprehensive onlin
 
 <!-- Microsoft Office certifications -->
 [![Microsoft Office Specialist: Microsoft Excel Expert (Office 2019)](assets/2025/logos-certs/microsoft-office-specialist-microsoft-excel-expert-office-2019.png){: width="80"}](https://www.credly.com/badges/d645a896-d129-4150-86b3-10bef7d4143c/public_url)
-[![Microsoft Office Specialist: Word Expert (Microsoft 365 Apps)](assets/2025/logos-certs/microsoft-office-specialist-word-expert-microsoft-365-apps.png){: width="80"}](https://www.credly.com/badges/e113d9ae-b2e2-4ff8-88b5-4a74e49c410a/public_url)
-[![Microsoft Office Specialist: PowerPoint Associate (Microsoft 365 Apps)](assets/2025/logos-certs/microsoft-office-specialist-powerpoint-associate-microsoft-365-apps.png){: width="80"}](https://www.credly.com/badges/3d43b818-bb8a-46e0-bc7b-386fcee8ffcd/public_url)
 [![Microsoft Office Specialist: Expert (Microsoft 365 Apps)](assets/2025/logos-certs/microsoft-office-specialist-expert-microsoft-365-apps.png){: width="80"}](https://www.credly.com/badges/d3010017-2a96-4392-82ec-7779ca3f24d4/public_url)
