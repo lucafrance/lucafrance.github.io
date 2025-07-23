@@ -6,7 +6,8 @@ layout: home
 
 As an experienced IT consultant specializing in Agile project management, I have a strong background in the (re-)insurance and automotive sectors.
 My experience spans international environments, where I have successfully led projects, optimized processes, and implemented automation to enhance efficiency.
-Additionally, I possess advanced technical skills in developing complex solutions, particularly in Excel, SQL, VBA.
+
+I am also the creator of [scrum.wiki](https://scrum.wiki), a comprehensive online resource dedicated to the Scrum framework; and [luca-decimal](https://github.com/lucafrance/luca-decimal), a knowledge management system.
 
 <!-- Scrum.org certifications -->
 [![Professional Scrum Product Owner I (PSPO II)](assets/2025/logos-certs/professional-scrum-product-owner-i-pspo-i.png){: width="80"}](https://www.credly.com/badges/3137ece2-15b9-4f41-ab8f-4bf1030f8eed/public_url)
