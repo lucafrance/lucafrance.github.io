@@ -1,4 +1,4 @@
-# Prompt 🧑
+## Prompt 🧑
 
 Write a python script to generate a solution for a given number of n disks for this puzzle.
 There are three pegs and n disks of different sizes stacked on the first peg. The disks are numbered from *1* (smallest) to *n* (largest). Disk moves in this puzzle should follow:
@@ -17,7 +17,7 @@ This means: Move disk 1 from peg 0 to peg 2, then move disk 2 from peg 0 to peg 
 - Ensure your final answer includes the complete list of moves in the format:
 - `moves = [[disk id, from peg, to peg], ...]`
 
-# Answer 🤖
+## Answer 🤖
 
 Here’s a Python script to solve the Tower of Hanoi puzzle for any number of disks, generating the full list of moves as requested:
 
