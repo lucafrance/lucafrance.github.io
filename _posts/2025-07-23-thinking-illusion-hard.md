@@ -62,6 +62,6 @@ Imagine an AI-assistant that:
 - spends some compute to optimize its own implementation,
 - executes it on the most efficient hardware possible.
 
-I remain curious about future developments and how relevant these kind of limitations might be in the future.
+I remain curious about how relevant these kind of limitations might be in the future.
 
 ## Footnotes
