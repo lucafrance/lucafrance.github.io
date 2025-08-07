@@ -1,6 +1,6 @@
 ---
 title: Thinking is an illusion; and hard 🧠
-tags: []
+tags: [AI]
 ---
 
 TL,DR: AI is smart in many ways and dumb in others (for now).
