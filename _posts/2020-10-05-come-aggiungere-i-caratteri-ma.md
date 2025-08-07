@@ -1,6 +1,5 @@
 ---
 title: Come aggiungere i caratteri mancanti dalla tastiera italiana su Windows 10 (~\`È)
-canonicalurl: https://medium.com/@lucafrance/come-aggiungere-i-caratteri-mancanti-alla-tastiera-italiana-su-windows-10-%C3%A8-con-microsoft-d9af37bfe4df
 tags: []
 ---
 

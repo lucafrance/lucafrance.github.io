@@ -1,6 +1,5 @@
 ---
 title: How to download your entire GOG-library with LGOGDownloader
-canonicalurl: https://medium.com/@lucafrance/how-to-the-download-your-entire-gog-library-with-lgogdownloader-a0232de2b7df
 tags: []
 ---
 

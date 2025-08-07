@@ -1,6 +1,5 @@
 ---
 title: How to cross-post your Medium stories to Jekyll with Python
-canonicalurl: https://medium.com/@lucafrance/how-to-cross-post-your-medium-stories-to-jekyll-with-python-47a5eda4e47a
 tags: [Python, Jekyll]
 ---
 
