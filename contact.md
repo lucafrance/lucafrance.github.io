@@ -8,6 +8,8 @@ title: ✉️ Contact
 
 [![](/assets/2022/contact_icons/linkedin.png){: width="15" } LinkedIn](https://www.linkedin.com/in/lucaf-munich)
 
+[📅 Meet me](https://calendly.com/lucafeu/30min)
+
 ## Portfolio 
 [![](/assets/2022/contact_icons/github.png){: width="15" } GitHub](https://github.com/lucafrance)
 
