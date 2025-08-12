@@ -1,5 +1,5 @@
 ---
-title: How to enable the <code>Print Screen</code> key on a Logitech keyboard
+title: How to enable the Print Screen key on a Logitech keyboard
 tags: []
 ---
 
