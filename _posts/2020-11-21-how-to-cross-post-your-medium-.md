@@ -41,18 +41,23 @@ Duplicate posting can confuse search engines and penalize your content. To preve
 
 
 ```
+{% raw %}
 {% if page.canonicalurl %}
 <link rel="canonical" href="{{ page.canonicalurl }}">
 {% endif %}
+{% endraw %}
 ```
 I also added a link to the posts’ layout to make the reference visible on the page.
 
 
 ```
+{% raw %}
 {% if page.canonicalurl %}
 <p> This article was originally posted here: <a href="{{ page.canonicalurl }}" target="\_blank"> {{ page.canonicalurl }}</a></p>
 {% endif %}
+{% endraw %}
 ```
+
 #### Publication
 
 After releasing your changes ([in my case to GitHub](https://github.com/lucafrance/lucafrance.github.io)) your stories will be available both on medium and on your Jekyll website.
@@ -64,4 +69,3 @@ Running the command again will update the Jekyll site with new and edited storie
 #### Copyright
 
 While you can download stories for any username, you shouldn’t repost other authors’ content. [Medium’s terms of service](https://policy.medium.com/medium-terms-of-service-9db0094a1e0f) let you retain the rights to your content, but you don’t get to reuse what you don’t own.
-
