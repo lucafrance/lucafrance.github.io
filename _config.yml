@@ -2,10 +2,10 @@
 # ------------------
 #
 title: Luca Franceschini
-#
-author:
-#   name: GitHub User
-  email: lucaf@lucaf.eu
+# #
+# author:
+#   name: Luca Franceschini
+#   email: lucaf@lucaf.eu
 #
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
@@ -79,12 +79,18 @@ minima:
 #       * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
 #       * url      Full URL of social profile.
   social_links:
-    - title: Minima Theme repository at GitHub
+    - title: Email
+      icon: envelope
+      url: "mailto: lucaf@lucaf.eu"
+    - title: Set up a meeting
+      icon: calendar
+      url: "https://calendly.com/lucafeu/30min"
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/lucaf-munich"
+    - title: GitHub
       icon: github
-      url: "https://github.com/jekyll/minima"
-#     - title: Jekyll at X (formerly Twitter)
-#       icon: x-twitter
-#       url: "https://x.com/jekyllrb"
+      url: "https://github.com/lucafrance"
 #
 #   Hide syndication feed subscription link.
 #     RSS / Atom feed link is always rendered as the last item of social-links
