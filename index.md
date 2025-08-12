@@ -13,7 +13,7 @@ I can help you manage your IT projects, develop IT products, and run teams effic
 ## How I work 🖊️
 
 My approach is centred around people, the most complex part of IT.
-I focus on understanding the motivations of each individual and hot the create value.
+I focus on understanding the motivations of each individual and how the create value.
 I aim to be honest, direct, and respectful with everyone.
 Establishing processes that align with the company culture is crucial, as technology choices become secondary once these processes are in place.
 
@@ -21,11 +21,11 @@ Thanks to my background in mathematics, I am analytical and detail-oriented. I c
 
 ## Experience 💼
 
-I have 10+ experience in IT transformation projects, including introducing Agile practices, change management, process analysis and optimization, and test management. My customers include large international organizations in Insurance and Automotive
+I have 10+ experience in IT transformation projects, including introducing Agile practices, change management, process optimization, and test management. My customers include large international organizations in Insurance and Automotive
 
-When I don't generate value to my customers, contributing on [GitHub](https://github.com/lucafrance) or writing on my [blog](https://lucaf.eu/blog) about [project management](https://lucaf.eu/tags.html#Project%20Management) and [AI](https://lucaf.eu/tags.html#AI).
+When I am not generating value for my customers, I enjoy contributing on [GitHub](https://github.com/lucafrance) or writing on my [blog](https://lucaf.eu/blog) about [project management](https://lucaf.eu/tags.html#Project%20Management) and [AI](https://lucaf.eu/tags.html#AI).
 
-I also like to learn and [write](https://lucaf.eu/tags.html#Scrum) about Scrum, which is a great framework to follow in its entirety or just used as an inspiration. 
+I also like to learn and [write](https://lucaf.eu/tags.html#Scrum) about Scrum, which is a great framework whether followed in its entirety or just used as an inspiration. 
 This is why I created [Scrum.wiki](https://scrum.wiki) to promote and share its [values](https://scrum.wiki/Scrum%20Values).
 
 ## Certified Scrum.org Professional | PRINCE2 Foundation 📜
