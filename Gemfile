@@ -2,9 +2,9 @@ source "https://rubygems.org"
 
 gem "jekyll"
 
-gem "kramdown-parser-gfm"
-gem "minima", github: "jekyll/minima", ref: "e7b6705"
+# gem "kramdown-parser-gfm"
+gem "minima", github: "jekyll/minima", ref: "c6e74bb"
 
-gem "webrick"
+# gem "webrick"
 
-gem "kramdown"
+# gem "kramdown"
