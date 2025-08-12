@@ -1,5 +1,5 @@
 ---
-title: How I mixed <i>Johnny Decimal</i> and <i>Second Brain</i> to organize my documents 
+title: How I mixed Johnny Decimal and Second Brain to organize my documents
 tags: []
 ---
 
