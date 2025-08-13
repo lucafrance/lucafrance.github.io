@@ -8,14 +8,14 @@ layout: home
 ## IT Consultant | creator of Scrum.wiki
 
 I am an IT Consultant specialized in Agile software development.
-I can help you manage your IT projects, develop IT products, and run teams efficiently using Agile methodologies.
+I can help you manage your IT projects, develop IT products, and run teams efficiently with Agile methodologies.
 
 ## How I work 🖊️
 
 My approach is centred around people, the most complex part of IT.
 I focus on understanding the motivations of each individual and how the create value.
 I aim to be honest, direct, and respectful with everyone.
-Establishing processes that align with the company culture is crucial, as technology choices become secondary once these processes are in place.
+Establishing processes that align with the company culture is crucial, as technology choices become much easier once these processes are in place.
 
 Thanks to my background in mathematics, I am analytical and detail-oriented. I can filter out what is unnecessary and understand all relevant information thoroughly. This allows me to gain a deep understanding of both the managerial and technical aspects of the organization.
 
@@ -28,7 +28,7 @@ When I am not generating value for my customers, I enjoy contributing on [GitHub
 I also like to learn and [write](https://lucaf.eu/tags.html#Scrum) about Scrum, which is a great framework whether followed in its entirety or just used as an inspiration. 
 This is why I created [Scrum.wiki](https://scrum.wiki) to promote and share its [values](https://scrum.wiki/Scrum%20Values).
 
-## Certified Scrum.org Professional | PRINCE2 Foundation 📜
+## Certified Scrum.org Professional | PRINCE2 Foundation 🏅
 
 [![Professional Scrum Product Owner I (PSPO II)](assets/2025/logos-certs/professional-scrum-product-owner-i-pspo-i.png){: width="85"}](https://www.credly.com/badges/3137ece2-15b9-4f41-ab8f-4bf1030f8eed/public_url)
 [![Professional Scrum Product Owner II (PSPO II)](assets/2025/logos-certs/professional-scrum-product-owner-ii-pspo-ii.png){: width="85"}](https://www.credly.com/badges/0c643fef-cc27-4091-8b50-11e63629e1df/public_url)
