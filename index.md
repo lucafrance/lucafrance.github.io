@@ -21,7 +21,7 @@ Thanks to my background in mathematics, I am analytical and detail-oriented. I c
 
 ## Experience 💼
 
-I have 10+ experience in IT transformation projects, including introducing Agile practices, change management, process optimization, and test management. My customers include large international organizations in Insurance and Automotive
+I have 10+ experience in IT transformation projects, including introducing Agile practices, change management, process optimization, and test management. My customers include large international organizations in Insurance and Automotive.
 
 When I am not generating value for my customers, I enjoy contributing on [GitHub](https://github.com/lucafrance) or writing on my [blog](https://lucaf.eu/blog) about [project management](https://lucaf.eu/tags.html#Project%20Management) and [AI](https://lucaf.eu/tags.html#AI).
 
