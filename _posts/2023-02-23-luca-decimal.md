@@ -79,7 +79,7 @@ I like PARA because of its focus on distributing items based on their associated
 
 Source: *[Forte Labs blog](https://fortelabs.com/blog/p-a-r-a-ii-operations-manual/)*
 
-A quote from the book clearly summarizes PARA's design difference from Jonny Decimal:
+A quote from the book clearly summarizes PARA's design difference from Johnny Decimal:
 > PARA isn’t a filing system; it’s a production system .
 
 PARA immediately fixed my issues with Johnny Decimal.
