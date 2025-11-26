@@ -78,9 +78,9 @@ E.g. for $$N = 6$$ there are $$32$$ different ways to arrange the ranks. Notice 
 | 4 | 11 | 1, 3 | 2, 4, 5 |
 | 3 | 12 | 3 | 1, 2, 4, 5 |
 | 3 | 12 | 1, 2 | 3, 4, 5 |
-| 13 | 2 | 2 | 1, 3, 4, 5 |
-| 14 | 1 | 1 | 2, 3, 4, 5 |
-| 15 | 0 | - | 1, 2, 3, 4, 5 |
+| 2 | 13 | 2 | 1, 3, 4, 5 |
+| 1 | 14 | 1 | 2, 3, 4, 5 |
+| 0 | 15 | - | 1, 2, 3, 4, 5 |
 
 One consequence of the null hypothesis is that for each rank $$r_i$$ there is an equal probability for the corresponding difference $$d_i$$ to be positive or negative (it follows from $$\mathbf{E}[X-Y] = 0$$). Therefore, we will expect similar values for $$W+$$ and $$W-$$ to be more likely. In the example above for $$N = 5$$ we expect $$6 <= W+, W- <= 9$$ to be more likely than the other values.
 
