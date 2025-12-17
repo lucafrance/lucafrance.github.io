@@ -3,6 +3,8 @@ title: Get the bugs you'll never fix out of your backlog 🐛
 tags: [Project Management, Scrum]
 ---
 
+Titolo: How to properly turn bugs into features
+
 Though about this after seeing this LinkedIn post: https://www.linkedin.com/feed/update/urn:li:activity:7389645418118217728
 
 It happens that bugs which are not intended to be fixed are kept in the backlog.
