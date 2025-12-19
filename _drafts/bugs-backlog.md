@@ -1,38 +1,53 @@
 ---
-title: Get the bugs you'll never fix out of your backlog 🐛
+title: How to properly turn bugs into features 🐛
 tags: [Project Management, Scrum]
 ---
 
-Titolo: How to properly turn bugs into features
+Bugs which won't be fixed shouldn't be kept in the backlog.
 
-Though about this after seeing this LinkedIn post: https://www.linkedin.com/feed/update/urn:li:activity:7389645418118217728
+There are legitimate reasons to never fix a bug.
+Maybe the bug impact is not worth the fix complexity.
+Maybe there is not enough budget left.
+Whatever the reason, sometimes the bug item is kept open as documentation that the issue is known and won't be fixed.
+I disagree with this approach.
 
-It happens that bugs which are not intended to be fixed are kept in the backlog.
-This can be the case if there is not important enough and there is no budget to fix them, to keep the reference.
-Or if it was decided not to fix them, because the fix will add to much complexity.
+[Product backlogs](https://scrum.wiki/Product%20Backlog) are not meant to include all product information, just "what is needed to improve the product"[^scrum-guide-2020].
+You don't always need to modify the product to improve it.
+When you decide not to fix a bug, you generated an instrumental piece information: you are more valuable to the customer by working on anything else.
+The bug item has fulfilled its purpose and no longer belongs to the backlog.
 
-Stuff in the Backlog is about generating value for a customer.
-Deciding what not to do is functional the value to the customer, because it allows to focus on what generate value to the customer.
-Completing a backlog item does not mean you must edit the codebase, it just mean you did a decision towards the customer value.
-That decision can be to do nothing.
+[^scrum-guide-2020]: [Scrum Guide, Product Backlog (2020)](https://scrumguides.org/scrum-guide.html#product-backlog)
 
-What you should do is have a specification separate from the backlog.
-Back in 2000 Joel Spolsky recommended always writing a specification: https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/
+> Fixing bugs is only important when the value of having the bug fixed exceeds the cost of the fixing it.
+> *[Joel Spolsky - Hard-assed Bug Fixin’](https://www.joelonsoftware.com/2001/07/31/hard-assed-bug-fixin)*
+
+You should add the bug behaviour to the product specification and link the corresponding backlog item.
+The bug has turned into a feature and is now expected behaviour, add a comment with your reasoning and close the item.
+
+The team might be reluctant to update the specification this way, as it could feel as admitting that the product is defective.
+I disagree; the specification provides [transparency](https://scrum.wiki/Scrum%20theory#Scrum+pillars).
+The customer and other stakeholders deserve to know what you expect from the product and why.
+To ease the communication you can label the bug behaviour as "known limitation", but you should not hide it.
 
 > Writing specs is like flossing: everybody agrees that it’s a good thing, but nobody does it.
+> *[Joel Spolsky - The Joel Test: 12 Steps to Better Code](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code)*
 
-You write in the specification you write that the bug is now expected behaviour.
-Write what was the reasoning not to fix it.
-Then close the bug and remove it from the backlog with a comment pointing to the specification.
+Circumstances might change and you might decide to fix the bug in the future.
+That can be because the priorities of the customer changed, or maybe the architecture was updated and is now an easy fix.
+In such cases, open a new bug item, link the old one, and document decision.
+You can than update the specification accordingly.
+You should not keep an bug item open just because you hope to fix it someday, you will just clutter the backlog.
 
-If priorities change in the future, you can decide to fix the bug.
-If so, create a new product backlog item linked to the original bug and mention what changed.
-When the new item is implemented, you update the specification accordingly.
+## Instructions
 
-## In Scrum
+When you decide not to fix a bug:
+- Comment in the bug ticket why it won't be fixed, e.g.:
+- Document the bug as expected behaviour in the specification. Include a link to the ticket
+- Close the the ticket.
 
-Your DoD can include a point: a bug is done if:
-- a fix is implemented,
-- OR a decision not to fix it is documented in the specification.
-
-This highlights the importance of the product goal, to help decide whether fixing the bug is functional to the customer value or not.
+If you change your mind and decide to fix the bug.
+- Create a new bug ticket.
+- Link the new ticket to the old ticket.
+- Comment why the decision has changed.
+- Update the specification according to the new expected behaviour.
+- Continue with your standard bug fixing process.
