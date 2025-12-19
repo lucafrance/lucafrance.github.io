@@ -11,10 +11,10 @@ Or there might not be enough budget.
 Whatever the reason, sometimes the bug is left to show that the issue is known but won't be addressed.
 I disagree with this approach.
 
-[Product backlogs](https://scrum.wiki/Product%20Backlog) are not meant to include all product information, just "what is needed to improve the product"[^scrum-guide-2020].
-You don't always need to modify the product to improve it.
-When you decide not to fix a bug, you generated an instrumental piece information: you are more valuable to the customer by working on anything else.
-The bug item has fulfilled its purpose and no longer belongs to the backlog.
+[Product backlogs](https://scrum.wiki/Product%20Backlog) are not meant to include all product information, only "what is needed to improve the product"[^scrum-guide-2020].
+You don't always need to change the product to improve it.
+When you decide not to fix a bug, you create useful information: working on other things is more valuable for the customer.
+The bug item has done its job and no longer belongs in the backlog.
 
 [^scrum-guide-2020]: [Scrum Guide, Product Backlog (2020)](https://scrumguides.org/scrum-guide.html#product-backlog)
 
