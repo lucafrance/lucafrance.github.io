@@ -22,7 +22,7 @@ The bug item has fulfilled its purpose and no longer belongs to the backlog.
 > *[Joel Spolsky - Hard-assed Bug Fixin’](https://www.joelonsoftware.com/2001/07/31/hard-assed-bug-fixin)*
 
 {:refdef: style="text-align: center;"}
-![Caterpillar of Pseudosphinx tetrio in Guadeloupe](/assets/2025/bug-feature/chenille-guadeloupe.jpg){: width="70%" }<br>
+![Caterpillar of Pseudosphinx tetrio in Guadeloupe](/assets/2025/bug-feature/chenille-guadeloupe1.jpg){: width="70%" }<br>
 *Caterpillar of Pseudosphinx tetrio in Guadeloupe, from [Wikimedia](https://commons.wikimedia.org/wiki/File:Chenille_Guadeloupe_3.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) by [KoS](https://commons.wikimedia.org/wiki/User:KoS)*
 {: refdef}
 
@@ -37,6 +37,11 @@ To ease the communication you can label the bug behaviour as "known limitation",
 > Writing specs is like flossing: everybody agrees that it’s a good thing, but nobody does it.
 > *[Joel Spolsky - The Joel Test: 12 Steps to Better Code](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code)*
 
+{:refdef: style="text-align: center;"}
+![Caterpillar of Pseudosphinx tetrio in Guadeloupe](/assets/2025/bug-feature/chenille-guadeloupe2.jpg){: width="70%" }<br>
+*Caterpillar of Pseudosphinx tetrio in Guadeloupe, from [Wikimedia](chenille-guadeloupe1), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) by [KoS](https://commons.wikimedia.org/wiki/User:KoS)*
+{: refdef}
+
 Circumstances might change and you might decide to fix the bug in the future.
 That can be because the priorities of the customer changed, or maybe the architecture was updated and is now an easy fix.
 In such cases, open a new bug item, link the old one, and document decision.
@@ -46,7 +51,7 @@ You should not keep an bug item open just because you hope to fix it someday, yo
 ## Summary
 
 When you decide not to fix a bug:
-- Comment in the bug ticket why it won't be fixed, e.g.:
+- Comment in the bug ticket why it won't be fixed.
 - Document the bug as expected behaviour in the specification. Include a link to the ticket
 - Close the the ticket.
 
