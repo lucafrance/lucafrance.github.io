@@ -42,22 +42,22 @@ To make communication easier, you can call the bug behaviour a "known limitation
 *Caterpillar of Pseudosphinx tetrio in Guadeloupe, from [Wikimedia](chenille-guadeloupe1), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) by [KoS](https://commons.wikimedia.org/wiki/User:KoS)*
 {: refdef}
 
-Circumstances might change and you might decide to fix the bug in the future.
-That can be because the priorities of the customer changed, or maybe the architecture was updated and is now an easy fix.
-In such cases, open a new bug item, link the old one, and document decision.
-You can than update the specification accordingly.
-You should not keep an bug item open just because you hope to fix it someday, you will just clutter the backlog.
+Situations can change, and you might choose to fix the bug later.
+This could happen if the customer's priorities shift, or if the system design is updated, making the fix simple.
+In these cases, create a new bug item, link it to the old one, and explain the decision.
+Then, update the specification as needed.
+Don't leave a bug item open just because you hope to fix it someday; it will only be clutter in the backlog.
 
 ## Summary
 
 When you decide not to fix a bug:
-- Comment in the bug ticket why it won't be fixed.
-- Document the bug as expected behaviour in the specification. Include a link to the ticket
-- Close the the ticket.
+- Add a comment in the bug ticket explaining why it won't be fixed.
+- Record the bug as expected behaviour in the specification and include a link to the ticket.
+- Close the ticket.
 
-If you change your mind and decide to fix the bug.
+If you later decide to fix the bug:
 - Create a new bug ticket.
-- Link the new ticket to the old ticket.
-- Comment why the decision has changed.
-- Update the specification according to the new expected behaviour.
-- Continue with your standard bug fixing process.
+- Link the new ticket to the old one.
+- Add a comment explaining why the decision changed.
+- Update the specification to match the new expected behaviour.
+- Follow your usual process for fixing bugs.
