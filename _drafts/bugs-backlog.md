@@ -18,7 +18,7 @@ The bug item has done its job and no longer belongs in the backlog.
 
 [^scrum-guide-2020]: [Scrum Guide, Product Backlog (2020)](https://scrumguides.org/scrum-guide.html#product-backlog)
 
-> Fixing bugs is only important when the value of having the bug fixed exceeds the cost of the fixing it.
+> Fixing bugs is only important when the value of having the bug fixed exceeds the cost of the fixing it.<br>
 > *[Joel Spolsky - Hard-assed Bug Fixin’](https://www.joelonsoftware.com/2001/07/31/hard-assed-bug-fixin)*
 
 {:refdef: style="text-align: center;"}
@@ -26,15 +26,15 @@ The bug item has done its job and no longer belongs in the backlog.
 *Caterpillar of Pseudosphinx tetrio in Guadeloupe, from [Wikimedia](https://commons.wikimedia.org/wiki/File:Chenille_Guadeloupe_3.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) by [KoS](https://commons.wikimedia.org/wiki/User:KoS)*
 {: refdef}
 
-You should add the bug behaviour to the product specification and link the corresponding backlog item.
-The bug has turned into a feature and is now expected behaviour, add a comment with your reasoning and close the item.
+You should add the bug's behavior to the product specification and link it to the relevant backlog item.
+Since the bug has become a feature and is now expected behavior, add a comment explaining your reasoning and close the item.
 
-The team might be reluctant to update the specification this way, as it could feel as admitting that the product is defective.
-I disagree; the specification provides [transparency](https://scrum.wiki/Scrum%20theory#Scrum+pillars).
-The customer and other stakeholders deserve to know what you expect from the product and why.
-To ease the communication you can label the bug behaviour as "known limitation", but you should not hide it.
+The team might hesitate to update the specification like this, as it could seem like admitting the product has defects.
+I disagree; the specification ensures [transparency](https://scrum.wiki/Scrum%20theory#Scrum+pillars).
+Customers and other stakeholders have the right to know what you expect from the product and why.
+To make communication easier, you can call the bug behaviour a "known limitation", but you should not hide it.
 
-> Writing specs is like flossing: everybody agrees that it’s a good thing, but nobody does it.
+> Writing specs is like flossing: everybody agrees that it’s a good thing, but nobody does it.<br>
 > *[Joel Spolsky - The Joel Test: 12 Steps to Better Code](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code)*
 
 {:refdef: style="text-align: center;"}
