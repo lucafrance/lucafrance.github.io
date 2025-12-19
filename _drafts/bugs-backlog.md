@@ -3,12 +3,12 @@ title: How to properly turn bugs into features 🐛
 tags: [Project Management, Scrum]
 ---
 
-Bugs which won't be fixed shouldn't be kept in the backlog.
+Bugs that won't be fixed should not stay in the backlog.
 
-There are legitimate reasons to never fix a bug.
-Maybe the bug impact is not worth the fix complexity.
-Maybe there is not enough budget left.
-Whatever the reason, sometimes the bug item is kept open as documentation that the issue is known and won't be fixed.
+There are good reasons not to fix a bug.
+For example, the bug's impact might not be worth the effort of fixing it.
+Or there might not be enough budget.
+Whatever the reason, sometimes the bug is left to show that the issue is known but won't be addressed.
 I disagree with this approach.
 
 [Product backlogs](https://scrum.wiki/Product%20Backlog) are not meant to include all product information, just "what is needed to improve the product"[^scrum-guide-2020].
