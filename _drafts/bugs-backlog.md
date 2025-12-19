@@ -21,6 +21,11 @@ The bug item has fulfilled its purpose and no longer belongs to the backlog.
 > Fixing bugs is only important when the value of having the bug fixed exceeds the cost of the fixing it.
 > *[Joel Spolsky - Hard-assed Bug Fixin’](https://www.joelonsoftware.com/2001/07/31/hard-assed-bug-fixin)*
 
+{:refdef: style="text-align: center;"}
+![Caterpillar of Pseudosphinx tetrio in Guadeloupe](/assets/2025/bug-feature/chenille-guadeloupe.jpg){: width="70%" }<br>
+*Caterpillar of Pseudosphinx tetrio in Guadeloupe, from [Wikimedia](https://commons.wikimedia.org/wiki/File:Chenille_Guadeloupe_3.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) by [KoS](https://commons.wikimedia.org/wiki/User:KoS)*
+{: refdef}
+
 You should add the bug behaviour to the product specification and link the corresponding backlog item.
 The bug has turned into a feature and is now expected behaviour, add a comment with your reasoning and close the item.
 
@@ -38,7 +43,7 @@ In such cases, open a new bug item, link the old one, and document decision.
 You can than update the specification accordingly.
 You should not keep an bug item open just because you hope to fix it someday, you will just clutter the backlog.
 
-## Instructions
+## Summary
 
 When you decide not to fix a bug:
 - Comment in the bug ticket why it won't be fixed, e.g.:
