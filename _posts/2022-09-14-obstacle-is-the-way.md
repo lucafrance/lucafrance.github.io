@@ -1,5 +1,5 @@
 ---
-title: <i>The obstacle is the way</i> by Ryan Holiday is shallow and uninspiring
+title: The obstacle is the way by Ryan Holiday is shallow and uninspiring
 tags: []
 ---
 
