@@ -82,9 +82,6 @@ minima:
     - title: Email
       icon: envelope
       url: "mailto: lucaf@lucaf.eu"
-    - title: Set up a meeting
-      icon: calendar
-      url: "https://calendly.com/lucafeu/30min"
     - title: LinkedIn
       icon: linkedin
       url: "https://www.linkedin.com/in/lucaf-munich"

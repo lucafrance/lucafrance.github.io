@@ -78,7 +78,7 @@ Finally, I added my new links to [`_config.yml`](https://github.com/lucafrance/l
       url: "mailto: lucaf@lucaf.eu"
     - title: Set up a meeting
       icon: calendar
-      url: "https://calendly.com/lucafeu/30min"
+      url: "https://calendly.com/example"
     - title: LinkedIn
       icon: linkedin
       url: "https://www.linkedin.com/in/lucaf-munich"
