@@ -1,5 +1,5 @@
 ---
-title: Open Source Software is fundamental for a successful European tech industry
+title: Open source software is fundamental for a successful European tech industry 🇪🇺
 tags: []
 ---
 
@@ -11,10 +11,14 @@ tags: []
 > 
 > Those European endeavours are now a fundamental infrastructure of all humanity. Those technologies are definitely part of our long-term history.
 
-{:refdef: style="text-align: center;"}
-![Pulse of Europe Cologne at Sunday, March 26th 2017](/assets/2026/eu-open-source/2017-03-26-Pulse_of_Europe_Cologne-0196.jpg){: width="70%" }<br>
-[2017-03-26 Pulse of Europe Cologne](https://commons.wikimedia.org/wiki/File:2017-03-26-Pulse_of_Europe_Cologne-0196.jpg) © Superbass / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) (via Wikimedia Commons) 
-{: refdef}
-
 I see open source as a necessary cultural tool in building Europe's technological sovereignty.
 You don't fix the over-dependence on tech giants by creating new tech giants to depend on.
+
+Free citizens and institutions depend on the freedom to choose the digital tools they prefer.
+An open source software tech stack reduces the reliance on centralised solutions; which enables more people to benefit from it.
+
+{:refdef: style="text-align: center;"}
+![Pulse of Europe Cologne at Sunday, March 26th 2017](/assets/2026/eu-open-source/2017-03-26-Pulse_of_Europe_Cologne-0196.jpg){: width="70%" }<br>
+© Superbass / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) ([via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2017-03-26-Pulse_of_Europe_Cologne-0196.jp)) 
+{: refdef}
+
