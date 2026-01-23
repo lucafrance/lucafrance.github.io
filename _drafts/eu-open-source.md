@@ -1,5 +1,5 @@
 ---
-title: Open source software is fundamental for a successful European tech industry 🇪🇺
+title: Open source culture is fundamental for a successful European tech industry 🇪🇺
 tags: []
 ---
 
