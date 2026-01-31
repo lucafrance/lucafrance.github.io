@@ -88,6 +88,10 @@ minima:
     - title: GitHub
       icon: github
       url: "https://github.com/lucafrance"
+    - title: Mastodon
+      icon: mastodon
+      url: "https://mastodon.social/@lucafeu"
+
 #
 #   Hide syndication feed subscription link.
 #     RSS / Atom feed link is always rendered as the last item of social-links
