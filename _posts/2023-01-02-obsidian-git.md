@@ -1,6 +1,7 @@
 ---
 title: Obsidian versioning with git and GitHub
 tags: []
+mastodon: https://mastodon.social/@lucafeu/115989160216319108
 ---
 
 An Obsidian vault can be versioned efficiently with git, as it consists mostly of markdown files.

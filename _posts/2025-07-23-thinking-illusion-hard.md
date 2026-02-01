@@ -1,6 +1,7 @@
 ---
 title: Thinking is an illusion; and hard 🧠
 tags: [AI]
+mastodon: https://mastodon.social/@lucafeu/115989151650210006
 ---
 
 TL,DR: AI is smart in many ways and dumb in others (for now).

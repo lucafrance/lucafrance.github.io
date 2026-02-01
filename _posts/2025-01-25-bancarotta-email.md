@@ -41,4 +41,8 @@ Dubito che tale giorno arriverà, ma solo tu puoi decidere quale è il processo 
 Non ti giudicherò qualsiasi soluzione tu decida di usare.
 Solo tu puoi decidere come essere libera dalle email, e sarò felice per te qualunque sia la tua soluzione.
 
+## Commenti
+
+[Discuti su Mastodon 🐘](https://mastodon.social/@lucafeu/115989154034339184)
+
 ## Note

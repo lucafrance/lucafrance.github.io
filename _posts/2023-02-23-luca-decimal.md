@@ -1,6 +1,7 @@
 ---
 title: How I mixed Johnny Decimal and Second Brain to organize my documents
 tags: []
+mastodon: https://mastodon.social/@lucafeu/115989158079174731
 ---
 
 TL, DR: If Johnny Decimal didn't work for you, try [my approach](https://github.com/lucafrance/luca-decimal).

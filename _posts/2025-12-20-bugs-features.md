@@ -1,6 +1,7 @@
 ---
 title: How to properly turn bugs into features 🐛
 tags: [Project Management, Scrum]
+mastodon: https://mastodon.social/@lucafeu/115989146367964655
 ---
 
 Bugs that won't be fixed should not stay in the backlog.

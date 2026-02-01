@@ -1,6 +1,7 @@
 ---
 title: How to enable the Print Screen key on a Logitech keyboard
 tags: []
+mastodon: https://mastodon.social/@lucafeu/115989157159866580
 ---
 
 I recently got a [Logitech K650 keyboard](https://support.logi.com/hc/en-us/articles/5124495316631-Getting-Started-SIGNATURE-K650) which I mostly enjoy, except for the [`print screen`](https://en.wikipedia.org/wiki/Print_Screen) key being replaced by `Ctrl + P`.

@@ -1,6 +1,7 @@
 ---
 title: How to Handle urgent work in Scrum with Kanban
 tags: [Project Management, Scrum]
+mastodon: https://mastodon.social/@lucafeu/115989154703713055
 ---
 
 I often observe that Scrum Teams struggle with unplanned circumstances, leading to the common misconception that the framework lacks the necessary flexibility for actual workplaces.

@@ -1,6 +1,7 @@
 ---
 title: How to add custom icons to the footer in Jekyll’s Minima theme v3 🧪
 tags: [Jekyll]
+mastodon: https://mastodon.social/@lucafeu/115989149245398109
 ---
 
 When I migrated my site to [Minima v3](https://jekyll.github.io/minima/), I wanted to display email and Calendly links alongside my social icons in the footer.

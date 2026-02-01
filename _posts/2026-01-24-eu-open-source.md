@@ -1,6 +1,7 @@
 ---
 title: Open source culture is fundamental for a successful European tech industry 🇪🇺
 tags: []
+mastodon: https://mastodon.social/@lucafeu/115989135694058019
 ---
 
 [Ploum (Lionel Dricot)](https://ploum.net) makes [a good case](https://ploum.net/2026-01-22-why-no-european-google.html) for pushing open source culture in Europe.

@@ -1,6 +1,7 @@
 ---
 title: How to serve Ollama on your private network with Windows 11 🦙
 tags: [AI]
+mastodon: https://mastodon.social/@lucafeu/115989150360745715
 ---
 
 I have a desktop PC with a GPU and wanted to use it to run large language models (LLMs) remotely on my laptop.

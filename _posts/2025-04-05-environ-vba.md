@@ -1,6 +1,7 @@
 ---
 title: Using environment variables with VBA 📄
 tags: [Excel, VBA]
+mastodon: https://mastodon.social/@lucafeu/115989152486513532
 ---
 
 The `Environ` VBA function allows access to Windows' environment variables, which provide system configuration details.

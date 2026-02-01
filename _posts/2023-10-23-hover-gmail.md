@@ -1,6 +1,7 @@
 ---
 title: How to fix Gmail blocking email from Hover
 tags: []
+mastodon: https://mastodon.social/@lucafeu/115989156529304961
 ---
 
 I use [Hover](https://www.hover.com/) for [my domain registration and email](https://lucaf.eu/contact).
