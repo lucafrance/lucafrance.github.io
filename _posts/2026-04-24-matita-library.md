@@ -1,7 +1,7 @@
 ---
 title: Another way to replace VBA with Python 🐍
 tags: [Excel, Python, VBA]
-mastodon: 
+mastodon: https://mastodon.social/@lucafeu/116458776205557367
 ---
 
 TL, DR: The Python package is [available on PyPI](https://pypi.org/project/matita/).
