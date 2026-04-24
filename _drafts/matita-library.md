@@ -1,20 +1,21 @@
 ---
-title: Another way to replace VBA with Python
-tags: [VBA]
+title: Another way to replace VBA with Python 🐍
+tags: [Excel, Python, VBA]
 mastodon: 
 ---
 
+TL, DR: The Python package is [available on PyPI](https://pypi.org/project/matita/).
+
 I program mostly in Python, but I also used VBA over my career.
-Despite the versatility of Python, VBA is useful when automating something in Microsoft Office.
-This mostly applies to Excel, but I also built professionally VBA scripts in Word, PowerPoint, and Outlook.
-I wanted to be able to get all advantages from VBA in Python, which motivated me to create a Python wrapper for the [VBA object library](https://learn.microsoft.com/en-us/office/vba/api/overview): [matita](https://pypi.org/project/matita/).
+Despite the versatility of Python, VBA remains practical when automating in Microsoft Office.
+This mostly applies to Excel, but I also wrote VBA scripts professionally in Word, PowerPoint, and Outlook.
+I wanted all advantages of VBA in Python, which motivated me to create a Python wrapper for the [VBA object library](https://learn.microsoft.com/en-us/office/vba/api/overview).
 
-{:refdef: style="text-align: center;"}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l5CBSrZSH-g?si=3qK322IBM6qJEVW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-{: refdef}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l5CBSrZSH-g?si=3qK322IBM6qJEVW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: block; margin: 0 auto;"></iframe>
 
-I designed it to match the VBA syntax as close a possible, while still being Pythonic.
-All major application are supported: Access, Excel, PowerPoint, Outlook, Word.
+<br>
+I designed it to match the VBA syntax as close as possible, while still being Pythonic.
+The main applications are supported: Access, Excel, PowerPoint, Outlook, Word.
 
 ```python
 from matita.office import excel as xl
@@ -62,15 +63,15 @@ def hello_world():
     mail.display()
 ```
 
-All VBA objects should be supported, allowing complex automations like this one in PowerPoint.
+All VBA objects should also be supported, allowing complex automations like this one in PowerPoint.
 
-{:refdef: style="text-align: center;"}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WjtXHP5dF9A?si=0tB-3WPdrsSex7sq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-{: refdef}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WjtXHP5dF9A?si=0tB-3WPdrsSex7sq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: block; margin: 0 auto;"></iframe>
 
-The main disadvantage is that everything is done through the corresponding Office application.
+<br>
+
+The main disadvantage is that everything runs through the corresponding Office application.
 If you just need to extract data or create simple documents, other libraries are more practical.
-For example [python-docx](https://python-docx.readthedocs.io), [python-pptx](https://python-pptx.readthedocs.io), [xlwings](https://www.xlwings.org/), or [pyexcel](https://docs.pyexcel.org).
+For example [python-docx](https://python-docx.readthedocs.io), [python-pptx](https://python-pptx.readthedocs.io), [xlwings](https://docs.xlwings.org), or [pyexcel](https://docs.pyexcel.org).
 
 If instead you want more formatting options or automation across multiple Office applications, this library might be useful to you.
 
