@@ -1,56 +1,54 @@
 ---
-title: SSH on Windows basics
+title: SSH basics on Windows
 tags: []
 mastodon: 
 ---
 
-I recently got into self-hosting and needed to use SSH.
+I am building a homelab and got using SSH a lot.
 Here is what I learnt.
 
-TODO: esempio formulati con `<client_username>@<client_hostname>` connesso a `<server_username>@<server_hostname>`.
-You are user on a Windows client and you want to connect to Linux server.
+This guide applies to a Windows client logging in on a Linux server.
 
 ## What is SSH
 
-Secure Shell (SSH) is a protocol to log in on remote machines.
-It is useful to manage a home server from a client.
-Is is also a practical way to manage headless machines (without keyboard and monitor attached).
-
-
-SSH has 2 main advantages:
-- You don't have to retype the user password to log in each time.
-- SSH keys are automatically long random, therefore safer.
+[Secure Shell (SSH)](https://www.rfc-editor.org/rfc/rfc4251) is a protocol to log in on a remotely.
+Is is a practical way to manage one and more servers from a client.
 
 ## SSH software on Windows
 
-There are several programs to ssh.
+There are several programs that implement SSH.
 On Windows, [Putty](https://putty.software) has been a popular for a long time.
+
+TODO screenshot mr robot putty
+
 Another one is [OpenSSH](https://www.openssh.org/), which is installed by default since Windows 10 build 1809.
 The rest of this guide refers to OpenSSH.
 The `ssh` command in PowerShell is running OpenSSH under the hood.
+The configuration files of OpenSSH are saved in `C:\Users\username\.ssh`.
 
 ```
-PS C:\Users\lucaf> ssh -V
+PS C:\Users\username> ssh -V
 OpenSSH_for_Windows_9.5p2, LibreSSL 3.8.2
 ```
 
 ## Connecting with SSH for the first time
 
-In these examples I am logging in as the `pi` user on a Raspberry Pi on my home network.
-The Raspberry Pi is identifiable by its *hostname* `raspi` as defined in `/etc/hostame`.
+Your server is identifiable by a hostname, as defined in `/etc/hostame`.
+You log in on the server by typing `ssh username@server-hostname`.
 
-I get a warning, because I am connecting to `raspi` for the first time.
+
+I get a warning, because I am connecting to `server` for the first time.
 I confirm that I want to connect, I then enter the password for `pi` to log in.
 
 ```
-PS C:\Users\lucaf> ssh pi@raspi
-The authenticity of host 'raspi (100.74.178.36)' can't be established.
+PS C:\Users\username> ssh username_server@server
+The authenticity of host 'server (100.74.178.36)' can't be established.
 ED25519 key fingerprint is SHA256:roZMHYUkhDul7IK3L+J4M4BtuBjYc5W73sFz/G8U9r8.
 This key is not known by any other names.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-Warning: Permanently added 'raspi' (ED25519) to the list of known hosts.
-pi@raspi's password:
-Linux raspi 6.12.75+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+Warning: Permanently added 'server' (ED25519) to the list of known hosts.
+username_server@server's password:
+Linux server 6.12.75+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
 
 The programs included with the Debian GNU/Linux system are free software;
 the exact distribution terms for each program are described in the
@@ -61,18 +59,17 @@ permitted by applicable law.
 Last login: Fri May 15 20:30:52 2026 from 100.112.65.48
 ```
 
-The configuration files of OpenSSH are saved in `C:\Users\<username>\.ssh`.
-The `raspi` hostname and the fingerprint for multiple encryption algorithms are now saved in the `known_hosts` file.
-This is what is meant by "Warning: Permanently added 'raspi' (ED25519) to the list of known hosts.".
+The `server` hostname and the fingerprint for multiple encryption algorithms are now saved in the `known_hosts` file.
+This is what is meant by "Warning: Permanently added 'server' (ED25519) to the list of known hosts.".
 The Raspberry Pi will be recognised the next time I connect to it and the authenticity warning wan't be shown again.
 
-If my Raspberry Pi were replaced by another machine called `raspi`, then OpenSSH would identify the discrepancy and provide another warning.
+If my Raspberry Pi were replaced by another machine called `server`, then OpenSSH would identify the discrepancy and provide another warning.
 
 ![](/assets/2026/ssh-windows/known-hosts.png)
 
 ## Key based authentication
 
-I used the password of `pi` to authenticate myself on `raspi`.
+I used the password of `pi` to authenticate myself on `server`.
 This is called password based authentication.
 There is also key based authentication, which allows me to log in without entering my password each time.
 
@@ -109,15 +106,15 @@ You may choose to protect the keys with a passphrase.
 This is for additional protection in case your machine is compromised.
 
 ```
-PS C:\Users\lucaf> ssh-keygen -t ed25519
+PS C:\Users\username> ssh-keygen -t ed25519
 Generating public/private ed25519 key pair.
-Enter file in which to save the key (C:\Users\lucaf/.ssh/id_ed25519):
+Enter file in which to save the key (C:\Users\username/.ssh/id_ed25519):
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
-Your identification has been saved in C:\Users\lucaf/.ssh/id_ed25519
-Your public key has been saved in C:\Users\lucaf/.ssh/id_ed25519.pub
+Your identification has been saved in C:\Users\username/.ssh/id_ed25519
+Your public key has been saved in C:\Users\username/.ssh/id_ed25519.pub
 The key fingerprint is:
-SHA256:JTqMR3TqpxSUzUgtMtNkhCPSeTUBmFbqAN+8LybasR4 lucaf@Luca-Framework
+SHA256:JTqMR3TqpxSUzUgtMtNkhCPSeTUBmFbqAN+8LybasR4 username@client
 The key's randomart image is:
 +--[ED25519 256]--+
 |.. =oO@B.        |
@@ -151,7 +148,7 @@ You need to share the private key with the machines you want to connect to.
 
 Use the command:
 ```
-cat C:\Users\<client_username>\.ssh\id_ed25519.pub | ssh <server_username>@<server_hostname> "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+cat $home\.ssh\id_ed25519.pub | ssh <server_username>@<server_hostname> "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
 ```
 - `cat C:\Users\<client_username>\.ssh\id_ed25519.pub` reads the public key.
 - `ssh <server_username>@<server_hostname>` connects to the server with password authentication.
@@ -166,8 +163,8 @@ The client sends a solution to the challenge back to the server, which verifies 
 You can now connect without password.
 
 ```
-PS C:\Users\lucaf> ssh pi@raspi
-Linux raspi 6.12.75+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+PS C:\Users\username> ssh username_server@server
+Linux server 6.12.75+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
 
 The programs included with the Debian GNU/Linux system are free software;
 the exact distribution terms for each program are described in the
