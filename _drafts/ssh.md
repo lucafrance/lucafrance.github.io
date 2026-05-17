@@ -1,5 +1,5 @@
 ---
-title: SSH basics on Windows
+title: SSH basics on Windows 🔒
 tags: []
 mastodon: 
 ---
