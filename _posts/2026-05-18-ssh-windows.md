@@ -1,6 +1,6 @@
 ---
 title: SSH basics on Windows 🔒
-tags: []
+tags: [homelab]
 mastodon: 
 ---
 
