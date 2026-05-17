@@ -11,7 +11,7 @@ Is is a practical way to manage one and more servers from a single machine.
 ## SSH software on Windows
 
 There are several programs that implement SSH.
-On Windows, [Putty](https://putty.software) has been a popular for a long time.
+On Windows, [Putty](https://putty.software) has been popular for a long time.
 
 {:refdef: style="text-align: center;"}
 ![](/assets/2026/ssh-windows/putty-mr-robot.png)
@@ -29,7 +29,7 @@ OpenSSH_for_Windows_9.5p2, LibreSSL 3.8.2
 
 ## Connecting with SSH for the first time
 
-Your server is identifiable by a hostname, as defined in `/etc/hostame`.
+Your server is identifiable by a hostname, as defined in `/etc/hostname`.
 You log on the server by typing `ssh username@server-hostname`.
 The first time you log on, you will get a warning that the host is unknown.
 After confirming, you enter the password to authenticate.
@@ -62,7 +62,7 @@ OpenSSH includes the `ssh-keygen` tool, which can be used to generate authentica
 You start by creating the authentication keys with `ssh-keygen -t ed25519`.
 
 OpenSSH supports multiple algorithms to generate the authentication keys.
-The argument `-t ed25519` specifies to use the [ed25519 algorithm](https://ed25519.cr.yp.to/), which is [supported since v6.5 (releases in 2014)](https://www.openssh.org/txt/release-6.5) and [the default since v9.5 (released in 2023)](https://www.openssh.org/txt/release-9.5).
+The argument `-t ed25519` specifies to use the [ed25519 algorithm](https://ed25519.cr.yp.to/), which is [supported since v6.5 (released in 2014)](https://www.openssh.org/txt/release-6.5) and [the default since v9.5 (released in 2023)](https://www.openssh.org/txt/release-9.5).
 Any modern host you connect to should support ed25519.
 If not, you may need to specify a different algorithm.
 
@@ -123,17 +123,13 @@ This is what it does:
 ## Connect to the machine with SSH
 
 You can now log on without password with `ssh username_server@server`.
-
-The server creates a cryptographic challenge with the public key.
-The challenge can be solved by the client with the private key.
-The solution is then shared back to the server and the client is authenticated.
+The client uses its private key to generate a signature, which is verified by the server with the public key.
 
 ```
 PS C:\Users\username> ssh username_server@server
 Linux server 6.12.75+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
 ...
 ```
-
 
 A single pair of authentication keys is sufficient per client.
 You don't need to create a separate key pair for each host you want to connect to.
