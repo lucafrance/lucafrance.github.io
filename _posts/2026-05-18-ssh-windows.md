@@ -30,18 +30,18 @@ OpenSSH_for_Windows_9.5p2, LibreSSL 3.8.2
 ## Connecting with SSH for the first time
 
 Your server is identifiable by a hostname, as defined in `/etc/hostname`.
-You log on the server by typing `ssh username@server-hostname`.
+You log on the server by typing `ssh server-username@server-hostname`.
 The first time you log on, you will get a warning that the host is unknown.
 After confirming, you enter the password to authenticate.
 
 ```
-PS C:\Users\username> ssh username_server@server
-The authenticity of host 'server (112.248.247.177)' can't be established.
+PS C:\Users\username> ssh server-username@server-hostname
+The authenticity of host 'server-hostname (112.248.247.177)' can't be established.
 ED25519 key fingerprint is SHA256:roZMHYUkhDul7IK3L+J4M4BtuBjYc5W73sFz/G8U9r8.
 This key is not known by any other names.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 Warning: Permanently added 'server' (ED25519) to the list of known hosts.
-username_server@server's password:
+server-username@server-hostname's password:
 ...
 ```
 
@@ -55,21 +55,12 @@ The authentication prevents a malicious actor from replacing the server without 
 
 ## Key-based authentication
 
-Key-based authentication is based on [asymmetric cryptography](https://www.rfc-editor.org/rfc/rfc4949#page-21), which uses a pair of private and public keys.
+Key-based authentication uses [asymmetric cryptography](https://www.rfc-editor.org/rfc/rfc4949#page-21), which works with a pair of private and public keys.
 The private key remains on the client, the public key can be shared with anybody, including the server.
 
-OpenSSH includes the `ssh-keygen` tool, which can be used to generate authentication keys for key-based authentication.
+OpenSSH includes the `ssh-keygen` tool, which can be used to generate authentication keys.
 You start by creating the authentication keys with `ssh-keygen -t ed25519`.
 
-OpenSSH supports multiple algorithms to generate the authentication keys.
-The argument `-t ed25519` specifies to use the [ed25519 algorithm](https://ed25519.cr.yp.to/), which is [supported since v6.5 (released in 2014)](https://www.openssh.org/txt/release-6.5) and [the default since v9.5 (released in 2023)](https://www.openssh.org/txt/release-9.5).
-Any modern host you connect to should support ed25519.
-If not, you may need to specify a different algorithm.
-
-You may choose to protect the keys with a passphrase for additional protection in case the client is compromised.
-
-The fingerprint and the randomart image are hashes of the public key to recognise it more easily.
-In general, they can be ignored.
 
 ```
 PS C:\Users\username> ssh-keygen -t ed25519
@@ -95,6 +86,16 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
+OpenSSH supports multiple algorithms to generate the authentication keys.
+The argument `-t ed25519` specifies to use the [ed25519 algorithm](https://ed25519.cr.yp.to/), which is [supported since v6.5 (released in 2014)](https://www.openssh.org/txt/release-6.5) and [the default since v9.5 (released in 2023)](https://www.openssh.org/txt/release-9.5).
+Any modern host you connect to should support ed25519.
+If not, you may need to specify a different algorithm.
+
+You may choose to protect the keys with a passphrase for additional protection in case the client is compromised.
+
+The fingerprint and the randomart image are hashes of the public key to recognise it more easily.
+In general, they can be ignored.
+
 The authentication keys are saved to `C:\Users\username\.ssh\id_ed25519` (private key) and `C:\Users\username\.ssh\id_ed25519.pub` (public key).
 
 {:refdef: style="text-align: center;"}
@@ -105,28 +106,26 @@ The authentication keys are saved to `C:\Users\username\.ssh\id_ed25519` (privat
 
 ## Sharing the public key for authentication
 
-The private key stays on the client, the public key can be shared with anybody.
 You need to share the public key with the server to log on without password.
-
 Use the command:
 ```
-cat $home\.ssh\id_ed25519.pub | ssh username_server@server "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+cat $home\.ssh\id_ed25519.pub | ssh server-username@server-hostname "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
 ```
 
 This is what it does:
 - `cat C:\Users\<client_username>\.ssh\id_ed25519.pub` reads the public key,
-- `ssh username_server@server` logs on the server after entering the password,
+- `ssh server-username@server-hostname` logs on the server after entering the password,
 - `mkdir -p ~/.ssh` creates a `~/.ssh` directory if missing,
 - `cat >> ~/.ssh/authorized_keys` adds the public key to the `~/.ssh/authorized_keys` file.
 
 
 ## Connect to the machine with SSH
 
-You can now log on without password with `ssh username_server@server`.
+You can now log on without password with `ssh server-username@server-hostname`.
 The client uses its private key to generate a signature, which is verified by the server with the public key.
 
 ```
-PS C:\Users\username> ssh username_server@server
+PS C:\Users\username> ssh server-username@server-hostname
 Linux server 6.12.75+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
 ...
 ```
