@@ -1,7 +1,7 @@
 ---
 title: SSH basics on Windows 🖥️⚡🖥️
 tags: [homelab]
-mastodon: 
+mastodon: https://mastodon.social/@lucafeu/116594207992852766
 ---
 
 This guide shows how to log on a Linux server from a Windows client with SSH.
