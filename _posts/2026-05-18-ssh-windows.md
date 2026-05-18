@@ -11,11 +11,11 @@ Is is a practical way to manage one and more servers from a single machine.
 ## SSH software on Windows
 
 There are several programs that implement SSH.
-On Windows, [Putty](https://putty.software) has been popular for a long time.
+On Windows, [PuTTY](https://putty.software) has been popular for a long time.
 
 {:refdef: style="text-align: center;"}
 ![](/assets/2026/ssh-windows/putty-mr-robot.png)
-*Putty being used in Mr. Robot ([S2E7](https://en.wikipedia.org/wiki/Eps2.5_h4ndshake.sme))*
+*PuTTY being used in Mr. Robot ([S2E7](https://en.wikipedia.org/wiki/Eps2.5_h4ndshake.sme))*
 {: refdef}
 
 Another one is [OpenSSH](https://www.openssh.org/), which is installed by default [since Windows 10 build 1809](https://learn.microsoft.com/en-us/windows-server/administration/OpenSSH/openssh-overview).
@@ -139,7 +139,7 @@ If the private key is not saved to the default path, [you need to specify it whe
 ## Links
 
 - [The Secure Shell (SSH) Protocol Architecture (RFC 4251)](https://www.rfc-editor.org/rfc/rfc4251)
-- [Putty landing page](https://putty.software)
+- [PuTTY landing page](https://putty.software)
 - [OpenSSH](https://www.openssh.org/)
 - [OpenSSH for Windows overview (Microsoft Learn)](https://learn.microsoft.com/en-us/windows-server/administration/OpenSSH/openssh-overview)
 - [Key-based authentication in OpenSSH for Windows (Microsoft Learn)](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement)
