@@ -1,7 +1,7 @@
 ---
 title: Wikipedia's page on the rule of three
 tags: []
-mastodon: 
+mastodon: https://mastodon.social/@lucafeu/117138110957158760
 ---
 
 From [Wikipedia](https://en.wikipedia.org/w/index.php?title=Rule_of_three_(writing)&oldid=1364659954) (emphasis mine):

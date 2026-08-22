@@ -1,7 +1,7 @@
 ---
 title: Serve una traduzione italiana di "dickover"
 tags: []
-mastodon: 
+mastodon: https://mastodon.social/@lucafeu/117138479051210040
 ---
 
 TL;DR: propongo "sovraminichia".
