@@ -10,7 +10,10 @@ Il 29 maggio 2026 John Gruber [ha proposto](https://daringfireball.net/2026/05/w
 
 > **dickover** n. : a modal panel, popover, or curtain presented by a website or app, deliberately obscuring its own content to frustrate the user with an unwanted, unnecessary, mandatory interaction; e.g. asking the user to accept “cookies”, subscribe to a newsletter, install the website’s mobile app, agree to terms of service, or anything else that the user couldn’t give two shits about.
 
-La radice *dickhead* è perfetta: racchiude la fastidiosità di ogni interfaccia che si intromette fra te e le informazioni a cui vuoi accedere.
+{:refdef: style="text-align: center;"}
+![A cockerel sitting on a tree and crowing](/assets/2026/dickover/junglefowl-on-tree.jpg){: width="70%" }<br>
+© Philip Pikart / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) ([via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Junglefowl_on_tree.jpg))
+{: refdef}
 
 La lingua italiana ha bisogno di una parola per esprimere lo stesso concetto.
 Usare il termine inglese sarebbe un errore, perché la carica emotiva verrebbe compromessa.
