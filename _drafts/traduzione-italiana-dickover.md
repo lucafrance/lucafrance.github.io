@@ -17,7 +17,7 @@ Il 29 maggio 2026 John Gruber [ha proposto](https://daringfireball.net/2026/05/w
 
 La lingua italiana ha bisogno di una parola per esprimere lo stesso concetto.
 Usare il termine inglese sarebbe un errore, perché la carica emotiva verrebbe compromessa.
-Se *dickover* diventasse d'uso corrente in italiano, qualcuno lo userà seriamente:
+Se *dickover* diventasse comune in italiano, qualcuno lo userà seriamente:
 "Potremmo mettere un *dickover* per l'iscrizione alla *newsletter*."; "Certo possiamo aggiungerlo agli altri *dickover*".
 
 > You know what a dickover is, even if you didn’t know what to call it (until now). If you use the Internet, you encounter them every day. They’re popovers, but dickheaded. The web is absolutely lousy with them, and mobile apps present them too, with increasing frequency.
