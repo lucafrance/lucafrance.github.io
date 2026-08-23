@@ -5,7 +5,7 @@ mastodon: https://mastodon.social/@lucafeu/117144251006173076
 ---
 
 Mea culpa: this website [used to have]({% post_url 2022/2022-03-26-cookies-jekyll %}) a [dickover](https://daringfireball.net/2026/05/what_is_a_dickover) for one Google Analytics cookie.
-It might have been benigne in the grand scheme of things, but it always bothered me.
+It might have been benign in the grand scheme of things, but it always bothered me.
 I choose to pay for [Plausible](https://plausible.io/) for this website's analytics and happily [yanked the cookie banner away](https://github.com/lucafrance/lucafrance.github.io/commit/75631ed92cb9c87370f4a6634ad5e0938a41fef2).
 
 This website is my digital place to share my thoughts about stuff I care about.
