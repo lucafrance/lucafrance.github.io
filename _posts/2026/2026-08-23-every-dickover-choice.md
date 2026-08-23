@@ -1,7 +1,7 @@
 ---
 title: Every dickover is a choice
 tags: []
-mastodon: 
+mastodon: https://mastodon.social/@lucafeu/117144251006173076
 ---
 
 Mea culpa: this website [used to have]({% post_url 2022/2022-03-26-cookies-jekyll %}) a [dickover](https://daringfireball.net/2026/05/what_is_a_dickover) for one Google Analytics cookie.
