@@ -231,7 +231,7 @@ with_heatsink_df.describe()
 
 The average temperature is indeed lower with the heat sink (59.7° C vs 60.1° C).
 As I have several thousands data points, I can check whether the difference is also statistically significant.
-A proper statistical test in this case is the [Wilcoxon rank-sum test](https://mathworld.wolfram.com/WilcoxonRankSumTest.html) (aka Mann–Whitney U test, not to be confused with the [Wilcoxon signed-rank test]({% post_url 2020-12-01-wilcoxon-explained-well %})). 
+A proper statistical test in this case is the [Wilcoxon rank-sum test](https://mathworld.wolfram.com/WilcoxonRankSumTest.html) (aka Mann–Whitney U test, not to be confused with the [Wilcoxon signed-rank test]({% post_url 2020/2020-12-01-wilcoxon-explained-well %})). 
 
 The p-value turned out to be basically zero, so the null hypothesis is rejected and I feel confident that the difference is not by chance.
 

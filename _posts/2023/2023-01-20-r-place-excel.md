@@ -70,7 +70,7 @@ last_changes.to_csv("tile_placements_last.csv", index=True)
 ## Importing the data in Excel
 
 I don't blame Excel for being unable to process hundreds of megabytes of csv.
-It would habe been a clear example of [using the wrong tool for the purpose]({% post_url 2020-10-23-should-you-learn-vba-today-1a7 %}).
+It would habe been a clear example of [using the wrong tool for the purpose]({% post_url 2020/2020-10-23-should-you-learn-vba-today-1a7 %}).
 What Excel is (strugglingly) able to do is importing the 1000 by 1000 csv with PowerQuery.
 Now it was time to show some colours.
 
