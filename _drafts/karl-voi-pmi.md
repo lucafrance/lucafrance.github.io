@@ -7,7 +7,7 @@ mastodon:
 TL;DR: If you want to organise your digital files better and don't know where to start, watch [this talk](https://media.ccc.de/v/basics-of-personal-information-management-finding-the-best-tool-s).
 
 I appreciate other humans obsessing even more than I do about how to manage their information.
-One of those humans is [Karl Volt](https://karl-voit.at/), who on August 28th gave [a talk](https://media.ccc.de/v/basics-of-personal-information-management-finding-the-best-tool-s) about personal information management (PIM) at [Håck ma’s](https://hack-mas.at/).
+One of those humans is [Karl Volt](https://karl-voit.at/), who on August 28th gave [a talk](https://media.ccc.de/v/basics-of-personal-information-management-finding-the-best-tool-s) about [personal information management (PIM)](https://karl-voit.at/Basics-of-PIM-Talk/) at [Håck ma’s](https://hack-mas.at/).
 
 <div style="display: flex; justify-content: center;">
   <div style="width: 75%; max-width: 960px; aspect-ratio: 16 / 9;">
@@ -27,6 +27,7 @@ Here are some additional comments from my side in order of importance.
 
 Yes, yes, yes, `"yes " * 100`.
 
+This single idea could be a talk in itself.
 A source of frustration in my work is people blindly adapting their workflow in function of the tool without ever questioning their method.
 This is a pattern that I keep observing:
 1. A tool is introduced at some point in the organisation, often ignoring the requirements of the users.
@@ -38,4 +39,27 @@ Organisation keep claiming to choose Scrum, when they actually implicitly choose
 
 If you care about efficiency, you need to put serious thought in what your requirements are, then which method best fits your requirement, then which tools best fit your methods.
 
-## Do not use indexes in folder names
+## Treat future you as a stranger (2:40)
+
+Your brain evolves over time and your identity with it.
+For practical purposes future you is a different person.
+If you set up a complex system to organise your life, expect future you to learn it again from scratch.
+When developing a system for yourself you should apply the same level of care as if you were doing it for another person.
+
+## Use ISO-8601 in your file names (33:40)
+
+Karl does not mention [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) in the talk, but he mentions it [on his blog](https://karl-voit.at/managing-digital-photographs/).
+If the time your file was created is relevant in any way, add the date in the format YYYY-MM-DD to the file name.
+
+ > As with all meta-data within file names, time/date-stamps in file names have the advantage that they remain unchanged until I manually change them. Meta-data which is included in the file content itself (like Exif) tends to get lost when files are processed via tools that do not take care of those meta-data. Additionally, starting a file name with such a date/time-stamp ensures that files are displayed in file managers in temporal order instead of alphabetic order according to their descriptions. The alphabet is a totally artificial sort order and it is typically less practical for locating files by the user when compared to temporal order which seems to support the way that the human brain associates events. 
+
+## If you use multiple hierarchies, keep them similar (24:03)
+
+This is a corollary of prioritising the method over the tool.
+Once you choose the method, all tool should be adapted similarly.
+This is [one of the instructions](https://github.com/lucafrance/luca-decimal/tree/d36611729a94870fe408ca77347c8b83ec0712c9#consistency-among-different-apps) I defined for luca-decimal.
+
+If you are not ready to commit to using the same method across all tools, then they do not fit your needs properly.
+You should reconsider your method and your tools.
+
+
