@@ -1,6 +1,7 @@
 ---
 title: Absolute mode is the best mode
 tags: []
+mastodon: https://mastodon.social/@lucafeu/117183519830919266
 ---
 
 I use these custom instructions with all chatbots.
