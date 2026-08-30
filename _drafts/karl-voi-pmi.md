@@ -18,6 +18,7 @@ One of those humans is [Karl Volt](https://karl-voit.at/), who on August 28th ga
     </iframe>
   </div>
 </div>
+<br>
 
 My system [luca-decimal]({% post_url 2023/2023-02-23-luca-decimal %}) has been working well since 2023.
 I am glad that someone else shares the thoughts I had at the time.
@@ -34,7 +35,7 @@ This is a pattern that I keep observing:
 1. The processes are adapted to the limitations of the tool.
 1. Unused features of the tool are integrated in the processes because they are the default. The existence of the tool legitimises changes to the process.
 
-This issue was my inspirations for writing about the [required metrics in Scrum]({% post_url 2025/2025-02-22-scrum-metrics %}).
+This issue was my inspiration for writing about the [required metrics in Scrum]({% post_url 2025/2025-02-22-scrum-metrics %}).
 Organisation keep claiming to choose Scrum, when they actually implicitly choose [the default template in Jira](https://www.atlassian.com/software/jira/templates/scrum).
 
 If you care about efficiency, you need to put serious thought in what your requirements are, then which method best fits your requirement, then which tools best fit your methods.
