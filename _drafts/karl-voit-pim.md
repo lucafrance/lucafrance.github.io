@@ -1,13 +1,13 @@
 ---
-title: "Comments on 'Basics of Personal Information Management: Finding the best tool(s)' by Karl Volt"
+title: "Comments on 'Basics of Personal Information Management: Finding the best tool(s)' by Karl Voit"
 tags: []
 mastodon: 
 ---
 
 TL;DR: If you want to organise your digital files better and don't know where to start, watch [this talk](https://media.ccc.de/v/basics-of-personal-information-management-finding-the-best-tool-s).
 
-I appreciate other humans obsessing even more than I do about personal organisation, [Karl Voit](https://karl-voit.at/).
-He gave [a talk](https://media.ccc.de/v/basics-of-personal-information-management-finding-the-best-tool-s)  on August 28th about [personal information management (PIM)](https://karl-voit.at/Basics-of-PIM-Talk/) at [Håck ma’s](https://hack-mas.at/).
+I appreciate people obsessing even more than I do about personal organisation, like [Karl Voit](https://karl-voit.at/).
+He recently gave [a talk](https://media.ccc.de/v/basics-of-personal-information-management-finding-the-best-tool-s) at [Håck ma’s](https://hack-mas.at/) about [personal information management (PIM)](https://karl-voit.at/Basics-of-PIM-Talk/).
 
 <div style="display: flex; justify-content: center;">
   <div style="width: 75%; max-width: 960px; aspect-ratio: 16 / 9;">
