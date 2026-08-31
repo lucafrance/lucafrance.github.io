@@ -6,8 +6,8 @@ mastodon:
 
 TL;DR: If you want to organise your digital files better and don't know where to start, watch [this talk](https://media.ccc.de/v/basics-of-personal-information-management-finding-the-best-tool-s).
 
-I appreciate other humans obsessing even more than I do about how to manage their information.
-One of those humans is [Karl Volt](https://karl-voit.at/), who on August 28th gave [a talk](https://media.ccc.de/v/basics-of-personal-information-management-finding-the-best-tool-s) about [personal information management (PIM)](https://karl-voit.at/Basics-of-PIM-Talk/) at [Håck ma’s](https://hack-mas.at/).
+I appreciate other humans obsessing even more than I do about personal organisation, [Karl Voit](https://karl-voit.at/).
+He gave [a talk](https://media.ccc.de/v/basics-of-personal-information-management-finding-the-best-tool-s)  on August 28th about [personal information management (PIM)](https://karl-voit.at/Basics-of-PIM-Talk/) at [Håck ma’s](https://hack-mas.at/).
 
 <div style="display: flex; justify-content: center;">
   <div style="width: 75%; max-width: 960px; aspect-ratio: 16 / 9;">
@@ -20,9 +20,8 @@ One of those humans is [Karl Volt](https://karl-voit.at/), who on August 28th ga
 </div>
 <br>
 
-My system [luca-decimal]({% post_url 2023/2023-02-23-luca-decimal %}) has been working well since 2023.
-I am glad that someone else shares the thoughts I had at the time.
-Here are some additional comments from my side in order of importance.
+I share many of his thoughts and have comments on some of them.
+Here they are in subjective order of importance.
 
 ## Choose the tool in function of the method, not vice versa (43:15)
 
