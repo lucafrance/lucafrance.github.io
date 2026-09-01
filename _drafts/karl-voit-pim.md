@@ -43,11 +43,11 @@ Organisation keep claiming to choose Scrum, when they are actually choosing [the
 Your brain evolves over time and your identity with it.
 For practical purposes future you is a different person from present you.
 If you set up a complex system to organise your life, expect future you to learn it again from scratch.
-Consequently  you should design any system for yourself as if it were for another person.
+Consequently you should design any system for yourself as if it were for another person.
 
 ## Use ISO-8601 in your file names (33:40)
 
-Karl does not mention [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) in the talk, but he does [on his blog](https://karl-voit.at/managing-digital-photographs/).
+Karl does not mention [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) in the talk, but he does mention it [on his blog](https://karl-voit.at/managing-digital-photographs/).
 If the time your file was created is relevant in any way, add the date in the format YYYY-MM-DD to the file name.
 
 ## If you use multiple hierarchies, keep them similar (24:03)
