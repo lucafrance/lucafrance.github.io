@@ -1,7 +1,7 @@
 ---
 title: "Comments on 'Basics of Personal Information Management: Finding the best tool(s)' by Karl Voit"
 tags: []
-mastodon: 
+mastodon: https://mastodon.social/@lucafeu/117197803541771670
 ---
 
 TL;DR: If you want to organise your digital life better and don't know where to start, watch [this talk](https://media.ccc.de/v/basics-of-personal-information-management-finding-the-best-tool-s).
