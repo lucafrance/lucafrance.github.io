@@ -4,16 +4,18 @@ tags: []
 mastodon: 
 ---
 
-Per favore andate in giro col laptop chiuso
+A mild source of discomfort in my life is people walking around while holding their laptop open in one hand precariously.
+I imagine many machines fell down and were fatally injured this way.
 
-Una costante della mia carriera è che la gente se ne ca in giro col portatile aperto perché non vuole che va in standby
-great source of discomfort over my career
+I understand why that happens.
+People are waling to a stage or their next meeting, they want to be able to show what they have open right away, and don't want to log in, wait their computer to wake up.
+
+The thing is, you can keep your laptop open and unlocked while walking around.
+
 
 cambia le impostazioni della batteria
 - non andare in standby quando sei chiuso
 - tempo più lungo prima di andare in standby
 - powertoys awake opzione anche valida
 - si può evitare di doversi riloggare ogni volta?
-
-a great source of discomfort over my entire professional life is seeing people walking around the office precaourosly holding the laptop with one end while the id is open
 
