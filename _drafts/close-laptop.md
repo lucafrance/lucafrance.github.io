@@ -14,14 +14,17 @@ The thing is, you can keep your laptop open and unlocked while walking around.
 
 Click on the battery in the notification are, then again on the battery.
 
+![](/assets/2026/laptop-open/open-battery-settings.png)
 
 Go to *Lid and power button controls* > set *Closing the lid will make my PC*  to *Do Nothing*.
 Now your laptop will stay awake when you close it.
 
-
+![](/assets/2026/laptop-open/closing-lid-setting.png)
 
 You can still set your device to go to sleep after a while.
 This way you won't drain the battery if you leave your laptop on and closed.
+
+![](/assets/2026/laptop-open/go-sleep-battery.png)
 
 If your device doesn't go too sleep, by default you shouldn't need to log in again either.
 If you have a managed the device, yor organisation might require to login again each time.
