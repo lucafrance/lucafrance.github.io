@@ -27,9 +27,9 @@ Now your laptop will stay awake when you close it.
 
 You can still set your device to go to sleep after a while.
 Then the battery won't drain if you leave your laptop on and closed.
+If your device doesn't go to sleep, by default you shouldn't need to log in afterwards either.
 
 {:refdef: style="text-align: center;"}
 ![](/assets/2026/laptop-open/go-sleep-battery.png)
 {: refdef}
 
-If your device doesn't go to sleep, by default you shouldn't need to log in afterwards either.
