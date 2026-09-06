@@ -12,10 +12,17 @@ People are waling to a stage or their next meeting, they want to be able to show
 
 The thing is, you can keep your laptop open and unlocked while walking around.
 
+Click on the battery in the notification are, then again on the battery.
 
-cambia le impostazioni della batteria
-- non andare in standby quando sei chiuso
-- tempo più lungo prima di andare in standby
-- powertoys awake opzione anche valida
-- si può evitare di doversi riloggare ogni volta?
+
+Go to *Lid and power button controls* > set *Closing the lid will make my PC*  to *Do Nothing*.
+Now your laptop will stay awake when you close it.
+
+
+
+You can still set your device to go to sleep after a while.
+This way you won't drain the battery if you leave your laptop on and closed.
+
+If your device doesn't go too sleep, by default you shouldn't need to log in again either.
+If you have a managed the device, yor organisation might require to login again each time.
 
