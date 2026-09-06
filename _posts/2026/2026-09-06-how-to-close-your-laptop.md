@@ -9,6 +9,11 @@ So many innocent machines must have fallen to their doom because their owners we
 I understand why: they want to resume their work at their destination right away.
 They don't want to wait for their machine to wake up and log in again.
 
+{:refdef: style="text-align: center;"}
+![A broken laptop on the ground](/assets/2026/laptop-open/broken-laptop.jpg)
+“<a href="https://www.flickr.com/photos/juggernautco/4970651203" title="Destroying Laptops is Fun and Safe">Destroying Laptops is Fun and Safe</a>” by <a href="https://www.flickr.com/photos/juggernautco/">Daniel X. O'Neil</a>, <a href="https://creativecommons.org/licenses/by/2.0/deed.en" rel="license noopener noreferrer">CC BY 2.0</a>
+{: refdef}
+
 There is a better way: you can close the lid, transport the laptop safely, and resume work at your destination without interruptions.
 Here are the relevant settings on Windows 11, but there are similar ones on other operating systems.
 
