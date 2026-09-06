@@ -1,7 +1,7 @@
 ---
 title: How to close your laptop
 tags: []
-mastodon: 
+mastodon: https://mastodon.social/@lucafeu/117223057400941831
 ---
 
 A mild source of personal discomfort is people walking around with their laptop lid open.
