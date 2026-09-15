@@ -5,9 +5,9 @@ mastodon:
 ---
 
 My struggle with bad customer service started well before the current AI hype.
-In the best cases this is just negligence.
-In the worst case there is malice to discourage any contact to customer service in the first place.
-Here is what I encounter instead too many times.
+In the best cases it is just negligence.
+In the worst ones it is malice to discourage any request.
+Here is what I encountered too many times.
 
 - The customer service page is hidden behind a dark pattern on a page unrelated to my problem.
 - I must re-enter all my information, despite the business already having it.
@@ -18,17 +18,20 @@ Here is what I encounter instead too many times.
 
 Here is how it supposed to work instead.
 
-1. I encounter problem with product which I'm not able to fix myself.
+1. I encounter a problem with the product which I can't fix myself.
 2. I find easily the customer service page.
-3. If I have a usual problem, an automated system helps me fix the issue.
-4. If I have an unusual problem, I can contact easily a human who fixes the issue.
+3. If I have a frequent problem, an automated system helps me fix the issue.
+4. If I have an unusual problem, I can contact a human who fixes the issue.
 
-Notice how this flow does not require technologically advanced solution, it's mostly a managerial problem.
+![Black-and-white photo of a busy open-plan call center](/assets/2026/ai-customer-service/call-centre-sao-paulo.jpg)
+“<a href="https://www.flickr.com/photos/42042512@N00/8301480774" title="Call center">Call center</a>” by <a href="https://www.flickr.com/photos/42042512@N00/">Carlos Ebert</a>, <a href="https://creativecommons.org/licenses/by/2.0/deed.en" rel="license noopener noreferrer">CC BY 2.0</a>
 
-- Design good processes which minimize the existence of problems.
+Notice how this flow does not require technologically advanced solutions, it's mostly a managerial problem.
+
+- Design good processes which minimize problems.
 - Design a good user interface to find the customer service page and navigate possible solutions.
-- Design good automations connected to all relevant ERP systems to fix all standard issue.
-- Onboarding humans which can be easily contacted and who are provided the tools to fix the unusual problems.
+- Design good automations connected to all relevant ERP systems to fix all standard issues.
+- Onboard humans which can easily be contacted and who are provided the tools to fix the unusual problems.
 
 This is why I am sceptical of any integration of AI in customer service.
 It can only works if the basics are covered.
@@ -36,4 +39,4 @@ E.g. you can add retrieve augmented generation to help find the solution to stan
 You can let an agent fix an issue, if standard solutions have actually been defined.
 You can use LLMs to triage unusual problems to the right human, if the human support is already in place.
 
-If AI instead is used to discourage me even more to contact customer service, I must conclude that the business does not care about quality.
+If a business is integrating AI in their customer service without care, they are just wasting my time and don't deserve my money.
