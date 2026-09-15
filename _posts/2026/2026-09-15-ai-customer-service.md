@@ -1,7 +1,7 @@
 ---
 title: AI won't fix your customer service
 tags: []
-mastodon: 
+mastodon: https://mastodon.social/@lucafeu/117276890851649625
 ---
 
 My struggle with bad customer service started well before the current AI hype.
