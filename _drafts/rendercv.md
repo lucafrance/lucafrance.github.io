@@ -47,3 +47,13 @@ rendercv render .\Luca_Franceschini_de_CV.yaml --design.theme engineeringresumes
 rendercv render .\Luca_Franceschini_de_CV.yaml --design.theme moderncv           -typ theme_comparison/cv_moderncv.typ           -png theme_comparison/cv_moderncv.png           -pdf theme_comparison/cv_moderncv.pdf           -nomd -nohtml
 rendercv render .\Luca_Franceschini_de_CV.yaml --design.theme sb2nov             -typ theme_comparison/cv_sb2nov.typ             -png theme_comparison/cv_sb2nov.png             -pdf theme_comparison/cv_sb2nov.pdf             -nomd -nohtml
 ```
+
+Thank you to [Sina Atalay](https://sinaatalay.com/) for creating and maintaining the project.
+I did not try the paid web-based version of RenderCV, but I can strongly recommend the CLI based one.
+
+## Links
+
+- [RenderCV homepage](https://rendercv.com/)
+- [RenderCV repository on GitHub](https://github.com/rendercv/rendercv)
+- [RenderCV documentation](https://docs.rendercv.com/)
+- [My previous template *luca-cv*, on GitHub](https://github.com/lucafrance/luca-cv)
