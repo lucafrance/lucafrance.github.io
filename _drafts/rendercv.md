@@ -16,16 +16,16 @@ I quickly preferred it to my previous solution for several reasons.
 {: refdef}
 
 - Writing the CV in yaml instead of markdown feels more intuitive.
-The relevant information in a CV consists of its content and structure, which YAML abstracts into a user-friendly format.
-I tried [other solutions based on JSON](https://jsonresume.org/), such as [Reactive Resume](https://rxresu.me), but they were not as practical for me.
+The relevant information in a CV consists of its content and structure, which yaml abstracts into a user-friendly format.
+I tried [other solutions based on json](https://jsonresume.org/), like [Reactive Resume](https://rxresu.me), but they were not as practical for me.
 - There is no need for an external or self-hosted service.
-I keep running a PowerShell command, as I'm used to.
+I keep running a PowerShell command as I'm used to.
 - The relevant information is in plain text and can be version-controlled with Git.
 - The format is LLM-friendly.
 I can link the documentation as a reference for the chatbot to get valid outputs.
-For example: `Translate this CV to English. Use this YAML format: https://docs.rendercv.com/user_guide/yaml_input_structure/cv`.
+For example: `Translate this CV to English. Use this yaml format: https://docs.rendercv.com/user_guide/yaml_input_structure/cv`.
 - If necessary, I can still render the CV in docx.
-RenderCV supports Markdown output, which [Pandoc](https://pandoc.org/) can convert to DOCX.
+RenderCV supports Markdown output, which [Pandoc](https://pandoc.org/) can convert to docx.
 - Formatting options are defined in the yaml, but I can override them with a CLI argument.
 I used this feature to test multiple formatting options at once and pick the one I liked best.
 
@@ -49,11 +49,11 @@ rendercv render .\Luca_Franceschini_de_CV.yaml --design.theme sb2nov            
 ```
 
 Thank you to [Sina Atalay](https://sinaatalay.com/) for creating and maintaining the project.
-I did not try the paid web-based version of RenderCV, but I can strongly recommend the CLI-based one.
+I did not try the paid web-based version of RenderCV, but I can strongly recommend the free CLI-based one.
 
 ## Links
 
 - [RenderCV homepage](https://rendercv.com/)
 - [RenderCV repository on GitHub](https://github.com/rendercv/rendercv)
 - [RenderCV documentation](https://docs.rendercv.com/)
-- [My previous template *luca-cv*, on GitHub](https://github.com/lucafrance/luca-cv)
+- [My previous template *luca-cv* on GitHub](https://github.com/lucafrance/luca-cv)
