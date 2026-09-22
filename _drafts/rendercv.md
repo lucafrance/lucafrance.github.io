@@ -4,7 +4,7 @@ tags: []
 mastodon: 
 ---
 
-In 2022 [I decided to start writing my curriculum vitae in markdown]({% post_url 2022/2022-08-18-cv-markdown-pandoc-python-latex %}).
+In 2022 [I started writing my curriculum vitae in markdown]({% post_url 2022/2022-08-18-cv-markdown-pandoc-python-latex %}).
 I would then convert the markdown to LaTeX with a Python script, and then generate a pdf.
 
 This year I switched to [RenderCV](https://rendercv.com/), a Python package which renders a yaml CV to different formats.
@@ -19,15 +19,14 @@ I quickly preferred it to my previous solution for several reasons and can want 
 The relevant information of a CV is the content and the structure, which yaml abstracts in a user friendly way.
 I tried [other solutions based on json](https://jsonresume.org/), like [Reactive Resume](https://rxresu.me) but they were not as practical for me.
 - There is no reliance on an external or self-hosted service.
-I just run a PowerShell command as I was used to with my previous template.
-- As with my previous solution, the relevant information is in simple text and can be version controlled with git.
-- It is LLM friendly. I can give the documentation as reference and get valid CV, instead of describing the structure to follow in markdown.
-E.g. a command would be: `Translate this CV to English. Use this yaml format: https://docs.rendercv.com/user_guide/yaml_input_structure/cv`.
-- One of my motivations for *luca-cv* was to have an easy way to convert my CV docx.
-I used [pandoc](https://pandoc.org/) to convert the markdown to docx.
-Since then, I stopped bothering with it, but RenderCV still offers me the option to do it.
-RenderCV also supports markdown output, allowing me to convert that to docx if I ever want to.
-- Formatting options are defined in the yaml, but I can overwrite them with additional argument.
+I just run a PowerShell command like my previous template.
+- The relevant information is in simple text and can be version controlled with git.
+- The format is LLM friendly.
+I can link the documentation as reference to the chatbot to get valid outputs.
+E.g.: `Translate this CV to English. Use this yaml format: https://docs.rendercv.com/user_guide/yaml_input_structure/cv`.
+- If necessary, I can still render the CV in docx.
+RenderCV supports markdown, which [pandoc](https://pandoc.org/) can be converte to docx.
+- Formatting options are defined in the yaml, but I can override them with a CLI argument.
 I used this feature to test multiple formatting options at once and pick the one I liked the most.
 
 ```powershell
