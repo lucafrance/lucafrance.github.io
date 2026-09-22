@@ -7,7 +7,7 @@ mastodon:
 In 2022 [I decided to start writing my curriculum vitae in markdown]({% post_url 2022/2022-08-18-cv-markdown-pandoc-python-latex %}).
 I would then convert the markdown to LaTeX with a Python script, and then generate a pdf.
 
-This year I switched to [RenderCV](https://rendercv.com/), a Python package which renders a CV in yaml to different formats.
+This year I switched to [RenderCV](https://rendercv.com/), a Python package which renders a yaml CV to different formats.
 I quickly preferred it to my previous solution for several reasons and can want to recommend it further.
 
 {:refdef: style="text-align: center;"}
@@ -15,11 +15,11 @@ I quickly preferred it to my previous solution for several reasons and can want 
 [“East Side Gallery”](https://www.flickr.com/photos/frans16611/2834891545) by [François Philipp](https://www.flickr.com/photos/frans16611/), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/deed.en)
 {: refdef}
 
-- Using yaml as the starting point is more intuitive for me.
-The relevant when writing my CV is the structure, which is better represented by yaml compare to markdown.
-Other solutions [use json as basis](https://jsonresume.org/), but that format is less human friendly.
-- I can run it directly as command in PowerShell.
-No need to rely on an external service or self host a web service.
+- Writing the CV in yaml instead of markdown feels more intuitive.
+The relevant information of a CV is the content and the structure, which yaml abstracts in a user friendly way.
+I tried [other solutions based on json](https://jsonresume.org/), like [Reactive Resume](https://rxresu.me) but they were not as practical for me.
+- There is no reliance on an external or self-hosted service.
+I just run a PowerShell command as I was used to with my previous template.
 - As with my previous solution, the relevant information is in simple text and can be version controlled with git.
 - It is LLM friendly. I can give the documentation as reference and get valid CV, instead of describing the structure to follow in markdown.
 E.g. a command would be: `Translate this CV to English. Use this yaml format: https://docs.rendercv.com/user_guide/yaml_input_structure/cv`.
