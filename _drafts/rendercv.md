@@ -4,17 +4,16 @@ tags: []
 mastodon: 
 ---
 
-A while back [I wrote]({% post_url 2022/2022-08-18-cv-markdown-pandoc-python-latex %}) a Python script to convert my curriculum vitae from markdown to LaTeX.
-I called it *luca-cv*.
+In 2022 [I decided to start writing my curriculum vitae in markdown]({% post_url 2022/2022-08-18-cv-markdown-pandoc-python-latex %}).
+I would then convert the markdown to LaTeX with a Python script, and then generate a pdf.
+
+This year I switched to [RenderCV](https://rendercv.com/), a Python package which renders a CV in yaml to different formats.
+I quickly preferred it to my previous solution for several reasons and can want to recommend it further.
 
 {:refdef: style="text-align: center;"}
-![A picture of the "Curriculum vitae" mural at the East Side Gallery in Berlin](/assets/2026/rendercv/cv-east-side-gallery.jpg)
+![A picture of the "Curriculum vitae" mural at the East Side Gallery in Berlin](/assets/2026/rendercv/cv-east-side-gallery.jpg){: width="70%" }<br>
 [“East Side Gallery”](https://www.flickr.com/photos/frans16611/2834891545) by [François Philipp](https://www.flickr.com/photos/frans16611/), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/deed.en)
 {: refdef}
-
-I now switched to a different tool: [RenderCV](https://rendercv.com/).
-It is a Python package which render a yaml CV to different formats.
-I like it for several reasons.
 
 - Using yaml as the starting point is more intuitive for me.
 The relevant when writing my CV is the structure, which is better represented by yaml compare to markdown.
