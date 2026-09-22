@@ -3,6 +3,8 @@ title: How I manage my CV with Markdown, Pandoc, Python, and LaTeX
 tags: [Python]
 ---
 
+> Update 2026-09-22: I now [manage my CV differently]({% post_url 2026/2026-09-22-rendercv %}).
+
 I had a first world problem.
 While applying for projects, many recruiters ask for the CV in Word format.
 They want to import it in their system or adapt it to a standard template.
