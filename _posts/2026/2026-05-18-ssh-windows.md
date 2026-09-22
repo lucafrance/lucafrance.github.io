@@ -1,6 +1,6 @@
 ---
 title: SSH basics on Windows 🖥️⚡🖥️
-tags: [homelab]
+tags: [English en 🇬🇧, homelab, Windows]
 mastodon: https://mastodon.social/@lucafeu/116594207992852766
 ---
 

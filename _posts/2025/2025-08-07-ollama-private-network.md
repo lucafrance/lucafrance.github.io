@@ -1,6 +1,6 @@
 ---
 title: How to serve Ollama on your private network with Windows 11 🦙
-tags: [AI]
+tags: [English en 🇬🇧, artificial intelligence AI large language models LLM, Windows]
 mastodon: https://mastodon.social/@lucafeu/115989150360745715
 ---
 

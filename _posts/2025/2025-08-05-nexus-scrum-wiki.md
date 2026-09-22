@@ -1,6 +1,6 @@
 ---
 title: Nexus added to scrum.wiki 🌟
-tags: [Scrum]
+tags: [English en 🇬🇧, Scrum]
 ---
 
 I am happy to announce that [Nexus](https://scrum.wiki/Nexus) is now also on [scrum.wiki](https://scrum.wiki).

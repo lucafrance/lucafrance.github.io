@@ -1,7 +1,7 @@
 ---
 title: OpenRCT2 - Rainbow Summit beaten with 210 motion simulators and one chairlift
 excerpt: " "
-tags: []
+tags: [English en 🇬🇧]
 mastodon: https://mastodon.social/@lucafeu/116662860594810415
 ---
 

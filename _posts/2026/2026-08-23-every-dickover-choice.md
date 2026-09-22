@@ -1,6 +1,6 @@
 ---
 title: Every dickover is a choice
-tags: []
+tags: [English en 🇬🇧, dickover]
 mastodon: https://mastodon.social/@lucafeu/117144251006173076
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: How I mixed Johnny Decimal and Second Brain to organize my documents
-tags: []
+tags: [English en 🇬🇧, personal information management PIM personal knowledge management PKM]
 mastodon: https://mastodon.social/@lucafeu/115989158079174731
 ---
 

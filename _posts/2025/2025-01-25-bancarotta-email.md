@@ -1,6 +1,6 @@
 ---
 title: Come liberarsi delle email senza dichiarare la bancarotta 📧📉
-tags: []
+tags: [italiano it 🇮🇹]
 excerpt: "Avere troppe email non è un problema nuovo. Già nel 2002 c'era chi fantasticava di annunciare semplicemente la bancarotta, ovvero mandare la stessa risposta automatica a migliaia di email."
 ---
 

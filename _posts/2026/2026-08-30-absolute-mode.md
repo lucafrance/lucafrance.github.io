@@ -1,6 +1,6 @@
 ---
 title: Absolute mode is the best mode
-tags: []
+tags: [English en 🇬🇧, artificial intelligence AI large language models LLM]
 mastodon: https://mastodon.social/@lucafeu/117183519830919266
 ---
 

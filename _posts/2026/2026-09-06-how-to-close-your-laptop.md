@@ -1,6 +1,6 @@
 ---
 title: How to close your laptop
-tags: []
+tags: [Windows]
 mastodon: https://mastodon.social/@lucafeu/117223057400941831
 ---
 

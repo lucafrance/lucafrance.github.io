@@ -1,6 +1,6 @@
 ---
 title: Obsidian versioning with git and GitHub
-tags: []
+tags: [English en 🇬🇧, personal information management PIM personal knowledge management PKM]
 mastodon: https://mastodon.social/@lucafeu/115989160216319108
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Launching scrum.wiki 🚀
-tags: [Scrum]
+tags: [English en 🇬🇧, Scrum]
 ---
 
 I am happy to announce a new website: [scrum.wiki](http://scrum.wiki/)!

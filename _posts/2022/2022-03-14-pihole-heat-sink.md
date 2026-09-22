@@ -1,6 +1,6 @@
 ---
 title: The benefit of heat sinks on a Pi-Hole, checked experimentally
-tags: [Statistics, Python, Data]
+tags: [English en 🇬🇧, statistics, Python, data]
 ---
 
 I recently got myself a [Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) to use as a [Pi-hole](https://pi-hole.net/) and wanted to understand whether it would benefit from heat sinks or not.

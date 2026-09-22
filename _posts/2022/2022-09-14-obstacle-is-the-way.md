@@ -1,6 +1,6 @@
 ---
 title: The obstacle is the way by Ryan Holiday is shallow and uninspiring
-tags: []
+tags: [English en 🇬🇧]
 ---
 
 TL, DR: 🤨😠📕🗑️

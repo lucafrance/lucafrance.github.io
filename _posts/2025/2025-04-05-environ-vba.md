@@ -1,6 +1,6 @@
 ---
 title: Using environment variables with VBA 📄
-tags: [Excel, VBA]
+tags: [English en 🇬🇧, Excel, VBA]
 mastodon: https://mastodon.social/@lucafeu/115989152486513532
 ---
 

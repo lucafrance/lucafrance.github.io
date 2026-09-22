@@ -1,6 +1,6 @@
 ---
 title: How to add custom icons to the footer in Jekyll’s Minima theme v3 🧪
-tags: [Jekyll]
+tags: [English en 🇬🇧, Jekyll]
 mastodon: https://mastodon.social/@lucafeu/115989149245398109
 ---
 

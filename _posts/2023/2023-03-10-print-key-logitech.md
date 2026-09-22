@@ -1,6 +1,6 @@
 ---
 title: How to enable the Print Screen key on a Logitech keyboard
-tags: []
+tags: [English en 🇬🇧, Windows]
 mastodon: https://mastodon.social/@lucafeu/115989157159866580
 ---
 

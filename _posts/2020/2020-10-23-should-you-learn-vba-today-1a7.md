@@ -1,6 +1,6 @@
 ---
 title: Should you learn VBA today?
-tags: [Excel, VBA]
+tags: [English en 🇬🇧, Excel, VBA]
 ---
 
 #### The definitive guide

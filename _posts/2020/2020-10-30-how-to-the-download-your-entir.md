@@ -1,6 +1,6 @@
 ---
 title: How to download your entire GOG-library with LGOGDownloader
-tags: []
+tags: [English en 🇬🇧]
 ---
 
 Good Old Games allows to download single games over the [website](https://www.gog.com/account) or over the [client](https://www.gog.com/galaxy), but not the whole game library at once. Fortunately there is [LGOGDownloader](https://github.com/Sude-/lgogdownloader), an unofficial downloader for GOG on Linux.

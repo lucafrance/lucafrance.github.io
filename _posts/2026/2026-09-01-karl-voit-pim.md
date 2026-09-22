@@ -1,6 +1,6 @@
 ---
 title: "Comments on 'Basics of Personal Information Management: Finding the best tool(s)' by Karl Voit"
-tags: []
+tags: [English en 🇬🇧, personal information management PIM personal knowledge management PKM]
 mastodon: https://mastodon.social/@lucafeu/117197803541771670
 ---
 

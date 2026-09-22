@@ -1,6 +1,6 @@
 ---
 title: Come aggiungere i caratteri mancanti dalla tastiera italiana su Windows 10 (~\`È)
-tags: []
+tags: [italiano it 🇮🇹]
 ---
 
 Ci sono caratteri che non è possibile creare con la tastiera italiana su Windows 10 a meno di combinazioni ridicole di *alt* e numeri. Ero stufo di copiaincollare i caratteri o dover configurare il correttore automatico per ogni singolo programma (per esempio da “E’” a “È”), questa è la soluzione che ho trovato.

@@ -1,6 +1,6 @@
 ---
 title: The  metrics that Scrum requires you to use 🧑‍💻📈
-tags: [Project Management, Scrum]
+tags: [English en 🇬🇧, project management, Scrum]
 excerpt: "A common misconception in Scrum is that traditional project management metrics, like person days, must be replaced by other metrics like story points or T-shirt sizes. In reality Scrum doesn't mandate any specific metric; the Scrum Team is free to use whatever makes sense for the product."
 mastodon: https://mastodon.social/@lucafeu/115989153213239064
 ---

@@ -1,6 +1,6 @@
 ---
 title: AI won't fix your customer service
-tags: []
+tags: [English en 🇬🇧, artificial intelligence AI large language models LLM]
 mastodon: https://mastodon.social/@lucafeu/117276890851649625
 ---
 

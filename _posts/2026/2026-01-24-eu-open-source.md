@@ -1,6 +1,6 @@
 ---
 title: Open source culture is fundamental for a successful European tech industry 🇪🇺
-tags: []
+tags: [English en 🇬🇧]
 mastodon: https://mastodon.social/@lucafeu/115989135694058019
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: How I manage my CV with Markdown, Pandoc, Python, and LaTeX
-tags: [Python]
+tags: [English en 🇬🇧, Python, curriculum vitae CV resume]
 ---
 
 > Update 2026-09-22: I now [manage my CV differently]({% post_url 2026/2026-09-22-rendercv %}).

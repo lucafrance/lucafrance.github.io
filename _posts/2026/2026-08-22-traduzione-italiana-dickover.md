@@ -1,6 +1,6 @@
 ---
 title: Serve una traduzione italiana di "dickover"
-tags: []
+tags: [italiano it 🇮🇹, dickover]
 mastodon: https://mastodon.social/@lucafeu/117138479051210040
 ---
 
