@@ -11,17 +11,16 @@ The web versions of Word, Excel, PowerPoint, OneNote don't support dark mode, wh
 
 Meanwhile, Outlook, Teams and Copilot, which theoretically are part of the same Office 365 offering, do support dark mode on the web.
 
-Annoyingly, the official documentations mentions a dark mode feature for Word on the web which does not actually exit.
 
-Only if you open a Word document from OneDrive first, then somehow, dark mode is there.
-If you open Word first, no dark mode, nor for any other application.
 
+Annoyingly, the [official documentation](https://support.microsoft.com/en-us/word/dark-mode-in-word) ([screenshot](assets/2026/dark-mode-microsoft/word-dark-mode-docs-full-page.png)) mentions a dark mode feature for Word on the web which does not actually exit.
 
 
 
+Except it does it  you open a Word document from OneDrive, but not if you open Word first.
+This workaround only works with Word and no other application.
 
-Am I missing something?
-I searched everywhere for a global setting and I don't find.
-Microsoft's own Copilot hallucinates a feature which does not exist.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2nrti7aHerg?si=WMLBtkx6cR4JnOoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
+Why?
+I am genuinely  curios [what kind of processes within Microsoft](https://bonkersworld.net/organizational-charts) lead to such different results.
