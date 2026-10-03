@@ -40,7 +40,15 @@ Annoyingly, the [official documentation](https://support.microsoft.com/en-us/wor
 Except it does when you open a Word document from OneDrive, but not if you open Word first.
 This workaround only works with Word and no other application.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2nrti7aHerg?si=WMLBtkx6cR4JnOoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe
+  src="https://www.youtube.com/embed/2nrti7aHerg?si=WMLBtkx6cR4JnOoY"
+  title="YouTube video player"
+  style="width: 100%; height: auto; aspect-ratio: 16 / 9;"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 
 <br>
 Why?
