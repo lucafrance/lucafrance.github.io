@@ -43,3 +43,6 @@ Even Copilot [hallucinates](/assets/2026/dark-mode-microsoft/copilot-web.png) fe
 Why?
 Microsoft is [definitely getting the feedback](/assets/2026/dark-mode-microsoft/feedback-dark-mode.png).
 I am genuinely curios [what kind of processes within Microsoft](https://bonkersworld.net/organizational-charts) lead to such different results.
+
+![This xkcd.com update introduces a variety of new reading modes which can be activated through the menu below the comic.](/assets/2026/dark-mode-microsoft/xkcd-dark-mode.png)
+Creation ([xkcd 3227](https://xkcd.com/3227/)), © Randall Munroe [CC BY NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/)
