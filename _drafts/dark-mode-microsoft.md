@@ -10,8 +10,11 @@ The web versions of Word, Excel, PowerPoint, and OneNote don't support dark mode
 
 {:refdef: style="text-align: center;"}
 ![Screenshot of the web version of Word](/assets/2026/dark-mode-microsoft/word-web.png){: width="60%" }
+<br><br>
 ![Screenshot of the web version of Excel](/assets/2026/dark-mode-microsoft/excel-web.png){: width="60%" }
+<br><br>
 ![Screenshot of the web version of PowerPoint](/assets/2026/dark-mode-microsoft/powerpoint-web.png){: width="60%" }
+<br><br>
 ![Screenshot of the web version of OneNote](/assets/2026/dark-mode-microsoft/onenote-web.png){: width="60%" }
 {: refdef}
 
@@ -19,7 +22,9 @@ Meanwhile, Outlook, Teams, and Copilot do support dark mode on the web.
 
 {:refdef: style="text-align: center;"}
 ![Screenshot of the web version of Outlook](/assets/2026/dark-mode-microsoft/outlook-web.png){: width="60%" }
+<br><br>
 ![Screenshot of the web version of Teams](/assets/2026/dark-mode-microsoft/teams-web.png){: width="60%" }
+<br><br>
 ![Screenshot of the web version of Copilot](/assets/2026/dark-mode-microsoft/copilot-web.png){: width="60%" }
 {: refdef}
 
@@ -27,6 +32,7 @@ Even ordinary web pages are inconsistent: dark mode is supported on [learn.micro
 
 {:refdef: style="text-align: center;"}
 ![screenshot from support.microsoft.com](/assets/2026/dark-mode-microsoft/ms-support-page.png){: width="60%" }
+<br><br>
 ![screenshot from learn.microsoft.com](/assets/2026/dark-mode-microsoft/ms-learn-page.png){: width="60%" }
 {: refdef}
 
