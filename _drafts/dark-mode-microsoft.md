@@ -8,14 +8,21 @@ The inconsistent support for dark mode by Microsoft puzzles me.
 
 The web versions of Word, Excel, PowerPoint, OneNote don't support dark mode, while their desktop counterparty does.
 
+![Screenshot of the web version of Word](/assets/2026/dark-mode-microsoft/word-web.png)
+![Screenshot of the web version of Excel](/assets/2026/dark-mode-microsoft/excel-web.png)
+![Screenshot of the web version of PowerPoint](/assets/2026/dark-mode-microsoft/powerpoint-web.png)
+![Screenshot of the web version of OneNote](/assets/2026/dark-mode-microsoft/onenote-web.png)
 
-Meanwhile, Outlook, Teams and Copilot, which theoretically are part of the same Office 365 offering, do support dark mode on the web.
+Meanwhile, Outlook, Teams, and Copilot do support dark mode on the web.
 
+![Screenshot of the web version of Outlook](/assets/2026/dark-mode-microsoft/outlook-web.png)
+![Screenshot of the web version of Teams](/assets/2026/dark-mode-microsoft/teams-web.png)
+![Screenshot of the web version of Copilot](/assets/2026/dark-mode-microsoft/copilot-web.png)
 
+Annoyingly, the [official documentation](https://support.microsoft.com/en-us/word/dark-mode-in-word) ([screenshot](/assets/2026/dark-mode-microsoft/word-dark-mode-docs-full-page.png)) mentions a dark mode feature for Word on the web which does not actually exit.
 
-Annoyingly, the [official documentation](https://support.microsoft.com/en-us/word/dark-mode-in-word) ([screenshot](assets/2026/dark-mode-microsoft/word-dark-mode-docs-full-page.png)) mentions a dark mode feature for Word on the web which does not actually exit.
-
-
+![Word web docs mention dark mode in view menu](/assets/2026/dark-mode-microsoft/word-dark-mode-docs.png)
+![Word web actual view menu, no dark mode](/assets/2026/dark-mode-microsoft/word-web-view-menu.png)
 
 Except it does it  you open a Word document from OneDrive, but not if you open Word first.
 This workaround only works with Word and no other application.
@@ -23,4 +30,5 @@ This workaround only works with Word and no other application.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2nrti7aHerg?si=WMLBtkx6cR4JnOoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Why?
-I am genuinely  curios [what kind of processes within Microsoft](https://bonkersworld.net/organizational-charts) lead to such different results.
+Microsoft is [definitely getting the feedback](/assets/2026/dark-mode-microsoft/feedback-dark-mode.png).
+I am genuinely curios [what kind of processes within Microsoft](https://bonkersworld.net/organizational-charts) lead to such different results.
