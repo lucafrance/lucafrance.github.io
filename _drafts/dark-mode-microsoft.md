@@ -8,21 +8,26 @@ The inconsistent support for dark mode by Microsoft puzzles me.
 
 The web versions of Word, Excel, PowerPoint, OneNote don't support dark mode, while their desktop counterparty does.
 
-![Screenshot of the web version of Word](/assets/2026/dark-mode-microsoft/word-web.png)
-![Screenshot of the web version of Excel](/assets/2026/dark-mode-microsoft/excel-web.png)
-![Screenshot of the web version of PowerPoint](/assets/2026/dark-mode-microsoft/powerpoint-web.png)
-![Screenshot of the web version of OneNote](/assets/2026/dark-mode-microsoft/onenote-web.png)
+![Screenshot of the web version of Word](/assets/2026/dark-mode-microsoft/word-web.png){: width="48%" }
+![Screenshot of the web version of Excel](/assets/2026/dark-mode-microsoft/excel-web.png){: width="48%" }
+<br>
+![Screenshot of the web version of PowerPoint](/assets/2026/dark-mode-microsoft/powerpoint-web.png){: width="48%" }
+![Screenshot of the web version of OneNote](/assets/2026/dark-mode-microsoft/onenote-web.png){: width="48%" }
 
 Meanwhile, Outlook, Teams, and Copilot do support dark mode on the web.
 
-![Screenshot of the web version of Outlook](/assets/2026/dark-mode-microsoft/outlook-web.png)
-![Screenshot of the web version of Teams](/assets/2026/dark-mode-microsoft/teams-web.png)
-![Screenshot of the web version of Copilot](/assets/2026/dark-mode-microsoft/copilot-web.png)
+![Screenshot of the web version of Outlook](/assets/2026/dark-mode-microsoft/outlook-web.png){: width="48%" }
+![Screenshot of the web version of Teams](/assets/2026/dark-mode-microsoft/teams-web.png){: width="48%" }
+![Screenshot of the web version of Copilot](/assets/2026/dark-mode-microsoft/copilot-web.png){: width="48%" }
 
 Annoyingly, the [official documentation](https://support.microsoft.com/en-us/word/dark-mode-in-word) ([screenshot](/assets/2026/dark-mode-microsoft/word-dark-mode-docs-full-page.png)) mentions a dark mode feature for Word on the web which does not actually exit.
 
 ![Word web docs mention dark mode in view menu](/assets/2026/dark-mode-microsoft/word-dark-mode-docs.png)
+*Screenshot from Microsoft's documentation.*
+
 ![Word web actual view menu, no dark mode](/assets/2026/dark-mode-microsoft/word-web-view-menu.png)
+*Actual view menu for Word on the web.*
+
 
 Except it does it  you open a Word document from OneDrive, but not if you open Word first.
 This workaround only works with Word and no other application.
