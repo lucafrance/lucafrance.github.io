@@ -63,7 +63,7 @@ This workaround only works in Word and no other application.
 
 <br>
 Why?
-Microsoft is [definitely getting the feedback](/assets/2026/dark-mode-microsoft/feedback-dark-mode.png); even Copilot [hallucinates dark mode features that don't exist](/assets/2026/dark-mode-microsoft/copilot-hallucination.png).
+Microsoft is [definitely getting the request](/assets/2026/dark-mode-microsoft/feedback-dark-mode.png); even Copilot [hallucinates dark mode features that don't exist](/assets/2026/dark-mode-microsoft/copilot-hallucination.png).
 I am genuinely curious [what kind of processes within Microsoft](https://bonkersworld.net/organizational-charts) lead to such different results.
 
 {:refdef: style="text-align: center;"}
