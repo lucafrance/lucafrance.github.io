@@ -3,23 +3,31 @@ layout: page
 title: 🏷️ Tags
 ---
 
-{% assign sorted_tags = site.tags | sort_tags_by_count %}
+{% assign sorted_tags = site.tags | sort %}
 
 <h2>🏷️ All tags</h2>
-<ul>
+<ul id="tag-index">
   {% for tag in sorted_tags %}
-    <li><a href="#{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</a></li>
+    <li data-tag-name="{{ tag[0] | escape }}" data-tag-count="{{ tag[1].size }}">
+      <a href="#{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</a>
+    </li>
   {% endfor %}
 </ul>
 
-{% for tag in sorted_tags %}
-  <p><strong id="{{ tag[0] }}">
-    🏷️ {{ tag[0] }} ({{ tag[1].size }})
-    <a href="#{{ tag[0] }}" aria-label="Link to {{ tag[0] }} tag">🔗</a>
-  </strong></p>
-  <ul>
-    {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+<div id="tag-details">
+  {% for tag in sorted_tags %}
+    <section data-tag-name="{{ tag[0] | escape }}" data-tag-count="{{ tag[1].size }}">
+      <p><strong id="{{ tag[0] }}">
+        🏷️ {{ tag[0] }} ({{ tag[1].size }})
+        <a href="#{{ tag[0] }}" aria-label="Link to {{ tag[0] }} tag">🔗</a>
+      </strong></p>
+      <ul>
+        {% for post in tag[1] %}
+          <li><a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
+</div>
+
+<script src="{{ '/assets/js/sort-tags.js' | relative_url }}" defer></script>
