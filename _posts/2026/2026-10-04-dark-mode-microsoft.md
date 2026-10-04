@@ -1,7 +1,7 @@
 ---
 title: Microsoft's approach to dark mode is a mess
 tags: []
-mastodon: 
+mastodon: https://mastodon.social/@lucafeu/117381574163650714
 ---
 
 The inconsistent support for dark mode across Microsoft products puzzles me.
