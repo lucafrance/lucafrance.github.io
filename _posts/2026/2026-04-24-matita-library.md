@@ -1,6 +1,6 @@
 ---
 title: Another way to replace VBA with Python 🐍
-tags: [English en 🇬🇧, Excel, Python, VBA, Windows]
+tags: [English en 🇬🇧, Excel, Python, VBA, Windows, Microsoft Office]
 mastodon: https://mastodon.social/@lucafeu/116458776205557367
 ---
 
