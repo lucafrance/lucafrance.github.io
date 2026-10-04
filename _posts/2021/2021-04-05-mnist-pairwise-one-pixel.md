@@ -1,6 +1,6 @@
 ---
 title: Distinguishing pairs of classes on MNIST and Fashion-MNIST with just one pixel
-tags: [English en 🇬🇧, Python, data, statistics]
+tags: [English en, Python, data, statistics]
 ---
 
 Fashion-MNIST is a machine learning benchmarking dataset created to replace MNIST, as MNIST is relatively easy to predict and therefore is not enough of a challenge to test different machine learning models.

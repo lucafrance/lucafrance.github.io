@@ -1,6 +1,6 @@
 ---
 title: Visualizing r/place in Excel
-tags: [English en 🇬🇧, Python, Excel, data]
+tags: [English en, Python, Excel, data]
 mastodon: https://mastodon.social/@lucafeu/115989159290049595
 ---
 

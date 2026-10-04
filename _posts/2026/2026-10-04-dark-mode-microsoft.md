@@ -1,6 +1,6 @@
 ---
 title: Microsoft's approach to dark mode is a mess
-tags: [Microsoft Office, English en 🇬🇧]
+tags: [Microsoft Office, English en]
 mastodon: https://mastodon.social/@lucafeu/117381574163650714
 ---
 

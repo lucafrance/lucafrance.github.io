@@ -1,6 +1,6 @@
 ---
 title: How to fix Gmail blocking email from Hover
-tags: [English en 🇬🇧]
+tags: [English en]
 mastodon: https://mastodon.social/@lucafeu/115989156529304961
 ---
 

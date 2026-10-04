@@ -1,6 +1,6 @@
 ---
 title: Wikipedia's page on the rule of three
-tags: [English en 🇬🇧]
+tags: [English en]
 mastodon: https://mastodon.social/@lucafeu/117138110957158760
 ---
 
