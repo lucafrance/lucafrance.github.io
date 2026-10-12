@@ -4,6 +4,9 @@ tags: []
 mastodon: 
 ---
 
+Uso B2. Quando uso l'inglese, di solito non è native speaker.
+Quando lavoro in tedesco, non è la mia madrelingua, e voglio usare parole che userei anche io.
+
 Quando faccio scrivere qualcosa alla LLM, preferisco B2 per evitare linguaggio inutilmente complesso.
 
 ```
