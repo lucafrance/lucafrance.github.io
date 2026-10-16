@@ -1,6 +1,6 @@
 ---
 title: Syncing special Windows folders with Nextcloud instead of OneDrive
-tags: []
+tags: [English en, Windows, homelab]
 mastodon: 
 ---
 
