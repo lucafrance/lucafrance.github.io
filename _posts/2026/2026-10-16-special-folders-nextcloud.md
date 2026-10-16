@@ -1,7 +1,7 @@
 ---
 title: Syncing special Windows folders with Nextcloud instead of OneDrive
 tags: [English en, Windows, homelab]
-mastodon: 
+mastodon: https://mastodon.social/@lucafeu/117451815999404302
 ---
 
 There are [special folders](https://learn.microsoft.com/en-us/dotnet/api/system.environment.specialfolder) that [can be synchronised with OneDrive](https://support.microsoft.com/en-gb/onedrive/back-up-your-folders-with-onedrive) alongside the main OneDrive folder: Documents, Pictures, Desktop, Music, and Videos.
