@@ -4,15 +4,15 @@ tags: []
 mastodon: 
 ---
 
-I use LLMs a lot at work to rewrite my drafts fluidly or generate bullet point summaries.
-By default, I find the language used by LLMs to be overly complex.
-If I am writing in English, most of my audience is usually not a native speaker.
-If I am writing in German (not my native language), I prefer sentences that I would actually use myself.
+I frequently use LLMs at work to rewrite my drafts fluidly or generate bullet point summaries.
+By default, I find that LLMs tend to use overly complex language.
+When writing in English, most of my audience is usually not a native speaker.
+When writing in German (not my native language), I prefer sentences that I would actually use myself.
 
 My solution is to specify the language level in the prompts according to the [Common European Framework of Reference for Languages (CEFR)](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions).
-I find level B2 to be an ideal compromise; it is expressive without sounding simplistic.
+I find level B2 to be an ideal compromise; it's expressive without sounding simplistic.
 
-Here is for example how the [Gettysburg address](https://en.wikisource.org/wiki/Gettysburg_Address_(Bliss_copy)) is summarised with and without specifying the language level[^model-choice][^norvig].
+For example, here is the [Gettysburg address](https://en.wikisource.org/wiki/Gettysburg_Address_(Bliss_copy)) summarised with and without specifying the language level[^model-choice][^norvig].
 
 [^model-choice]: I used [GPT-5.4 mini](https://developers.openai.com/api/docs/guides/latest-model?model=gpt-5.4) on [duck.ai](https://duck.ai). The model choice is arbitrary.
 
@@ -42,10 +42,10 @@ Output:
 - He urges the living to continue the unfinished work, honor the dead, and protect freedom and democratic government.
 ```
 
-You can go further with this approach and use the lowest language level.
+You can go even further with this approach and use the lowest language level.
 
 ```
-Prompt: Summarise this speech in 5 bullet points. Use basic English.
+Prompt: Summarise this speech in 5 bullet points. Use language level A1.
 <copy of the speech>
 
 Output:
