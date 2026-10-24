@@ -1,6 +1,6 @@
 ---
 title: Make your chatbot use simple language
-tags: []
+tags: [English en, artificial intelligence AI large language models LLM]
 mastodon: 
 ---
 
