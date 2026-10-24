@@ -1,7 +1,7 @@
 ---
 title: Make your chatbot use simple language
 tags: [English en, artificial intelligence AI large language models LLM]
-mastodon: 
+mastodon: https://mastodon.social/@lucafeu/117494731160736163
 ---
 
 I frequently use LLMs at work to rewrite my drafts fluidly or generate bullet point summaries.
