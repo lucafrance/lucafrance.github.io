@@ -1,7 +1,7 @@
 ---
 title: Die korrekte Übersetzung von "Sehr geehrte Damen und Herren" auf Englisch
 tags: []
-mastodon: 
+mastodon: https://mastodon.social/@lucafeu/117560484521258726
 ---
 
 Ist nicht "dear ladies and gentlemen".
