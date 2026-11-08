@@ -9,6 +9,6 @@ As this is a violation of Kobo's terms and conditions, I want to warn how to avo
 I would never support the idea that buying an ebook online actually entitles to owning it.
 Any reasonable person would understand that "buying" means no-guarantee "renting" at the will of the store.
 
-
+https://www.kobo.com/de/de/ebook/how-to-lie-with-statistics-3
 
 
