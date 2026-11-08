@@ -12,3 +12,22 @@ Any reasonable person would understand that "buying" means no-guarantee "renting
 https://www.kobo.com/de/de/ebook/how-to-lie-with-statistics-3
 
 
+## Install Adobe Digital Editions
+
+[Download Adobe Digital Editions](https://www.adobe.com/content/cc/africa/en/solutions/ebook/digital-editions/download.html?allowfullpath=true) and install it.
+
+## Authorise the computer
+
+## Install Calibre
+
+## Install Calibre extensions
+
+## Buy the book
+
+Kobo puts explicitly in the description whether the ebook is protected by DRM.
+![](/assets/2026/kobo-drm/book-description.png)
+
+## Download the book from Kobo
+
+## Copy the book to Calibre
+
