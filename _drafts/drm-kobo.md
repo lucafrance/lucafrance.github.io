@@ -19,7 +19,8 @@ Go to *Help > Authorize Computer*.
 I recommend authorising the computer with login and password instead of proceeding without.
 Using an account ensures that other machines can be authorised for the same books[^ludicrous].
 You can use a free [Adobe ID](https://account.adobe.com/).
-Do not activate two factor authentication, otherwise the authorisation fails with no clear error message[^2fa].
+Do not activate two factor authentication (2FA), otherwise the authorisation fails with no clear error message[^2fa].
+You can activate the 2FA after the computer is authorised.
 
 [^ludicrous]: Some people might consider ludicrous the idea of an account to read a book. I don't, I find it perfectly reasonable.
 
@@ -28,10 +29,12 @@ Do not activate two factor authentication, otherwise the authorisation fails wit
 ![](/assets/2026/kobo-drm/authorise-computer-1.png)
 ![](/assets/2026/kobo-drm/authorise-computer-2.png)
 
-
 ## Calibre
 
-## Install Calibre extensions
+Download and install [Calibre](https://calibre-ebook.com/download).
+Download the [DeDRM_tools plugin by GitHub user *Satsuoni*](https://github.com/Satsuoni/DeDRM_tools)[^dedrm_version], which is a fork of the [version by GitHub user *noDRM*](https://github.com/noDRM), which is fork of [the original](https://github.com/apprenticeharper/DeDRM_tools) by [Apprentice Alf](https://apprenticealf.wordpress.com/).
+
+[^dedrm_version]: As of writing in November 2026, the most recent version is [v10.0.6s](https://github.com/Satsuoni/DeDRM_tools/releases/tag/v10.0.6s) released in July 2023.
 
 ## Buy the book
 
