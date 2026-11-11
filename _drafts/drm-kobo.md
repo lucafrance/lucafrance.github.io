@@ -48,12 +48,11 @@ Repeat for the second zip file.
 ![](/assets/2026/kobo-drm/calibre-2.png)
 ![](/assets/2026/kobo-drm/calibre-3.png)
 ![](/assets/2026/kobo-drm/calibre-4.png)
-![](/assets/2026/kobo-drm/calibre-5.png)
 
 Restart Calibre.
 You should see a *Obok DeDrm* button on the menu.
 
-![](/assets/2026/kobo-drm/calibre-6.png)
+![](/assets/2026/kobo-drm/calibre-5.png)
 
 ## Kobo
 
