@@ -33,11 +33,26 @@ You can activate the 2FA after the computer is authorised.
 
 Download and install [Calibre](https://calibre-ebook.com/download).
 Download the [DeDRM_tools plugin by GitHub user *Satsuoni*](https://github.com/Satsuoni/DeDRM_tools)[^dedrm_version], which is a fork of the [version by GitHub user *noDRM*](https://github.com/noDRM), which is fork of [the original](https://github.com/apprenticeharper/DeDRM_tools) by [Apprentice Alf](https://apprenticealf.wordpress.com/).
+Unzip the file, it should contain two other zip files *DeDRM_plugin.zip* and *Obok_plugin.zip*.
+
+![](/assets/2026/kobo-drm/dedrm.png)
 
 [^dedrm_version]: As of writing in November 2026, the most recent version is [v10.0.6s](https://github.com/Satsuoni/DeDRM_tools/releases/tag/v10.0.6s) released in July 2023.
 
+Open Calibre.
+Go to *Preferences > Plugins > Load Plugin from file*. 
+Select one of the zip files of the plugin, then confirm.
+Repeat for the second zip file.
+
+![](/assets/2026/kobo-drm/calibre-1.png)
+![](/assets/2026/kobo-drm/calibre-2.png)
+![](/assets/2026/kobo-drm/calibre-3.png)
+![](/assets/2026/kobo-drm/calibre-4.png)
+![](/assets/2026/kobo-drm/calibre-5.png)
+
 ## Buy the book
 
+Some books on Kobo are DRM free, but most of them use Adobe's DRM.
 Kobo puts explicitly in the description whether the ebook is protected by DRM.
 ![](/assets/2026/kobo-drm/book-description.png)
 
