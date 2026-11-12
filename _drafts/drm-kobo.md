@@ -10,20 +10,21 @@ Here is a guide on how to remove the DRM from ebooks purchased on [Kobo](https:/
 
 ## Adobe Digital Editions
 
-Download and install [Adobe Digital Editions](https://www.adobe.com/content/cc/africa/en/solutions/ebook/digital-editions/download.html?allowfullpath=true) and install it.
-
+Download and install [Adobe Digital Editions](https://www.adobe.com/content/cc/africa/en/solutions/ebook/digital-editions/download.html?allowfullpath=true).
 Go to *Help > Authorize Computer*.
-I recommend authorising the computer with login and password instead of proceeding without an ID.
-Using an account ensures that other machines can be authorised for the same books[^ludicrous].
+
+![](/assets/2026/kobo-drm/authorise-computer-1.png)
+
+I recommend authorising the computer with an account instead of proceeding without an ID.
+With an account other machines can be authorised for the same ebooks[^ludicrous].
 You can use a free [Adobe ID](https://account.adobe.com/).
-Do not activate two factor authentication (2FA), otherwise the authorisation fails with no clear error message[^2fa].
-You can activate the 2FA after the computer is authorised.
+Do not activate the two factor authentication (2FA) on your account, otherwise the authorisation fails with no clear error message[^2fa].
+You can (re-)activate the 2FA after the computer is authorised.
 
 [^ludicrous]: Some people might consider ludicrous the idea of an account to read a book. I don't, I find it perfectly reasonable.
 
 [^2fa]: I definitely didn't find this out on my own by chance after [fighting with a useless chatbot to try to get the help of a human]({% post_url 2026/2026-09-15-ai-customer-service%}).
 
-![](/assets/2026/kobo-drm/authorise-computer-1.png)
 ![](/assets/2026/kobo-drm/authorise-computer-2.png)
 
 ## Calibre
@@ -48,17 +49,17 @@ Repeat for the second zip file.
 ![](/assets/2026/kobo-drm/calibre-4.png)
 
 Restart Calibre.
-You should see a *Obok DeDrm* button on the menu.
+You should see an *Obok DeDrm* button on the menu.
 
 ![](/assets/2026/kobo-drm/calibre-5.png)
 
 ## Kobo
 
 Some books on Kobo are DRM free, but most of them use Adobe's DRM.
-The book description on the store page mentions whether the ebook is protected by DRM.
+The book description on the store mentions whether the ebook is protected by DRM.
 ![](/assets/2026/kobo-drm/book-description.png)
 
-After purchasing the book, go to *My Account > Books*.
+After purchasing the book, go to *My Account > My Books*.
 
 ![](/assets/2026/kobo-drm/kobo-website-1.png)
 
@@ -68,7 +69,7 @@ Click the ellipsis under the book you want, then *Download*.
 
 You are presented with two options: *Adobe DRM EPUB* and *DRM-FREE EPUB*.
 The "DRM-free" option is a lie; it opens the book with Kobo's online reader with no download option[^kobo-credit].
-Download the *Adobe DRM EPUP* option
+Download the *Adobe DRM EPUB* option
 
 [^kobo-credit]: To Kobo's credit, a human answered at their customer service and confirmed that this bullshit is intentional.
 
@@ -79,11 +80,11 @@ Download the *Adobe DRM EPUP* option
 You should have an acsm file from Kobo's website.
 This is not yet the encrypted epub.
 Open it with Adobe Digital Editions (the file extension should be associated automatically).
-Digital Editions should download the book automatically and show it in the library.
+Digital Editions should download the book and show it in the library.
 
 Go to the folder where Digital Editions' books are stored.
 On Windows is in *Documents > My Digital Editions*.
-You should see all the encrypted epub files from your library.
+You should see all the encrypted epubs from your library.
 
 ![](/assets/2026/kobo-drm/digital-editions-folder.png)
 
@@ -92,7 +93,7 @@ As these files are encrypted, you will get an error if you try to open them with
 ![](/assets/2026/kobo-drm/sumatra-error.png)
 
 Open Calibre, click on *Add books*, and select the encrypted epub from Digital Editions' folder.
-If the plug ins are work correctly, the epub should be imported directly.
+If the plugins are working correctly, the epub should be imported directly.
 You should see the book in you Calibre Library.
 Right click on the book, then *Open book folder > Open book folder*.
 
