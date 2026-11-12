@@ -1,7 +1,7 @@
 ---
 title: Work training be like
 tags: [English en, humour]
-mastodon: 
+mastodon: https://mastodon.social/@lucafeu/117605710051458356
 ---
 
 I feel seen.
