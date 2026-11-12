@@ -34,6 +34,7 @@ You can activate the 2FA after the computer is authorised.
 Download and install [Calibre](https://calibre-ebook.com/download).
 Download the [DeDRM_tools plugin by GitHub user *Satsuoni*](https://github.com/Satsuoni/DeDRM_tools)[^dedrm_version], which is a fork of the [version by GitHub user *noDRM*](https://github.com/noDRM), which is fork of [the original](https://github.com/apprenticeharper/DeDRM_tools) by [Apprentice Alf](https://apprenticealf.wordpress.com/).
 Unzip the file, it should contain two other zip files *DeDRM_plugin.zip* and *Obok_plugin.zip*.
+Keep those files zipped.
 
 ![](/assets/2026/kobo-drm/dedrm.png)
 
