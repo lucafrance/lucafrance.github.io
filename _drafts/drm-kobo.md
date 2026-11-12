@@ -6,10 +6,7 @@ mastodon:
 
 Here is a guide on how to remove the DRM from ebooks purchased on [Kobo](https://www.kobo.com/)[^naturally].
 
-[^naturally]: Naturally, this blog post is just for educational purposes. Removing the DRM is a violation of Kobo's terms and conditions. This is a warning about the steps to avoid, so that they are not reproduced accidentally. I would never support the idea that buying an ebook online entitles you to owning it.
-
-https://www.kobo.com/de/de/ebook/how-to-lie-with-statistics-3
-
+[^naturally]: Naturally, this blog post is just for educational purposes only. Removing the DRM is a violation of Kobo's terms and conditions. This is a warning about the steps to avoid, so that they are not reproduced accidentally. I would never support the idea that buying an ebook online entitles you to owning it.
 
 ## Adobe Digital Editions
 
@@ -24,7 +21,7 @@ You can activate the 2FA after the computer is authorised.
 
 [^ludicrous]: Some people might consider ludicrous the idea of an account to read a book. I don't, I find it perfectly reasonable.
 
-[^2fa]: I definitely didn't find this out by chance after [fighting with a useless chatbot to try to get the help of a human]({% post_url 2026/2026-09-15-ai-customer-service%}).
+[^2fa]: I definitely didn't find this out on my own by chance after [fighting with a useless chatbot to try to get the help of a human]({% post_url 2026/2026-09-15-ai-customer-service%}).
 
 ![](/assets/2026/kobo-drm/authorise-computer-1.png)
 ![](/assets/2026/kobo-drm/authorise-computer-2.png)
@@ -58,15 +55,55 @@ You should see a *Obok DeDrm* button on the menu.
 ## Kobo
 
 Some books on Kobo are DRM free, but most of them use Adobe's DRM.
-Kobo puts explicitly in the description whether the ebook is protected by DRM.
+The book description on the store page mentions whether the ebook is protected by DRM.
 ![](/assets/2026/kobo-drm/book-description.png)
 
-## Download the book from Kobo
+After purchasing the book, go to *My Account > Books*.
 
+![](/assets/2026/kobo-drm/kobo-website-1.png)
+
+Click the ellipsis under the book you want, then *Download*.
+
+![](/assets/2026/kobo-drm/kobo-website-2.png)
+
+You are presented with two options: *Adobe DRM EPUB* and *DRM-FREE EPUB*.
+The "DRM-free" option is a lie; it opens the book with Kobo's online reader with no download option[^kobo-credit].
+Download the *Adobe DRM EPUP* option
+
+[^kobo-credit]: To Kobo's credit, a human answered at their customer service and confirmed that this bullshit is intentional.
+
+![](/assets/2026/kobo-drm/kobo-website-3.png)
 
 ## Remove the DRM
 
+You should have an acsm file from Kobo's website.
+This is not yet the encrypted epub.
+Open it with Adobe Digital Editions (the file extension should be associated automatically).
+Digital Editions should download the book automatically and show it in the library.
 
+Go to the folder where Digital Editions' books are stored.
+On Windows is in *Documents > My Digital Editions*.
+You should see all the encrypted epub files from your library.
+
+![](/assets/2026/kobo-drm/digital-editions-folder.png)
+
+As these files are encrypted, you will get an error if you try to open them with any other program, like [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader).
+
+![](/assets/2026/kobo-drm/sumatra-error.png)
+
+Open Calibre, click on *Add books*, and select the encrypted epub from Digital Editions' folder.
+If the plug ins are work correctly, the epub should be imported directly.
+You should see the book in you Calibre Library.
+Right click on the book, then *Open book folder > Open book folder*.
+
+![](/assets/2026/kobo-drm/calibre-6.png)
+
+You should see Calibre's folder with a now unencrypted epub of your book.
+You can open it on any device you want with any program you want[^disclaimer].
+
+![](/assets/2026/kobo-drm/drm-free-book.png)
+
+[^disclaimer]: Not that I would support such freedoms, as they are a violation of Kobo's terms and conditions. I obviously recommend reading Kobo's ebooks only on Kobo's devices or through Kobo's applications.
 
 ## Footnotes
 
