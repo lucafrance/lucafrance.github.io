@@ -1,6 +1,6 @@
 ---
 title: Work training be like
-tags: [English en]
+tags: [English en, humour]
 mastodon: 
 ---
 
