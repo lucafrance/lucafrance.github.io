@@ -58,11 +58,11 @@ You should see an *Obok DeDrm* button on the menu.
 
 ## Kobo
 
-Some books on Kobo are DRM free, but most of them use Adobe's DRM.
-The book description on the store mentions whether the ebook is protected by DRM.
+Some ebooks on Kobo are DRM free, but most of them use Adobe's DRM.
+The book details on the store mention whether the ebook is protected by DRM.
 ![](/assets/2026/kobo-drm/book-description.png)
 
-After purchasing the book, go to *My Account > My Books*.
+After purchasing the ebook, go to *My Account > My Books*.
 
 ![](/assets/2026/kobo-drm/kobo-website-1.png)
 
@@ -83,10 +83,10 @@ Download the *Adobe DRM EPUB* option instead.
 You should have an acsm file from Kobo's website.
 This is not yet the encrypted epub.
 Open it with Adobe Digital Editions (the file extension should be associated automatically).
-Digital Editions should download the book and show it in the library.
+Digital Editions should download the book and show it in its library.
 
 Go to the folder with Digital Editions' data.
-On Windows this is in *Documents > My Digital Editions*.
+On Windows this is *Documents > My Digital Editions*.
 You should see all the encrypted epubs from your library.
 
 ![](/assets/2026/kobo-drm/digital-editions-folder.png)
@@ -97,7 +97,7 @@ As these files are encrypted, you will get an error if you try to open them with
 
 Open Calibre, click on *Add books*, and select the encrypted epub from Digital Editions' folder.
 You should now see the ebook in you Calibre Library.
-Right click on the book, then *Open book folder > Open book folder*.
+Right click on the ebook, then *Open book folder > Open book folder*.
 
 ![](/assets/2026/kobo-drm/calibre-6.png)
 
