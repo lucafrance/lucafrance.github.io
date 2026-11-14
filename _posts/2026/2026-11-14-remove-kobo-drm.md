@@ -1,6 +1,6 @@
 ---
 title: How to remove the DRM from Kobo's ebooks
-tags: []
+tags: [English en, Windows]
 mastodon: 
 ---
 
