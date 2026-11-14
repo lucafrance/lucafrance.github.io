@@ -15,7 +15,7 @@ Go to *Help > Authorize Computer*.
 
 ![](/assets/2026/kobo-drm/authorise-computer-1.png)
 
-I recommend authorising the computer with an account instead of proceeding without an ID.
+I recommend authorising the computer with an account instead of proceeding without one.
 With an account, other machines can be authorised for the same ebooks[^ludicrous].
 You can use a free [Adobe ID](https://account.adobe.com/).
 Do not activate the two factor authentication (2FA) on your account, otherwise the authorisation fails with no clear error message[^2fa].
@@ -31,12 +31,12 @@ You can (re-)activate the 2FA after the computer is authorised.
 
 Download and install [Calibre](https://calibre-ebook.com/download).
 Download the [DeDRM_tools plugin by GitHub user *Satsuoni*](https://github.com/Satsuoni/DeDRM_tools)[^dedrm_version], which is a fork of [this version by GitHub user *noDRM*](https://github.com/noDRM), which is fork of [the original](https://github.com/apprenticeharper/DeDRM_tools) by [Apprentice Alf](https://apprenticealf.wordpress.com/).
-Unzip the file, it should contain two other zip files *DeDRM_plugin.zip* and *Obok_plugin.zip*.
-Keep those files zipped.
+Unzip the file, it should contain two other zip files, *DeDRM_plugin.zip* and *Obok_plugin.zip*.
+Keep these files zipped.
 
 ![](/assets/2026/kobo-drm/dedrm.png)
 
-[^dedrm_version]: As of writing in November 2026, the most recent version is [v10.0.6s](https://github.com/Satsuoni/DeDRM_tools/releases/tag/v10.0.6s) released in July 2023.
+[^dedrm_version]: As of writing in November 2026, the most recent version is [v10.0.6s](https://github.com/Satsuoni/DeDRM_tools/releases/tag/v10.0.6s), released in July 2023.
 
 Open Calibre.
 Go to *Preferences > Plugins > Load Plugin from file*. 
@@ -72,7 +72,7 @@ Click the ellipsis under the book you want, then *Download*.
 
 You are presented with two options: *Adobe DRM EPUB* and *DRM-FREE EPUB*.
 The "DRM-free" option is a lie; it opens the book with Kobo's online reader with no download option[^kobo-credit].
-Download the *Adobe DRM EPUB* option
+Download the *Adobe DRM EPUB* option instead.
 
 [^kobo-credit]: To Kobo's credit, a human answered at their customer service and confirmed that this bullshit is intentional.
 
@@ -85,13 +85,13 @@ This is not yet the encrypted epub.
 Open it with Adobe Digital Editions (the file extension should be associated automatically).
 Digital Editions should download the book and show it in the library.
 
-Go to the folder where Digital Editions' books are stored.
+Go to the folder with Digital Editions' data.
 On Windows this is in *Documents > My Digital Editions*.
 You should see all the encrypted epubs from your library.
 
 ![](/assets/2026/kobo-drm/digital-editions-folder.png)
 
-As these files are encrypted, you will get an error if you try to open them with any other program, like [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader).
+As these files are encrypted, you will get an error if you try to open them with another program, like [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader).
 
 ![](/assets/2026/kobo-drm/sumatra-error.png)
 
@@ -102,11 +102,10 @@ Right click on the book, then *Open book folder > Open book folder*.
 ![](/assets/2026/kobo-drm/calibre-6.png)
 
 You should see Calibre's folder with a now unencrypted epub of your book.
-You can open it on any device you want with any program you want[^disclaimer].
+You can open it on any device with any program you want[^disclaimer].
 
 ![](/assets/2026/kobo-drm/drm-free-book.png)
 
 [^disclaimer]: Not that I would support such freedoms, as they are a violation of Kobo's terms and conditions. I obviously recommend reading Kobo's ebooks only on Kobo's devices or through Kobo's applications.
 
 ## Footnotes
-
