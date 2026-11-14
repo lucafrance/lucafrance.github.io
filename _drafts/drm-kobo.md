@@ -6,7 +6,7 @@ mastodon:
 
 Here is a guide on how to remove the DRM from ebooks purchased on [Kobo](https://www.kobo.com/)[^naturally].
 
-[^naturally]: Naturally, this blog post is just for educational purposes only. Removing the DRM is a violation of Kobo's terms and conditions. This is a warning about the steps to avoid, so that they are not reproduced accidentally. I would never support the idea that buying an ebook online entitles you to owning it.
+[^naturally]: Naturally, this blog post is for educational purposes only. Circumventing the DRM is a violation of Kobo's terms and conditions. I am warning about the steps to avoid, so that they are not reproduced accidentally. I would never support the idea that buying an ebook entitles you to owning it.
 
 ## Adobe Digital Editions
 
@@ -16,7 +16,7 @@ Go to *Help > Authorize Computer*.
 ![](/assets/2026/kobo-drm/authorise-computer-1.png)
 
 I recommend authorising the computer with an account instead of proceeding without an ID.
-With an account other machines can be authorised for the same ebooks[^ludicrous].
+With an account, other machines can be authorised for the same ebooks[^ludicrous].
 You can use a free [Adobe ID](https://account.adobe.com/).
 Do not activate the two factor authentication (2FA) on your account, otherwise the authorisation fails with no clear error message[^2fa].
 You can (re-)activate the 2FA after the computer is authorised.
@@ -30,7 +30,7 @@ You can (re-)activate the 2FA after the computer is authorised.
 ## Calibre
 
 Download and install [Calibre](https://calibre-ebook.com/download).
-Download the [DeDRM_tools plugin by GitHub user *Satsuoni*](https://github.com/Satsuoni/DeDRM_tools)[^dedrm_version], which is a fork of the [version by GitHub user *noDRM*](https://github.com/noDRM), which is fork of [the original](https://github.com/apprenticeharper/DeDRM_tools) by [Apprentice Alf](https://apprenticealf.wordpress.com/).
+Download the [DeDRM_tools plugin by GitHub user *Satsuoni*](https://github.com/Satsuoni/DeDRM_tools)[^dedrm_version], which is a fork of [this version by GitHub user *noDRM*](https://github.com/noDRM), which is fork of [the original](https://github.com/apprenticeharper/DeDRM_tools) by [Apprentice Alf](https://apprenticealf.wordpress.com/).
 Unzip the file, it should contain two other zip files *DeDRM_plugin.zip* and *Obok_plugin.zip*.
 Keep those files zipped.
 
@@ -40,12 +40,15 @@ Keep those files zipped.
 
 Open Calibre.
 Go to *Preferences > Plugins > Load Plugin from file*. 
-Select one of the zip files of the plugin, then confirm.
+Select one of the zip files of the plugin and confirm.
 Repeat for the second zip file.
 
 ![](/assets/2026/kobo-drm/calibre-1.png)
+<br><br>
 ![](/assets/2026/kobo-drm/calibre-2.png)
+<br><br>
 ![](/assets/2026/kobo-drm/calibre-3.png)
+<br><br>
 ![](/assets/2026/kobo-drm/calibre-4.png)
 
 Restart Calibre.
@@ -83,7 +86,7 @@ Open it with Adobe Digital Editions (the file extension should be associated aut
 Digital Editions should download the book and show it in the library.
 
 Go to the folder where Digital Editions' books are stored.
-On Windows is in *Documents > My Digital Editions*.
+On Windows this is in *Documents > My Digital Editions*.
 You should see all the encrypted epubs from your library.
 
 ![](/assets/2026/kobo-drm/digital-editions-folder.png)
@@ -93,8 +96,7 @@ As these files are encrypted, you will get an error if you try to open them with
 ![](/assets/2026/kobo-drm/sumatra-error.png)
 
 Open Calibre, click on *Add books*, and select the encrypted epub from Digital Editions' folder.
-If the plugins are working correctly, the epub should be imported directly.
-You should see the book in you Calibre Library.
+You should now see the ebook in you Calibre Library.
 Right click on the book, then *Open book folder > Open book folder*.
 
 ![](/assets/2026/kobo-drm/calibre-6.png)
