@@ -36,3 +36,5 @@ When I study the information and I use the AI, I can notice information which is
 I can see that when information is better integrated, the machine can automate most if not all of my work.
 
 [^not-my-customers]: I am obviously not talking about my customers. My customers are all great and work very efficiently.
+
+An analysis is good when it feels obvious in hindsight.
