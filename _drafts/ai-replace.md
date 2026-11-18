@@ -9,6 +9,12 @@ My job as a management consultant.
 - Understand what can be improved in the organisation.
 - Summarise few easy to follow recommendations that the humans realistically will implement.
 
+I use AI to reference information.
+
+It is not good to provide recommendation directly.
+It works better to give indication of recommendation.
+E.g. based on $document-1, -2, -3, phrase reccomendation to establish service continuity management with consistent phrasing as in $document-for-standard-x
+
 Balancing act to keep the high-value thinking to myself and delegate the low-value "thinking" to the machine.
 
 Collecting information is not easily automatable.
