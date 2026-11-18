@@ -15,6 +15,8 @@ Collecting information is not easily automatable.
 
 I am writing a lot, to feed the information to the machine.
 
-When I study the information and I use the AI, I can notice information which is unkownling in my head and not in writing.
+When I study the information and I use the AI, I can notice information which is unknowingly in my head and not in writing.
 
 I can see that when information is better integrated, the machine can automate most if not all of my work.
+
+[^not-my-customers]: I am obviously not talking about my customers. My customers are all great and work very efficiently.
