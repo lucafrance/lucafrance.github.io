@@ -1,7 +1,7 @@
 ---
 title: VS Code shortcuts in Obsidian
 tags: [English en, Obsidian]
-mastodon: 
+mastodon: https://mastodon.social/@lucafeu/117659350202741432
 ---
 
 I write a lot of markdown: my notes in Obsidian and this blog in VS Code.
