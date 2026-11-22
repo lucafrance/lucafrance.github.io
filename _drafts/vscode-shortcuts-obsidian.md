@@ -1,16 +1,16 @@
 ---
-title: VS Code shortcuts in obsidian
+title: VS Code shortcuts in Obsidian
 tags: [English en, Obsidian]
 mastodon: 
 ---
 
-I like to keep similar shortcuts between VS Code and Obsidian.
-I write in Markdown in both applications.
-I write my notes in Obsidian and this blog in VS Code.
+I write a lot of markdown: my notes in Obsidian and this blog in VS Code.
 
-Obsidian has the same shortcut as VS Code to delete the current line: `Ctrl+Shift+K`.
-This is a [non-editable built-in shortcut](https://obsidian.md/help/editing-shortcuts#Text+editing).
+Conveniently, Obsidian has the same shortcut as VS Code to delete the current line: `Ctrl+Shift+K`.
+This is a [non-editable shortcut](https://obsidian.md/help/editing-shortcuts#Text+editing), which is not visible in the settings.
+Customisable shortcuts are called [hotkeys](https://obsidian.md/help/hotkeys) in Obsidian and can be edited under *Settings > Hotkeys*.
 
-Obsidian calls [hotkeys] the customisable shortcuts, which can be edited under *Settings > Hotkeys*.
-I added to Obsidian the same shortcuts as VS Code to move lines up and down: `Alt+↓` and `Alt+↑`.
+By default, Obsidian has no shortcut to move lines up and down.
+I therefore added the same shortcuts as VS Code (`Alt+↓` and `Alt+↑`) as Obsidian hotkeys.
+
 ![](/assets/2026/vscode-shortcuts-obsidian/obsidian-hotkeys.png)
