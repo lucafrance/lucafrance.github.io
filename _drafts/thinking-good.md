@@ -4,15 +4,23 @@ tags: []
 mastodon: 
 ---
 
+I feel often the instinct to reach out for a LLM, where I should instead think things through.
+I am writing this blog post as a mantra on why thinking is good and I should do it.
+
 ## Deep thinking good
 
-I find myself reaching out for an LLM before thinking things through.
-This used to happen even before LLMs.
-It frustrated me in me as well in other people.
+There is a pattern which I recognise in myself and others which annoys me.
+It happens at work as well in my private life.
+It is the tendency to act right away on new information without taking the time to think things through.
+I am not talking about long complex sessions.
+Sometimes just 10 minutes of thinking can be enough to bring clarity on what new pieces of information mean for us and what we should to with them.
 
-There is a bias to action.
-There is a bias in starting instinctively with the first thing that feel right.
-There is a bias in being fast over being good.
+Humans (including me) tend to have a bias for action. (link all'articolo che ha fondato il termine "action bias")
+Thinking is a process which requires effort, the brain tries to avoid to save energy on not starve in the savana.
+Acting without thinking (enough) feels instinctively better, even if it is counterproductive in the long run.
+
+
+
 
 Meta-thinking is valuable.
 It is important to think about why your are doing things.
@@ -20,7 +28,7 @@ It is important to think about what are the right things to do.
 It is important to think about what are the right things *not* to do.
 It is important to think about how the thinking is done.
 
-People were thinking. Thinking is good, actually. (Technology connections quote).
+> People were thinking. Thinking is good, actually. (Technology connections quote).
 
 
 ## Deep thinking in the age of LLMs
@@ -29,6 +37,8 @@ Low effort thinking can be delegated.
 Way to explore multiple ideas at the same time faster ideas (Terrence Tao diceva una cosa del genere riguardo alla teoria di come AI verrà usata per la matematica, o forse l'avevo sentita du qualche altra parte).
 Way to cross reference ideas with multiple references quickly.
 Writing prose of unstructured thoughts.
+
+LLMs raise the bar for high quality thinking and lower the cost of low quality thinking.
 
 Deep thinking becomes a balancing act to keep the high-value thinking to myself and delegate the low-value "thinking" to the machine.
 
