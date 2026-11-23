@@ -1,6 +1,6 @@
 ---
 title: Thinking in the age of LLMs.
-tags: []
+tags: [English en, artificial intelligence AI large language models LLM]
 mastodon: 
 ---
 
