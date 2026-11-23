@@ -16,4 +16,4 @@ Human creativity to satirise human sloppiness in AI-assisted design.
 
 ![Screenshot from slopstrap.mikelacher.com](/assets/2026/slopstrap/slopstrap-screenshot.png)
 
-Archive copy: [website](/assets/2026/slopstrap/2026-11-23 Slopstrap — Make your site look hastily vibecoded.html) and [code](assets/2026/slopstrap/slopstrap-v4.2.0.zip).
+Archive copy: [website](/assets/2026/slopstrap/2026-11-23 Slopstrap — Make your site look hastily vibecoded.html) and [code](/assets/2026/slopstrap/slopstrap-v4.2.0.zip).
