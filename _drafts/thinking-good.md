@@ -1,6 +1,6 @@
 ---
 title: Thinking is good, actually
-tags: [English en, artificial intelligence AI large language models LLM]
+tags: [English en]
 mastodon: 
 ---
 
