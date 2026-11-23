@@ -36,6 +36,10 @@ LLMs exacerbate the lack the human thinking.
 Any chatbot will be happy to answer a vague question with a long answer.
 It looks impressive on the surface and reveals the slop at a deeper analysis.
 Without the thinking about what I want to achieve from the machine, I just a bunch of text which no one will ever read and provides no value.
+Now it might still be possible to get paid to query the LLM and present the resulting slop.
+Since producing the slop is so cheap, the world will be inundated (even more than know) of slop content.
+
+I don't see LLMs as an instrument to replace human work
 
 In my experience, LLMs don't work well with original thoughts.
 They work better when they are provided detailed queries and a lot of context.
