@@ -4,13 +4,10 @@ tags: [English en]
 mastodon: 
 ---
 
-I feel often the instinct to reach out for a LLM, where I should instead think things through.
-I am writing this blog post as a reminder on why thinking is good and I should do it.
-
 There is a pattern which I recognise in myself and others which annoys me.
 It happens at work as well in my private life.
 It is the tendency to act right away on new information without taking the time to think things through.
-Not necessarily long deep thinking sessions; sometimes just a 10 minutes thought can be enough.
+Not necessarily long deep thinking sessions, sometimes just a 10 minutes can be enough.
 
 {:refdef: style="text-align: center;"}
 ![](/assets/2026/thinking-good/brain-drawing.jpg){: width="65%" }
@@ -19,9 +16,10 @@ Not necessarily long deep thinking sessions; sometimes just a 10 minutes thought
 *Drawing of a brain by J. Tinkelenberg, [item PK-ANAT-1795](https://catalogue.leidenuniv.nl/permalink/31UKB_LEU/1n0bhjp/alma9940131121602711) by Leiden University Libraries*
 {: refdef}
 
-
 Humans (including me) have brains that instinctively try to avoid thinking to save energy.
 Acting without thinking feels good, even if it is counterproductive in the long run.
+
+Thinking is a better option.
 My best work was done when I took the time to think things through.
 The work arising from serious thinking is also the kind I enjoy the most.
 
