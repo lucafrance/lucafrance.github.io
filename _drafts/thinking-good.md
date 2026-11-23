@@ -1,6 +1,6 @@
 ---
 title: Thinking is good actually
-tags: []
+tags: [English en]
 mastodon: 
 ---
 
@@ -12,15 +12,14 @@ I am writing this blog post as a reminder on why thinking is good and I should d
 There is a pattern which I recognise in myself and others which annoys me.
 It happens at work as well in my private life.
 It is the tendency to act right away on new information without taking the time to think things through.
-I am not talking about long deep thinking sessions.
-Sometimes just 10 minutes of thinking can be enough.
+Not necessarily long deep thinking sessions; sometimes just a 10 minutes thought can be enough.
 
 Humans (including me) have brains that instinctively try to avoid thinking to save energy.
 Acting without thinking feels good, even if it is counterproductive in the long run.
-
 My best work was done when I took the time to think things through.
-Not only is it good to think about things, it is good to think about the thinking itself.
+The work arising from serious thinking is also the kind I enjoy the most.
 
+Not only is it good to think about things, but also meta-thinking about the thinking itself.
 Why should we do a thing?
 Is this the right thing to do?
 Were it better if we did nothing at all?
@@ -28,11 +27,13 @@ What is this? Like, everything?
 All this questions and more deserve thinking about them.
 
 > We figured all this out a long time ago because we are clever humans who know how to think. Thinking is good, actually.
-> [*Alec Watson of Technology Connections*](https://youtu.be/0KoeY54M5VA?si=D7kBi-pMmsy-xzH8&t=1114)
+>
+> [*Alec Watson of Technology Connections (YouTube)*](https://youtu.be/0KoeY54M5VA?si=D7kBi-pMmsy-xzH8&t=1114)
 
+## Thinking in the age of LLMs
 
-## Deep thinking in the age of LLMs
-
+LLMs exacerbate the lack the human thinking.
+Before 
 Low effort thinking can be delegated.
 Way to explore multiple ideas at the same time faster ideas.
 Way to cross reference ideas with multiple references quickly.
