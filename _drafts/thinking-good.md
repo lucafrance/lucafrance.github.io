@@ -33,11 +33,20 @@ All this questions and more deserve thinking about them.
 ## Thinking in the age of LLMs
 
 LLMs exacerbate the lack the human thinking.
-Before 
+Any chatbot will be happy to answer a vague question with a long answer.
+It looks impressive on the surface and reveals the slop at a deeper analysis.
+Without the thinking about what I want to achieve from the machine, I just a bunch of text which no one will ever read and provides no value.
+
+In my experience, LLMs don't work well with original thoughts.
+They work better when they are provided detailed queries and a lot of context.
+This makes them useful to enhance human thinking.
+
 Low effort thinking can be delegated.
 Way to explore multiple ideas at the same time faster ideas.
 Way to cross reference ideas with multiple references quickly.
 Writing prose of unstructured thoughts.
+
+Anybody can access an LLM and they keep getting better and cheaper.
 
 LLMs raise the bar for high quality thinking and lower the cost of low quality thinking.
 
