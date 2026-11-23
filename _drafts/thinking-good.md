@@ -5,22 +5,21 @@ mastodon:
 ---
 
 I feel often the instinct to reach out for a LLM, where I should instead think things through.
-I am writing this blog post as a mantra on why thinking is good and I should do it.
+I am writing this blog post as a reminder on why thinking is good and I should do it.
 
-## Deep thinking good
+## Thinking is good
 
 There is a pattern which I recognise in myself and others which annoys me.
 It happens at work as well in my private life.
 It is the tendency to act right away on new information without taking the time to think things through.
-I am not talking about long complex sessions.
-Sometimes just 10 minutes of thinking can be enough to bring clarity on what new pieces of information mean for us and what we should to with them.
+I am not talking about long deep thinking sessions.
+Sometimes just 10 minutes of thinking can be enough.
 
-Humans (including me) tend to have a bias for action. (link all'articolo che ha fondato il termine "action bias")
+Humans (including me) tend to have a action bias[^action-bias].
 Thinking is a process which requires effort, the brain tries to avoid to save energy on not starve in the savana.
 Acting without thinking (enough) feels instinctively better, even if it is counterproductive in the long run.
 
-
-
+[^action-bias]: The term *action bias* has been first used in the paper [*Action Bias and Environmental Decisions*](https://rzeckhauser.scholars.harvard.edu/sites/g/files/omnuum4441/files/rzeckhauser/files/action_bias_and_environmental_decisions.pdf) ([archive copy](/assets/2026/thinking-good/action_bias_and_environmental_decisions.pdf)) by Anthony Patt and Richard Zeckhauser.
 
 Meta-thinking is valuable.
 It is important to think about why your are doing things.
