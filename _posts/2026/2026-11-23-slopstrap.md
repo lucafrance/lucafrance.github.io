@@ -1,7 +1,7 @@
 ---
 title: 🌈 Slopstrap ✨
 tags: [English en, artificial intelligence AI large language models LLM]
-mastodon: 
+mastodon: https://mastodon.social/@lucafeu/117667227223147796
 ---
 
 [Slopstrap](https://slopstrap.mikelacher.com/) is brilliant.
