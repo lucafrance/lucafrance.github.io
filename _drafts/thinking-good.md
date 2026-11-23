@@ -1,5 +1,5 @@
 ---
-title: Human thinking is good actually
+title: Thinking is good actually
 tags: []
 mastodon: 
 ---
@@ -15,25 +15,26 @@ It is the tendency to act right away on new information without taking the time 
 I am not talking about long deep thinking sessions.
 Sometimes just 10 minutes of thinking can be enough.
 
-Humans (including me) tend to have a action bias[^action-bias].
-Thinking is a process which requires effort, the brain tries to avoid to save energy on not starve in the savana.
-Acting without thinking (enough) feels instinctively better, even if it is counterproductive in the long run.
+Humans (including me) have brains that instinctively try to avoid thinking to save energy.
+Acting without thinking feels good, even if it is counterproductive in the long run.
 
-[^action-bias]: The term *action bias* has been first used in the paper [*Action Bias and Environmental Decisions*](https://rzeckhauser.scholars.harvard.edu/sites/g/files/omnuum4441/files/rzeckhauser/files/action_bias_and_environmental_decisions.pdf) ([archive copy](/assets/2026/thinking-good/action_bias_and_environmental_decisions.pdf)) by Anthony Patt and Richard Zeckhauser.
+My best work was done when I took the time to think things through.
+Not only is it good to think about things, it is good to think about the thinking itself.
 
-Meta-thinking is valuable.
-It is important to think about why your are doing things.
-It is important to think about what are the right things to do.
-It is important to think about what are the right things *not* to do.
-It is important to think about how the thinking is done.
+Why should we do a thing?
+Is this the right thing to do?
+Were it better if we did nothing at all?
+What is this? Like, everything?
+All this questions and more deserve thinking about them.
 
-> People were thinking. Thinking is good, actually. (Technology connections quote).
+> We figured all this out a long time ago because we are clever humans who know how to think. Thinking is good, actually.
+> [*Alec Watson of Technology Connections*](https://youtu.be/0KoeY54M5VA?si=D7kBi-pMmsy-xzH8&t=1114)
 
 
 ## Deep thinking in the age of LLMs
 
 Low effort thinking can be delegated.
-Way to explore multiple ideas at the same time faster ideas (Terrence Tao diceva una cosa del genere riguardo alla teoria di come AI verrà usata per la matematica, o forse l'avevo sentita du qualche altra parte).
+Way to explore multiple ideas at the same time faster ideas.
 Way to cross reference ideas with multiple references quickly.
 Writing prose of unstructured thoughts.
 
