@@ -1,7 +1,7 @@
 ---
 title: Thinking is good, actually
 tags: [English en]
-mastodon: 
+mastodon: https://mastodon.social/@lucafeu/117673142851454630
 ---
 
 There is a pattern which I recognise in myself and others that annoys me.
